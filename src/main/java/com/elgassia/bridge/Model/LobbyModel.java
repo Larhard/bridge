@@ -9,6 +9,10 @@ public class LobbyModel {
     {
         this.teamModel=teamModel;
     }
+    boolean setName(int user,String name)
+    {
+        return teamModel.setName(user,name);
+    }
     boolean setTeam(int user,int team)
     {
         return teamModel.setTeam(user,team);
