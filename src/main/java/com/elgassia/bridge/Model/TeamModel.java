@@ -21,42 +21,31 @@ public class TeamModel extends Observable{
     }
     LobbyModel getLobbyModel()
     {
-        if(state=='0') {
-            state='L';
-            return new LobbyModel(this);
-        }
-        return null;
+        return new LobbyModel(this);
     }
     BiddingModel getBiddingModel()
     {
-        if(state=='L') {
-            state='B';
-            return new BiddingModel(this);
-        }
-        return null;
+        return new BiddingModel(this);
     }
     GameModel getGameModel()
     {
-        if(state=='B') {
-            state='G';
-            return new GameModel(this);
-        }
-        return null;
+        return new GameModel(this);
     }
     GameOverModel getGameOverModel()
     {
-        if(state=='G') {
-            state='O';
-            return new GameOverModel(this);
-        }
-        return null;
+        return new GameOverModel(this);
     }
-    boolean setName(int user,String name)
+    void changeGameState(char state)
+    {
+        this.state=state;
+        setChanged();
+        notifyObservers();
+    }
+    void setName(int user,String name)
     {
         players[user]=name;
         setChanged();
         notifyObservers();
-        return true;
     }
     private int countTeamPlayers(int team)
     {
@@ -80,5 +69,9 @@ public class TeamModel extends Observable{
             return true;
         }
         return false;
+    }
+    int getUserTeam(int user)
+    {
+        return playerTeam[user];
     }
 }
