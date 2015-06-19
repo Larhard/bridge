@@ -19,4 +19,9 @@ public class Exit extends Command {
 
         view.exit();
     }
+
+    @Override
+    public String description() {
+        return "Exit program";
+    }
 }

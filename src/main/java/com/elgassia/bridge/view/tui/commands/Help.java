@@ -29,7 +29,22 @@ public class Help extends Command {
         Collections.sort(commandsList);
 
         for (String command : commandsList) {
-            System.out.println("  " + command);
+            StringBuilder cmdString = new StringBuilder();
+            cmdString.append("  ");
+            cmdString.append(command);
+
+            String desc = commands.get(command).description();
+            if (desc != null) {
+                cmdString.append(" - ");
+                cmdString.append(desc);
+            }
+
+            System.out.println(cmdString.toString());
         }
+    }
+
+    @Override
+    public String description() {
+        return "Show this message";
     }
 }

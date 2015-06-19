@@ -8,4 +8,8 @@ abstract public class Command {
     }
 
     public abstract void execute();
+
+    public String description() {
+        return null;
+    }
 }

@@ -27,4 +27,8 @@ public class Commands {
     public Set<String> keySet() {
         return commandMap.keySet();
     }
+
+    public Command get(Object key) {
+        return commandMap.get(key);
+    }
 }
