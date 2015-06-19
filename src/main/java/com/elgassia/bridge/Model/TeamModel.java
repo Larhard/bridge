@@ -51,6 +51,13 @@ public class TeamModel extends Observable{
         }
         return null;
     }
+    boolean setName(int user,String name)
+    {
+        players[user]=name;
+        setChanged();
+        notifyObservers();
+        return true;
+    }
     private int countTeamPlayers(int team)
     {
         int counter=0;
