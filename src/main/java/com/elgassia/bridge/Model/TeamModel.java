@@ -6,9 +6,9 @@ import java.util.Observable;
  * Created by vereena on 6/19/15.
  */
 public class TeamModel extends Observable{
-    char state;
-    String players[]=new String[4];
-    int playerTeam[]=new int[4];
+    private char state;
+    private String players[]=new String[4];
+    private int playerTeam[]=new int[4];
     TeamModel()
     {
         players[0]="user1";

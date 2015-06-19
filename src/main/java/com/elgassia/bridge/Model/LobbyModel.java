@@ -6,8 +6,8 @@ import java.util.Random;
  * Created by vereena on 6/19/15.
  */
 public class LobbyModel {
-    TeamModel teamModel;
-    boolean readyUsers[]=new boolean[4];
+    private TeamModel teamModel;
+    private boolean readyUsers[]=new boolean[4];
     LobbyModel(TeamModel teamModel)
     {
         for(int i=0;i<4;i++)
