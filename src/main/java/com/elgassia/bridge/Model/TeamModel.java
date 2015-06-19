@@ -70,6 +70,8 @@ public class TeamModel extends Observable{
     }
     boolean setTeam(int user,int team)
     {
+        if(playerTeam[user]==team)
+            return true;
         if(countTeamPlayers(team)<2)
         {
             playerTeam[user]=team;
