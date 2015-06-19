@@ -1,0 +1,10 @@
+Building project
+================
+
+To build project type command
+
+	$ mvn package
+
+If you want to skip testing phase, you can add -DskipTests
+
+	$ mvn package -DskipTests
