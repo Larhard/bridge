@@ -43,7 +43,7 @@ public class View implements com.elgassia.bridge.view.View {
     @Override
     public void init(Adapter adapter) {
         adapter.addObserver(this);
-        commands.add("help", new Help());
+        commands.add("help", new Help(commands));
         commands.add("exit", new Exit(this));
         readerThread = new ReaderThread(this);
         readerThread.start();

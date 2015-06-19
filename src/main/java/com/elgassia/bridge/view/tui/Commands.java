@@ -2,6 +2,7 @@ package com.elgassia.bridge.view.tui;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class Commands {
     Map<String, Command> commandMap = new HashMap<>();
@@ -21,5 +22,9 @@ public class Commands {
 
     public void remove(String key) {
         commandMap.remove(key);
+    }
+
+    public Set<String> keySet() {
+        return commandMap.keySet();
     }
 }
