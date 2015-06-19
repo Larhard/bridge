@@ -6,7 +6,7 @@ import com.elgassia.bridge.view.View;
 import java.util.Arrays;
 import java.util.List;
 
-public class Bridge {
+public class Launcher {
     public static void main(String[] args) {
         Adapter main_adapter = new com.elgassia.bridge.adapter.main.Adapter();
 
