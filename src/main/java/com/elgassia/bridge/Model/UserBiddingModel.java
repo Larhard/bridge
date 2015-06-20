@@ -14,4 +14,9 @@ public class UserBiddingModel {
         this.biddingModel=biddingModel;
         this.userDeck=biddingModel.getPlayerCards();
     }
+    List<Card> getMyDeck()
+    {
+        return userDeck;
+    }
+
 }
