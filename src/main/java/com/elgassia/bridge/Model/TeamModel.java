@@ -1,6 +1,9 @@
 package com.elgassia.bridge.Model;
 
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Observable;
+import java.util.Random;
 
 /**
  * Created by vereena on 6/19/15.
@@ -9,6 +12,7 @@ public class TeamModel extends Observable{
     private char state;
     private String players[]=new String[4];
     private int playerTeam[]=new int[4];
+    private List<Card> deck=new LinkedList<>();
     TeamModel()
     {
         players[0]="user1";
@@ -17,6 +21,13 @@ public class TeamModel extends Observable{
         players[3]="user4";
         for(int i=0;i<4;i++)
             playerTeam[i]=-1;
+        for(Card.Rank rank: Card.Rank.values())
+        {
+            for(Card.Suit suit: Card.Suit.values())
+            {
+                deck.add(new Card(rank,suit));
+            }
+        }
         state='0';
     }
     LobbyModel getLobbyModel()
@@ -77,5 +88,17 @@ public class TeamModel extends Observable{
     String getPlayerName(int user)
     {
         return players[user];
+    }
+    List<Card> getPlayerCards()
+    {
+        List<Card> cardList=new LinkedList<>();
+        int k;
+        for(int i=0;i<13;i++)
+        {
+            k=new Random().nextInt(this.deck.size());
+            cardList.add(this.deck.get(k));
+            this.deck.remove(k);
+        }
+        return cardList;
     }
 }

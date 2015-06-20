@@ -1,5 +1,6 @@
 package com.elgassia.bridge.Model;
 
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -15,5 +16,9 @@ public class BiddingModel {
     }
     String getCurrentPlayer(){
         return teamModel.getPlayerName(currentPlayer);
+    }
+    List<Card> getPlayerCards()
+    {
+        return teamModel.getPlayerCards();
     }
 }
