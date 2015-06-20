@@ -3,7 +3,7 @@ package com.elgassia.bridge.Model;
 /**
  * Created by vereena on 6/20/15.
  */
-public class Bid {
+public class Bid implements Comparable<Bid>{
     private BidType type;
     private Integer count;
     private Color color;
@@ -35,4 +35,15 @@ public class Bid {
         }
     }
 
+    @Override
+    public int compareTo(Bid o) {
+        if(this.type==BidType.CARD && o.getType()==BidType.CARD)
+        {
+            if(this.count!=o.getCount())
+                return this.count.compareTo(o.getCount());
+            else if(this.color!=o.getColor())
+                return this.color.compareTo(o.getColor());
+        }
+        return 0;
+    }
 }
