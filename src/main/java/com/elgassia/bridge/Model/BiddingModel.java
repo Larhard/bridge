@@ -10,14 +10,12 @@ import java.util.Random;
 public class BiddingModel {
     private TeamModel teamModel;
     private int currentPlayer;
-    private int firstBidder;
     private List<Bid> biddingHistory=new ArrayList<>();
     private int [] playerOrder;
     BiddingModel(TeamModel teamModel)
     {
         this.teamModel=teamModel;
         this.currentPlayer=new Random().nextInt(4);
-        this.firstBidder=this.currentPlayer;
         this.playerOrder=teamModel.getPlayerOrder();
     }
     String getCurrentPlayer(){

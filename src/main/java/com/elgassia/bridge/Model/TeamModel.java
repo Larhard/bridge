@@ -144,4 +144,16 @@ public class TeamModel extends Observable{
     {
         this.contract=contract;
     }
+    int getBiddingWinner()
+    {
+        return biddingWinnerOrder;
+    }
+    Color getAtu()
+    {
+        return atu;
+    }
+    int getContract()
+    {
+        return contract;
+    }
 }
