@@ -18,5 +18,8 @@ public class UserBiddingModel {
     {
         return userDeck;
     }
-
+    boolean bid(Bid bid)
+    {
+        return biddingModel.bid(bid,userID);
+    }
 }
