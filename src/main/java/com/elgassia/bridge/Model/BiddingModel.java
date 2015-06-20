@@ -11,15 +11,17 @@ public class BiddingModel {
     private TeamModel teamModel;
     private int currentPlayer;
     private int firstBidder;
-    List<Bid> biddingHistory=new ArrayList<>();
+    private List<Bid> biddingHistory=new ArrayList<>();
+    private int [] playerOrder;
     BiddingModel(TeamModel teamModel)
     {
         this.teamModel=teamModel;
         this.currentPlayer=new Random().nextInt(4);
         this.firstBidder=this.currentPlayer;
+        this.playerOrder=teamModel.getPlayerOrder();
     }
     String getCurrentPlayer(){
-        return teamModel.getPlayerName(currentPlayer);
+        return teamModel.getPlayerName(playerOrder[currentPlayer]);
     }
     List<Card> getPlayerCards()
     {
@@ -47,7 +49,7 @@ public class BiddingModel {
     }
     boolean bid(Bid bid,int user)
     {
-        if(user!=currentPlayer)
+        if(user!=playerOrder[currentPlayer])
             return false;
         if(bid.getType()==BidType.CARD)
         {
@@ -67,15 +69,82 @@ public class BiddingModel {
         }
         else if(bid.getType()==BidType.CONTRA)
         {
-
+            if(biddingHistory.size()>0)
+            {
+                //if previous player bidded with CARD
+                if(biddingHistory.get(biddingHistory.size()-1).getType()==BidType.CARD)
+                {
+                    addBid(bid);
+                    return true;
+                }
+            }
+            if(biddingHistory.size()>2)
+            {
+                //if previous player partner bidded with CARD and our partner didn't bid with CONTRA
+                if(biddingHistory.get(biddingHistory.size()-3).getType()==BidType.CARD
+                        && biddingHistory.get(biddingHistory.size()-2).getType()!=BidType.CONTRA)
+                {
+                    addBid(bid);
+                    return true;
+                }
+            }
+            return false;
         }
         else if(bid.getType()==BidType.RECONTRA)
         {
-
+            if(biddingHistory.size()>0)
+            {
+                //if previous player bidded with CONTRA
+                if(biddingHistory.get(biddingHistory.size()-1).getType()==BidType.CONTRA)
+                {
+                    addBid(bid);
+                    return true;
+                }
+            }
+            if(biddingHistory.size()>2)
+            {
+                //if previous player partner bidded with CONTRA and our partner didn't bid with RECONTRA
+                if(biddingHistory.get(biddingHistory.size()-3).getType()==BidType.CONTRA
+                        && biddingHistory.get(biddingHistory.size()-2).getType()!=BidType.RECONTRA)
+                {
+                    addBid(bid);
+                    return true;
+                }
+            }
+            return false;
         }
         else if(bid.getType()==BidType.PASS)
         {
-
+            //we can always PASS
+            addBid(bid);
+            if(biddingHistory.size()>3)
+            {
+                if(biddingHistory.get(biddingHistory.size()-2).getType()==BidType.PASS
+                        && biddingHistory.get(biddingHistory.size()-3).getType()==BidType.PASS)
+                {
+                    //if its a beginning and everyone passed - new Bidding with new cards is started
+                    if(biddingHistory.get(biddingHistory.size()-4).getType()==BidType.PASS)
+                    {
+                        teamModel.changeGameState('B');
+                        return true;
+                    }
+                    //there is a winner
+                    else
+                    {
+                        for(int i=biddingHistory.size()-1;i>=0;i--)
+                        {
+                            if(biddingHistory.get(i).getType()==BidType.CARD)
+                            {
+                                //we will set here biddingWinner and ATU
+                                break;
+                            }
+                        }
+                        teamModel.changeGameState('G');
+                        return true;
+                    }
+                }
+            }
+            return true;
         }
         return true;
     }
