@@ -12,6 +12,7 @@ public class TeamModel extends Observable{
     private char state;
     private String players[]=new String[4];
     private int playerTeam[]=new int[4];
+    private int playerOrder[]=new int[4];
     private List<Card> deck=new LinkedList<>();
     TeamModel()
     {
@@ -28,6 +29,7 @@ public class TeamModel extends Observable{
                 deck.add(new Card(rank,suit));
             }
         }
+        playerOrder[0]=-1;
         state='0';
     }
     LobbyModel getLobbyModel()
@@ -100,5 +102,31 @@ public class TeamModel extends Observable{
             this.deck.remove(k);
         }
         return cardList;
+    }
+    int [] getPlayerOrder()
+    {
+        if(playerOrder[0]==-1)
+        {
+            playerOrder[0]=0;
+            if(playerTeam[0]==playerTeam[1])
+            {
+                playerOrder[2]=1;
+                playerOrder[1]=2;
+                playerOrder[3]=3;
+            }
+            else if(playerTeam[0]==playerTeam[2])
+            {
+                playerOrder[2]=2;
+                playerOrder[1]=1;
+                playerOrder[3]=3;
+            }
+            if(playerTeam[0]==playerTeam[3])
+            {
+                playerOrder[2]=3;
+                playerOrder[1]=1;
+                playerOrder[3]=2;
+            }
+        }
+        return this.playerOrder;
     }
 }
