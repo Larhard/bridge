@@ -74,4 +74,8 @@ public class TeamModel extends Observable{
     {
         return playerTeam[user];
     }
+    String getPlayerName(int user)
+    {
+        return players[user];
+    }
 }
