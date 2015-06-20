@@ -153,4 +153,7 @@ public class BiddingModel {
         }
         return true;
     }
+    List<Bid> getBiddingHistory(){
+        return biddingHistory;
+    }
 }

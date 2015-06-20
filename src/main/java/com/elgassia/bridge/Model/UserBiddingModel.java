@@ -22,4 +22,8 @@ public class UserBiddingModel {
     {
         return biddingModel.bid(bid,userID);
     }
+    List<Bid> getBiddingHistory()
+    {
+        return biddingModel.getBiddingHistory();
+    }
 }
