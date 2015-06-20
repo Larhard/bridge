@@ -131,11 +131,18 @@ public class BiddingModel {
                     //there is a winner
                     else
                     {
-                        for(int i=biddingHistory.size()-1;i>=0;i--)
+                        int curr=currentPlayer;
+                        for(int i=biddingHistory.size()-2;i>=0;i--)
                         {
+                            curr--;
+                            if(curr<0)
+                                curr+=4;
                             if(biddingHistory.get(i).getType()==BidType.CARD)
                             {
                                 //we will set here biddingWinner and ATU
+                                teamModel.setBiddingWinner(playerOrder[curr]);
+                                teamModel.setAtu(biddingHistory.get(i).getColor());
+                                teamModel.setContract(biddingHistory.get(i).getCount());
                                 break;
                             }
                         }

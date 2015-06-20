@@ -14,6 +14,9 @@ public class TeamModel extends Observable{
     private int playerTeam[]=new int[4];
     private int playerOrder[]=new int[4];
     private List<Card> deck=new LinkedList<>();
+    private int biddingWinnerOrder;
+    private Color atu;
+    private int contract;
     TeamModel()
     {
         players[0]="user1";
@@ -128,5 +131,17 @@ public class TeamModel extends Observable{
             }
         }
         return this.playerOrder;
+    }
+    void setBiddingWinner(int winner)
+    {
+        biddingWinnerOrder=winner;
+    }
+    void setAtu(Color atu)
+    {
+        this.atu=atu;
+    }
+    void setContract(int contract)
+    {
+        this.contract=contract;
     }
 }
