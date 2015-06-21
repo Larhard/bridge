@@ -28,4 +28,9 @@ public class Adapter extends com.elgassia.bridge.adapter.Adapter {
     public State getState() {
         return state;
     }
+
+    @Override
+    public List<String> getCredits() {
+        return main_model.getCredits().getCredits();
+    }
 }
