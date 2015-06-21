@@ -12,6 +12,6 @@ public class NewGame extends Command {
 
     @Override
     public void execute() {
-        adapter.new_game();
+        adapter.newGame();
     }
 }
