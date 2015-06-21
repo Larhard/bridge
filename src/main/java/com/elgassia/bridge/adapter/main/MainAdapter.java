@@ -6,12 +6,12 @@ import com.elgassia.bridge.Model.TeamModel;
 import java.util.List;
 import java.util.Observable;
 
-public class Adapter extends com.elgassia.bridge.adapter.Adapter {
+public class MainAdapter extends com.elgassia.bridge.adapter.Adapter {
     private State state;
     private MainModel main_model;
     private TeamModel team_model;
 
-    public Adapter() {
+    public MainAdapter() {
         state = State.MAIN_MENU;
     }
 
