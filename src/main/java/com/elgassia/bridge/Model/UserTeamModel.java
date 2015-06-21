@@ -9,21 +9,21 @@ public class UserTeamModel {
         this.teamModel = teamModel;
     }
 
-    UserLobbyModel getUserLobbyModel()
+    public UserLobbyModel getUserLobbyModel()
     {
         return new UserLobbyModel(userID, teamModel.getLobbyModel());
     }
 
-    UserBiddingModel getUserBiddingModel()
+    public UserBiddingModel getUserBiddingModel()
     {
         return new UserBiddingModel(userID, teamModel.getBiddingModel());
     }
 
-    boolean setTeam(int team) {
+    public boolean setTeam(int team) {
         return teamModel.setTeam(userID, team);
     }
 
-    int getUserTeam() {
+    public int getUserTeam() {
         return teamModel.getUserTeam(userID);
     }
 
