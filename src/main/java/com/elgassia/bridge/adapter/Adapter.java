@@ -9,8 +9,11 @@ import java.util.Observer;
 abstract public class Adapter extends Observable implements Observer {
     public abstract void init(MainModel main_model);
 
+    public abstract void new_game();
+
     public enum State {
         MAIN_MENU,
+        LOBBY,
     }
 
     public abstract State getState();

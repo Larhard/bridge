@@ -1,6 +1,7 @@
 package com.elgassia.bridge.adapter.main;
 
 import com.elgassia.bridge.Model.MainModel;
+import com.elgassia.bridge.Model.TeamModel;
 
 import java.util.List;
 import java.util.Observable;
@@ -8,6 +9,7 @@ import java.util.Observable;
 public class Adapter extends com.elgassia.bridge.adapter.Adapter {
     private State state;
     private MainModel main_model;
+    private TeamModel team_model;
 
     public Adapter() {
         state = State.MAIN_MENU;
@@ -25,6 +27,13 @@ public class Adapter extends com.elgassia.bridge.adapter.Adapter {
     }
 
     @Override
+    public void new_game() {
+        team_model = main_model.newGame();
+        assert team_model != null;
+        setState(State.LOBBY);
+    }
+
+    @Override
     public State getState() {
         return state;
     }
@@ -32,5 +41,11 @@ public class Adapter extends com.elgassia.bridge.adapter.Adapter {
     @Override
     public List<String> getCredits() {
         return main_model.getCredits().getCredits();
+    }
+
+    private void setState(State state) {
+        this.state = state;
+        setChanged();
+        notifyObservers();
     }
 }
