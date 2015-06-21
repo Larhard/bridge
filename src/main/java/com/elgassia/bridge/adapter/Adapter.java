@@ -9,14 +9,14 @@ import java.util.Observer;
 abstract public class Adapter extends Observable implements Observer {
     public abstract void init(MainModel main_model);
 
-    public abstract void new_game();
-
-    public abstract void nextPlayer();
+    public abstract void newGame();
 
     public enum State {
         MAIN_MENU,
         LOBBY,
     }
+
+    abstract public TeamAdapter getTeamAdapter();
 
     public abstract State getState();
 

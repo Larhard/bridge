@@ -27,7 +27,7 @@ public class UserTeamModel {
         return teamModel.getUserTeam(userID);
     }
 
-    String getPlayerName() {
+    public String getPlayerName() {
         return teamModel.getPlayerName(userID);
     }
 }
