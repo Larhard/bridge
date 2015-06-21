@@ -1,6 +1,7 @@
 package com.elgassia.bridge.adapter;
 
 import com.elgassia.bridge.Model.TeamModel;
+import com.elgassia.bridge.Model.UserTeamModel;
 import com.elgassia.bridge.adapter.main.MainAdapter;
 
 public interface TeamAdapter {
@@ -8,5 +9,9 @@ public interface TeamAdapter {
 
     void nextPlayer();
 
+    UserTeamModel getUserTeamModel();
+
     String getName();
+
+    LobbyAdapter getLobbyAdapter();
 }

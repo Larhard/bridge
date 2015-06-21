@@ -2,11 +2,13 @@ package com.elgassia.bridge.adapter.main;
 
 import com.elgassia.bridge.Model.TeamModel;
 import com.elgassia.bridge.Model.UserTeamModel;
-import com.elgassia.bridge.adapter.Adapter;
+import com.elgassia.bridge.adapter.*;
+import com.elgassia.bridge.adapter.LobbyAdapter;
 
 public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter {
     private MainAdapter main_adapter;
     private TeamModel team_model;
+    private com.elgassia.bridge.adapter.LobbyAdapter lobby_adapter;
 
     int[] players;
     int active_player;
@@ -16,6 +18,9 @@ public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter {
     public void init(MainAdapter main_adapter, TeamModel team_model) {
         this.main_adapter = main_adapter;
         this.team_model = team_model;
+
+        lobby_adapter = new com.elgassia.bridge.adapter.main.LobbyAdapter();
+        lobby_adapter.init(this);
 
         assert team_model != null;
 
@@ -34,12 +39,18 @@ public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter {
         active_player = (active_player + 1) % players.length;
     }
 
-    private UserTeamModel getUserTeamModel() {
+    @Override
+    public UserTeamModel getUserTeamModel() {
         return player_team_models[active_player];
     }
 
     @Override
     public String getName() {
         return getUserTeamModel().getPlayerName();
+    }
+
+    @Override
+    public LobbyAdapter getLobbyAdapter() {
+        return lobby_adapter;
     }
 }
