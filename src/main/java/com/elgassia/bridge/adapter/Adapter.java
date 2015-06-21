@@ -11,6 +11,8 @@ abstract public class Adapter extends Observable implements Observer {
 
     public abstract void new_game();
 
+    public abstract void nextPlayer();
+
     public enum State {
         MAIN_MENU,
         LOBBY,

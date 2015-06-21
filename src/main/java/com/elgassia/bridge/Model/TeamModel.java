@@ -106,7 +106,7 @@ public class TeamModel extends Observable{
         }
         return cardList;
     }
-    int [] getPlayerOrder()
+    public int [] getPlayerOrder()
     {
         if(playerOrder[0]==-1)
         {
