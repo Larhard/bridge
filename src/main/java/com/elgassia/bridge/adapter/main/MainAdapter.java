@@ -29,6 +29,8 @@ public class MainAdapter extends com.elgassia.bridge.adapter.Adapter {
     public void newGame() {
         team_adapter = new TeamAdapter();
         team_adapter.init(this, main_model.newGame());
+
+        setState(State.LOBBY);
     }
 
     @Override

@@ -2,7 +2,6 @@ package com.elgassia.bridge.adapter.main;
 
 import com.elgassia.bridge.Model.TeamModel;
 import com.elgassia.bridge.Model.UserTeamModel;
-import com.elgassia.bridge.adapter.*;
 import com.elgassia.bridge.adapter.LobbyAdapter;
 
 public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter {
@@ -30,8 +29,6 @@ public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter {
         for (int i = 0; i < players.length; ++i) {
             player_team_models[i] = new UserTeamModel(players[i], team_model);
         }
-
-        main_adapter.setState(Adapter.State.LOBBY);
     }
 
     @Override
