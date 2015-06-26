@@ -14,4 +14,6 @@ public interface TeamAdapter {
     String getName();
 
     LobbyAdapter getLobbyAdapter();
+
+    UserTeamModel[] getUserTeamModels();
 }

@@ -50,4 +50,9 @@ public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter {
     public LobbyAdapter getLobbyAdapter() {
         return lobby_adapter;
     }
+
+    @Override
+    public UserTeamModel[] getUserTeamModels() {
+        return player_team_models;
+    }
 }
