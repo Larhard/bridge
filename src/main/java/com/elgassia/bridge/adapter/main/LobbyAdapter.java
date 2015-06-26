@@ -26,4 +26,11 @@ public class LobbyAdapter implements com.elgassia.bridge.adapter.LobbyAdapter {
             }
         }
     }
+
+    @Override
+    public void setRandomTeams() {
+        for (UserTeamModel model : teamAdapter.getUserTeamModels()) {
+            model.getUserLobbyModel().randomTeam();
+        }
+    }
 }

@@ -8,4 +8,6 @@ public interface LobbyAdapter {
     boolean setName(String name);
 
     void startGame() throws BridgeLogicException;
+
+    void setRandomTeams();
 }
