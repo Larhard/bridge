@@ -146,4 +146,8 @@ public class TeamModel extends Observable{
     {
         return contract;
     }
+    void chooseDeckStrategy(Strategy strategy)
+    {
+        this.strategy=strategy;
+    }
 }

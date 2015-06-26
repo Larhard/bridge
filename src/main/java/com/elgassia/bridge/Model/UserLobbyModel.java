@@ -26,4 +26,8 @@ public class UserLobbyModel {
     {
         return lobbyModel.ready(userID);
     }
+    void chooseDeckStrategy(Strategy strategy)
+    {
+        lobbyModel.chooseDeckStrategy(strategy);
+    }
 }

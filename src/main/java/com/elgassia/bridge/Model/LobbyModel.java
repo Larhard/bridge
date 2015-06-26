@@ -54,4 +54,8 @@ public class LobbyModel {
         teamModel.changeGameState('B');
         return true;
     }
+    void chooseDeckStrategy(Strategy strategy)
+    {
+        teamModel.chooseDeckStrategy(strategy);
+    }
 }
