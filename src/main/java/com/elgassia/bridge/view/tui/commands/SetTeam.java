@@ -12,13 +12,18 @@ public class SetTeam extends Command {
     }
 
     private void usage() {
-        System.out.println("usage: <team id>");
+        System.out.println("usage: <team id / random>");
     }
 
     @Override
     public void execute() {
         if (args.length != 2) {
             usage();
+            return;
+        }
+
+        if (args[1].equals("random")) {
+            lobbyAdapter.setRandomTeam();
             return;
         }
 
