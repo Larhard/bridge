@@ -1,5 +1,7 @@
 package com.elgassia.bridge.Model;
 
+import com.elgassia.bridge.exception.BridgeLogicException;
+
 import java.util.Random;
 
 /**
@@ -22,19 +24,21 @@ public class LobbyModel {
         }
         return false;
     }
-    boolean setTeam(int user,int team)
-    {
+    boolean setTeam(int user,int team) throws BridgeLogicException {
         if(readyUsers[user]==false) {
             return teamModel.setTeam(user, team);
         }
         return false;
     }
-    boolean randomTeam(int user)
-    {
+    boolean randomTeam(int user) {
         if(readyUsers[user]==false) {
             int team = new Random().nextInt(2);
-            while (!setTeam(user, team)) {
-                team = new Random().nextInt(2);
+            try {
+                while (!setTeam(user, team)) {
+                    team = new Random().nextInt(2);
+                }
+            } catch (BridgeLogicException e){
+                throw new Error(e.getCause());
             }
             return true;
         }

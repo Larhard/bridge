@@ -1,5 +1,7 @@
 package com.elgassia.bridge.Model;
 
+import com.elgassia.bridge.exception.BridgeLogicException;
+
 import java.util.List;
 import java.util.Observable;
 
@@ -66,8 +68,10 @@ public class TeamModel extends Observable{
         }
         return counter;
     }
-    boolean setTeam(int user,int team)
+    boolean setTeam(int user,int team) throws BridgeLogicException
     {
+        if(team>2)
+            throw new BridgeLogicException("Invalid team number");
         if(playerTeam[user]==team)
             return true;
         if(countTeamPlayers(team)<2)
@@ -149,5 +153,9 @@ public class TeamModel extends Observable{
     void chooseDeckStrategy(Strategy strategy)
     {
         this.strategy=strategy;
+    }
+    boolean deleteCard(int user,Card card)
+    {
+        return cardLists[user].remove(card);
     }
 }
