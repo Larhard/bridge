@@ -13,7 +13,7 @@ abstract public class Adapter extends Observable implements Observer {
 
     public enum State {
         MAIN_MENU,
-        LOBBY,
+        TEAM,
     }
 
     abstract public TeamAdapter getTeamAdapter();

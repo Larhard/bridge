@@ -53,7 +53,7 @@ public class View implements com.elgassia.bridge.view.View {
     @Override
     public void init(Adapter adapter) {
         state_map.put(Adapter.State.MAIN_MENU, MainScene.class);
-        state_map.put(Adapter.State.LOBBY, LobbyScene.class);
+        state_map.put(Adapter.State.TEAM, LobbyScene.class);
 
         this.adapter = adapter;
         adapter.addObserver(this);
