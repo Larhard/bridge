@@ -18,6 +18,10 @@ public class TeamModel extends Observable{
     private List<Card>[] cardLists = new List[4];
     private Color atu;
     private int contract;
+    private final LobbyModel lobbyModel;
+    private final BiddingModel biddingModel;
+    private final GameModel gameModel;
+    private final GameOverModel gameOverModel;
     TeamModel()
     {
         players[0]="user1";
@@ -28,23 +32,27 @@ public class TeamModel extends Observable{
             playerTeam[i]=-1;
         playerOrder[0]=-1;
         state='L';
+        lobbyModel = new LobbyModel(this);
+        biddingModel = new BiddingModel(this);
+        gameModel = new GameModel(this);
+        gameOverModel = new GameOverModel(this);
     }
     LobbyModel getLobbyModel()
     {
-        return new LobbyModel(this);
+        return lobbyModel;
     }
     BiddingModel getBiddingModel()
     {
 
-        return new BiddingModel(this);
+        return biddingModel;
     }
     GameModel getGameModel()
     {
-        return new GameModel(this);
+        return gameModel;
     }
     GameOverModel getGameOverModel()
     {
-        return new GameOverModel(this);
+        return gameOverModel;
     }
     void changeGameState(char state)
     {
