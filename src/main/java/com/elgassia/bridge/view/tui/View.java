@@ -27,13 +27,17 @@ public class View implements com.elgassia.bridge.view.View {
         public void run() {
             running = true;
             while (running) {
-                String[] line = scanner.nextLine().split("\\s+");
-                Command command = commands.parse(line);
+                if (scanner.hasNextLine()) {
+                    String[] line = scanner.nextLine().split("\\s+");
+                    Command command = commands.parse(line);
 
-                if (command != null) {
-                    command.execute();
+                    if (command != null) {
+                        command.execute();
+                    } else {
+                        System.out.println("Unknown command '" + line[0] + "'");
+                    }
                 } else {
-                    System.out.println("Unknown command '" + line[0] + "'");
+                    exit();
                 }
             }
         }
