@@ -4,7 +4,16 @@ import com.elgassia.bridge.Model.TeamModel;
 import com.elgassia.bridge.Model.UserTeamModel;
 import com.elgassia.bridge.adapter.LobbyAdapter;
 
-public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter {
+import java.util.Observable;
+import java.util.Observer;
+
+public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter, Observer {
+    public enum State {
+        LOBBY,
+        BIDDING,
+        GAME,
+    }
+
     private MainAdapter main_adapter;
     private TeamModel team_model;
     private com.elgassia.bridge.adapter.LobbyAdapter lobby_adapter;
@@ -12,6 +21,12 @@ public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter {
     int[] players;
     int active_player;
     UserTeamModel[] player_team_models;
+
+    private State state;
+
+    public void setState(State state) {
+        this.state = state;
+    }
 
     @Override
     public void init(MainAdapter main_adapter, TeamModel team_model) {
@@ -54,5 +69,22 @@ public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter {
     @Override
     public UserTeamModel[] getUserTeamModels() {
         return player_team_models;
+    }
+
+    @Override
+    public void update(Observable observable, Object o) {
+        if (observable == team_model) {
+            switch (team_model.getState()) {
+                case 'L':
+                    setState(State.LOBBY);
+                    break;
+                case 'B':
+                    setState(State.BIDDING);
+                    break;
+                case 'G':
+                    setState(State.GAME);
+                    break;
+            }
+        }
     }
 }
