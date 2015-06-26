@@ -19,10 +19,6 @@ public class UserTeamModel {
         return new UserBiddingModel(userID, teamModel.getBiddingModel());
     }
 
-    public boolean setTeam(int team) {
-        return teamModel.setTeam(userID, team);
-    }
-
     public int getUserTeam() {
         return teamModel.getUserTeam(userID);
     }
