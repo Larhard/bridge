@@ -31,4 +31,8 @@ public class Commands {
     public Command get(Object key) {
         return commandMap.get(key);
     }
+
+    public void clear() {
+        commandMap.clear();
+    }
 }

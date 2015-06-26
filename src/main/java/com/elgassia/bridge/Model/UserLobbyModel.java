@@ -10,19 +10,19 @@ public class UserLobbyModel {
         this.userID = userID;
         this.lobbyModel=lobbyModel;
     }
-    boolean setName(String name)
+    public boolean setName(String name)
     {
         return lobbyModel.setName(userID,name);
     }
-    boolean setTeam(int team)
+    public boolean setTeam(int team)
     {
         return lobbyModel.setTeam(userID,team);
     }
-    boolean randomTeam()
+    public boolean randomTeam()
     {
         return lobbyModel.randomTeam(userID);
     }
-    boolean ready()
+    public boolean ready()
     {
         return lobbyModel.ready(userID);
     }

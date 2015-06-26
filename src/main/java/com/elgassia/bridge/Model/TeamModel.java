@@ -96,7 +96,7 @@ public class TeamModel extends Observable{
         DeckBuilder builder=new DeckBuilder();
         cardLists=builder.build(strategy);
     }
-    int [] getPlayerOrder()
+    public int [] getPlayerOrder()
     {
         if(playerOrder[0]==-1)
         {
