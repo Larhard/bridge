@@ -33,4 +33,9 @@ public class LobbyAdapter implements com.elgassia.bridge.adapter.LobbyAdapter {
             model.getUserLobbyModel().randomTeam();
         }
     }
+
+    @Override
+    public void setTeam(int team) throws BridgeLogicException {
+        teamAdapter.getUserTeamModel().getUserLobbyModel().setTeam(team);
+    }
 }

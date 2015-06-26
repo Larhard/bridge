@@ -10,4 +10,6 @@ public interface LobbyAdapter {
     void startGame() throws BridgeLogicException;
 
     void setRandomTeams();
+
+    void setTeam(int team) throws BridgeLogicException;
 }
