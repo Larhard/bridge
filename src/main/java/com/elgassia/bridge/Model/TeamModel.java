@@ -27,7 +27,7 @@ public class TeamModel extends Observable{
         for(int i=0;i<4;i++)
             playerTeam[i]=-1;
         playerOrder[0]=-1;
-        state='0';
+        state='L';
     }
     LobbyModel getLobbyModel()
     {
@@ -55,7 +55,7 @@ public class TeamModel extends Observable{
 
     /**
      * State can be:
-     *   '0' - lobby
+     *   'L' - lobby
      *   'B' - bidding
      *   'G' - game
      */
