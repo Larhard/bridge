@@ -52,6 +52,17 @@ public class TeamModel extends Observable{
         setChanged();
         notifyObservers();
     }
+
+    /**
+     * State can be:
+     *   '0' - lobby
+     *   'B' - bidding
+     *   'G' - game
+     */
+    public char getState() {
+        return state;
+    }
+
     void setName(int user,String name)
     {
         players[user]=name;
