@@ -50,6 +50,7 @@ public class LobbyModel {
             if(readyUsers[i]==false)
                 return true;
         }
+        teamModel.drawCards();
         teamModel.changeGameState('B');
         return true;
     }

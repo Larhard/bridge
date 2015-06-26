@@ -1,9 +1,7 @@
 package com.elgassia.bridge.Model;
 
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Observable;
-import java.util.Random;
 
 /**
  * Created by vereena on 6/19/15.
@@ -13,8 +11,9 @@ public class TeamModel extends Observable{
     private String players[]=new String[4];
     private int playerTeam[]=new int[4];
     private int playerOrder[]=new int[4];
-    private List<Card> deck=new LinkedList<>();
     private int biddingWinnerOrder;
+    private Strategy strategy=new RandomStrategy();
+    private List<Card>[] cardLists = new List[4];
     private Color atu;
     private int contract;
     TeamModel()
@@ -25,13 +24,6 @@ public class TeamModel extends Observable{
         players[3]="user4";
         for(int i=0;i<4;i++)
             playerTeam[i]=-1;
-        for(Card.Rank rank: Card.Rank.values())
-        {
-            for(Card.Suit suit: Card.Suit.values())
-            {
-                deck.add(new Card(rank,suit));
-            }
-        }
         playerOrder[0]=-1;
         state='0';
     }
@@ -41,6 +33,7 @@ public class TeamModel extends Observable{
     }
     BiddingModel getBiddingModel()
     {
+
         return new BiddingModel(this);
     }
     GameModel getGameModel()
@@ -94,17 +87,14 @@ public class TeamModel extends Observable{
     {
         return players[user];
     }
-    List<Card> getPlayerCards()
+    List<Card> getPlayerCards(int user)
     {
-        List<Card> cardList=new LinkedList<>();
-        int k;
-        for(int i=0;i<13;i++)
-        {
-            k=new Random().nextInt(this.deck.size());
-            cardList.add(this.deck.get(k));
-            this.deck.remove(k);
-        }
-        return cardList;
+        return cardLists[user];
+    }
+    void drawCards()
+    {
+        DeckBuilder builder=new DeckBuilder();
+        cardLists=builder.build(strategy);
     }
     int [] getPlayerOrder()
     {

@@ -12,7 +12,7 @@ public class UserBiddingModel {
     UserBiddingModel(int userID,BiddingModel biddingModel) {
         this.userID = userID;
         this.biddingModel=biddingModel;
-        this.userDeck=biddingModel.getPlayerCards();
+        this.userDeck=biddingModel.getPlayerCards(userID);
     }
     List<Card> getMyDeck()
     {

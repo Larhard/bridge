@@ -21,9 +21,9 @@ public class BiddingModel {
     String getCurrentPlayer(){
         return teamModel.getPlayerName(playerOrder[currentPlayer]);
     }
-    List<Card> getPlayerCards()
+    List<Card> getPlayerCards(int user)
     {
-        return teamModel.getPlayerCards();
+        return teamModel.getPlayerCards(user);
     }
     private Bid getLastCard()
     {
