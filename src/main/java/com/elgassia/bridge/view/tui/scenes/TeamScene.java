@@ -35,6 +35,10 @@ public class TeamScene extends Scene implements Observer {
                 commands.add("set_team", new SetTeam(view.getAdapter().getTeamAdapter().getLobbyAdapter()));
                 System.out.println("Player: " + view.getAdapter().getTeamAdapter().getName());
                 break;
+            case BIDDING:
+                break;
+            case GAME:
+                break;
             default:
                 assert false;
         }
