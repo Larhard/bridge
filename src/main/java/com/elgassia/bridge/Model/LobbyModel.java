@@ -18,15 +18,14 @@ public class LobbyModel extends Observable implements Serializable{
             readyUsers[i]=false;
         this.teamModel=teamModel;
     }
-    boolean setName(int user,String name)
-    {
+    boolean setName(int user,String name) throws BridgeLogicException {
         if(readyUsers[user]==false) {
             teamModel.setName(user, name);
             setChanged();
             notifyObservers();
             return true;
         }
-        return false;
+        throw new BridgeLogicException("You can't change your name when you said you're ready");
     }
     boolean setTeam(int user,int team) throws BridgeLogicException {
         if(readyUsers[user]==false) {
@@ -38,9 +37,9 @@ public class LobbyModel extends Observable implements Serializable{
             }
             return false;
         }
-        return false;
+        throw new BridgeLogicException("You can't change your team when you said you're ready");
     }
-    boolean randomTeam(int user) {
+    boolean randomTeam(int user) throws BridgeLogicException {
         if(readyUsers[user]==false) {
             int team = new Random().nextInt(2);
             try {
@@ -54,12 +53,11 @@ public class LobbyModel extends Observable implements Serializable{
             notifyObservers();
             return true;
         }
-        return false;
+        throw new BridgeLogicException("You can't change your team when you said you're ready");
     }
-    boolean ready(int user)
-    {
+    boolean ready(int user) throws BridgeLogicException {
         if (teamModel.getUserTeam(user)==-1)
-            return false;
+            throw new BridgeLogicException("You must set your team before you say you're ready");
         readyUsers[user]=true;
         for(int i=0;i<4;i++)
         {
