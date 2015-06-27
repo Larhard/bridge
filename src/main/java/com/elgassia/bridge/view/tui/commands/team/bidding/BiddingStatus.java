@@ -31,5 +31,8 @@ public class BiddingStatus extends Command {
             System.out.print(" " + card.toString());
         }
         System.out.println();
+
+        System.out.println();
+        System.out.println("Current player: " + teamAdapter.getCurrentPlayer());
     }
 }

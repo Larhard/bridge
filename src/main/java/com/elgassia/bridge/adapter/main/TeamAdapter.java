@@ -119,6 +119,11 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
     }
 
     @Override
+    public String getCurrentPlayer() {
+        return getUserTeamModel().getUserBiddingModel().getCurrentPlayer();
+    }
+
+    @Override
     public void update(Observable observable, Object o) {
         if (observable == team_model) {
             switch (team_model.getState()) {
