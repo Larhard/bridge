@@ -33,6 +33,6 @@ public class BiddingStatus extends Command {
         System.out.println();
 
         System.out.println();
-        System.out.println("Current player: " + teamAdapter.getCurrentPlayer());
+        System.out.println("Current player: " + teamAdapter.getBiddingAdapter().getCurrentPlayer());
     }
 }

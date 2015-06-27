@@ -28,4 +28,14 @@ public class GameAdapter implements com.elgassia.bridge.adapter.GameAdapter {
     public List<Card> getGrandpasCards() {
         return teamAdapter.getUserTeamModel().getUserGameModel().getGranpasDeck();
     }
+
+    @Override
+    public Card[] turnHistory() {
+        return teamAdapter.getUserTeamModel().getUserGameModel().getTurnHistory();
+    }
+
+    @Override
+    public String whoStartedTurn() {
+        return teamAdapter.getUserTeamModel().getUserGameModel().whoStartedTurn();
+    }
 }

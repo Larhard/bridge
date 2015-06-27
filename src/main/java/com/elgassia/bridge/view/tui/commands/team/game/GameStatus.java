@@ -49,5 +49,15 @@ public class GameStatus extends Command {
             }
             System.out.println();
         }
+
+        {
+            System.out.println();
+            System.out.println("Turn started by: " + teamAdapter.getGameAdapter().whoStartedTurn());
+            System.out.print("Turn history:");
+            for (Card card : teamAdapter.getGameAdapter().turnHistory()) {
+                System.out.print(" " + card);
+            }
+            System.out.println();
+        }
     }
 }

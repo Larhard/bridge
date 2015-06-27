@@ -13,4 +13,8 @@ public interface GameAdapter {
     List<Card> getCards();
 
     List<Card> getGrandpasCards();
+
+    Card[] turnHistory();
+
+    String whoStartedTurn();
 }
