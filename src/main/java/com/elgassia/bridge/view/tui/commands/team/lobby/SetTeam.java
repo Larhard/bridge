@@ -23,7 +23,11 @@ public class SetTeam extends Command {
         }
 
         if (args[1].equals("random")) {
-            lobbyAdapter.setRandomTeam();
+            try {
+                lobbyAdapter.setRandomTeam();
+            } catch (BridgeLogicException e) {
+                System.out.println(e.getMessage());
+            }
             return;
         }
 

@@ -5,13 +5,13 @@ import com.elgassia.bridge.exception.BridgeLogicException;
 public interface LobbyAdapter {
     void init(TeamAdapter teamAdapter);
 
-    boolean setName(String name);
+    boolean setName(String name) throws BridgeLogicException;
 
     void startGame() throws BridgeLogicException;
 
-    void setRandomTeams();
+    void setRandomTeams() throws BridgeLogicException;
 
-    void setRandomTeam();
+    void setRandomTeam() throws BridgeLogicException;
 
     void setTeam(int team) throws BridgeLogicException;
 }

@@ -15,8 +15,7 @@ public class UserLobbyModel extends Observable implements Observer{
         this.userID = userID;
         this.lobbyModel=lobbyModel;
     }
-    public boolean setName(String name)
-    {
+    public boolean setName(String name) throws BridgeLogicException {
         if(lobbyModel.setName(userID,name))
         {
             setChanged();
@@ -34,7 +33,7 @@ public class UserLobbyModel extends Observable implements Observer{
         }
         return false;
     }
-    public boolean randomTeam(){
+    public boolean randomTeam() throws BridgeLogicException {
         if(lobbyModel.randomTeam(userID))
         {
             setChanged();
@@ -43,8 +42,7 @@ public class UserLobbyModel extends Observable implements Observer{
         }
         return false;
     }
-    public boolean ready()
-    {
+    public boolean ready() throws BridgeLogicException {
         if(lobbyModel.ready(userID))
         {
             setChanged();

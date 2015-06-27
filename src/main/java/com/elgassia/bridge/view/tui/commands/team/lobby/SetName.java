@@ -1,6 +1,7 @@
 package com.elgassia.bridge.view.tui.commands.team.lobby;
 
 import com.elgassia.bridge.adapter.LobbyAdapter;
+import com.elgassia.bridge.exception.BridgeLogicException;
 import com.elgassia.bridge.view.tui.Command;
 
 public class SetName extends Command {
@@ -16,6 +17,10 @@ public class SetName extends Command {
             System.out.println("usage: <new name>");
             return;
         }
-        lobbyAdapter.setName(args[1]);
+        try {
+            lobbyAdapter.setName(args[1]);
+        } catch (BridgeLogicException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }

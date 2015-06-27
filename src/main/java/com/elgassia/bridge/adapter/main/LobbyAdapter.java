@@ -14,7 +14,7 @@ public class LobbyAdapter implements com.elgassia.bridge.adapter.LobbyAdapter {
     }
 
     @Override
-    public boolean setName(String name) {
+    public boolean setName(String name) throws BridgeLogicException {
         return teamAdapter.getUserTeamModel().getUserLobbyModel().setName(name);
     }
 
@@ -28,14 +28,14 @@ public class LobbyAdapter implements com.elgassia.bridge.adapter.LobbyAdapter {
     }
 
     @Override
-    public void setRandomTeams() {
+    public void setRandomTeams() throws BridgeLogicException {
         for (UserTeamModel model : teamAdapter.getUserTeamModels()) {
             model.getUserLobbyModel().randomTeam();
         }
     }
 
     @Override
-    public void setRandomTeam() {
+    public void setRandomTeam() throws BridgeLogicException {
         teamAdapter.getUserTeamModel().getUserLobbyModel().randomTeam();
     }
 

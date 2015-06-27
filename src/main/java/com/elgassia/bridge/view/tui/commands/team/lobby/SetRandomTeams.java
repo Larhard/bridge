@@ -1,6 +1,7 @@
 package com.elgassia.bridge.view.tui.commands.team.lobby;
 
 import com.elgassia.bridge.adapter.LobbyAdapter;
+import com.elgassia.bridge.exception.BridgeLogicException;
 import com.elgassia.bridge.view.tui.Command;
 
 public class SetRandomTeams extends Command {
@@ -12,7 +13,11 @@ public class SetRandomTeams extends Command {
 
     @Override
     public void execute() {
-        lobbyAdapter.setRandomTeams();
+        try {
+            lobbyAdapter.setRandomTeams();
+        }catch (BridgeLogicException e){
+            System.out.println(e.getMessage());
+        }
     }
 
     @Override

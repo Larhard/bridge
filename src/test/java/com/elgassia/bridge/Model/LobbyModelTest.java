@@ -19,8 +19,7 @@ public class LobbyModelTest extends TestCase {
         userLobbyModel3=new UserLobbyModel(2,lobbyModel);
         userLobbyModel4=new UserLobbyModel(3,lobbyModel);
     }
-    public void testSetName()
-    {
+    public void testSetName() throws BridgeLogicException {
         assertTrue(userLobbyModel1.setName("Ala"));
         assertTrue(userLobbyModel2.setName("Ma"));
         assertTrue(userLobbyModel3.setName("Kota"));
@@ -30,8 +29,7 @@ public class LobbyModelTest extends TestCase {
         assertEquals(teamModel.getPlayerName(2),"Kota");
         assertEquals(teamModel.getPlayerName(3),"BoTak");
     }
-    public void setNameWhenReady()
-    {
+    public void setNameWhenReady() throws BridgeLogicException {
         assertFalse(userLobbyModel1.ready());
         try {
             assertTrue(userLobbyModel1.setTeam(0));
