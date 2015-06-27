@@ -12,4 +12,6 @@ public interface BiddingAdapter {
     void bid(Bid bid) throws BridgeLogicException;
 
     List<Card> getCards();
+
+    public abstract String getCurrentPlayer();
 }

@@ -24,4 +24,9 @@ public class BiddingAdapter implements com.elgassia.bridge.adapter.BiddingAdapte
     public List<Card> getCards() {
         return teamAdapter.getUserTeamModel().getUserBiddingModel().getMyDeck();
     }
+
+    @Override
+    public String getCurrentPlayer() {
+        return teamAdapter.getUserTeamModel().getUserBiddingModel().getCurrentPlayer();
+    }
 }

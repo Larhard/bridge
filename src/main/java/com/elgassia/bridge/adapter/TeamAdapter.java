@@ -30,6 +30,4 @@ abstract public class TeamAdapter extends Observable {
     public abstract GameAdapter getGameAdapter();
 
     public abstract UserTeamModel[] getUserTeamModels();
-
-    public abstract String getCurrentPlayer();
 }
