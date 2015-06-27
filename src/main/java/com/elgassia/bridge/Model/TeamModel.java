@@ -18,6 +18,11 @@ public class TeamModel extends Observable{
     private List<Card>[] cardLists = new List[4];
     private Color atu;
     private int contract;
+    //these are set after the last game turn
+    private int gameWinner; //which team won the game
+    private int turnsWonByThePlayingTeam;
+    private int [] whoStartedTurn=new int[13];
+    private Card [][] cardsInTurn=new Card[13][4];
     private final LobbyModel lobbyModel;
     private final BiddingModel biddingModel;
     private final GameModel gameModel;
@@ -189,5 +194,18 @@ public class TeamModel extends Observable{
                 return true;
         }
         return false;
+    }
+    void setGameWinner(int winner)
+    {
+        this.gameWinner=winner;
+    }
+    void setHowManyTurnsPlayingTeamWon(int winnerWins)
+    {
+        this.turnsWonByThePlayingTeam=winnerWins;
+    }
+    void setGameHistory(Card[][]cardsInTurn,int []whoStartedTurn)
+    {
+        this.cardsInTurn=cardsInTurn;
+        this.whoStartedTurn=whoStartedTurn;
     }
 }

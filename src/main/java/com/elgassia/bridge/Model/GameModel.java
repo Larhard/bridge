@@ -14,7 +14,7 @@ public class GameModel {
     private int playingTeam;
     private Color atu;
     private int contract;
-    private int winnersWins=0;
+    private int winnerWins=0;
     private int playerCount=0;
     private int currentPlayer;
     private int grandpa;
@@ -53,9 +53,12 @@ public class GameModel {
             if(turnCount==13)
             {
                 //Game Over
-                //teamModel.setGameWinner(whoWinsTheGame)
-                //teamModel.setHowManyTurnsPlayingTeamWin(winnerWins)
-                //teamModel.setGameHistory(cardsInTurn,whoStartedTurn)
+                if(contract<=winnerWins)
+                    teamModel.setGameWinner(playingTeam);
+                else
+                    teamModel.setGameWinner((playingTeam+1)%2);
+                teamModel.setHowManyTurnsPlayingTeamWon(winnerWins);
+                teamModel.setGameHistory(cardsInTurn,whoStartedTurn);
                 teamModel.changeGameState('O');
             }
         }
