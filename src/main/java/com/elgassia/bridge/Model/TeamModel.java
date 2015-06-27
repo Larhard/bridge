@@ -123,6 +123,8 @@ public class TeamModel extends Observable{
     {
         DeckBuilder builder=new DeckBuilder();
         cardLists=builder.build(strategy);
+        setChanged();
+        notifyObservers();
     }
     public int [] getPlayerOrder()
     {
@@ -147,20 +149,28 @@ public class TeamModel extends Observable{
                 playerOrder[1]=1;
                 playerOrder[3]=2;
             }
+            setChanged();
+            notifyObservers();
         }
         return this.playerOrder;
     }
     void setBiddingWinner(int winner)
     {
         biddingWinnerOrder=winner;
+        setChanged();
+        notifyObservers();
     }
     void setAtu(Color atu)
     {
         this.atu=atu;
+        setChanged();
+        notifyObservers();
     }
     void setContract(int contract)
     {
         this.contract=contract;
+        setChanged();
+        notifyObservers();
     }
     int getBiddingWinner()
     {
@@ -177,10 +187,14 @@ public class TeamModel extends Observable{
     void chooseDeckStrategy(Strategy strategy)
     {
         this.strategy=strategy;
+        setChanged();
+        notifyObservers();
     }
     void deleteCard(int user,Card card)
     {
         cardLists[user].remove(card);
+        setChanged();
+        notifyObservers();
     }
     boolean checkForCard(int user,Card card)
     {
@@ -198,10 +212,14 @@ public class TeamModel extends Observable{
     void setGameWinner(int winner)
     {
         this.gameWinner=playerTeam[playerOrder[winner]];
+        setChanged();
+        notifyObservers();
     }
     void setHowManyTurnsPlayingTeamWon(int winnerWins)
     {
         this.turnsWonByThePlayingTeam=winnerWins;
+        setChanged();
+        notifyObservers();
     }
     void setGameHistory(Card[][]cardsInTurn,int []whoStartedTurn)
     {
@@ -210,6 +228,8 @@ public class TeamModel extends Observable{
         //turn it to actual indexes
         for(int i=0;i<13;i++)
             whoStartedTurn[i]=playerOrder[whoStartedTurn[i]];
+        setChanged();
+        notifyObservers();
     }
     int getGameWinner()
     {
