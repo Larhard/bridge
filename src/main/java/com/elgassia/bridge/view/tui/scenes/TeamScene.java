@@ -5,9 +5,24 @@ import com.elgassia.bridge.view.tui.Scene;
 import com.elgassia.bridge.view.tui.View;
 import com.elgassia.bridge.view.tui.commands.*;
 
-public class TeamScene extends Scene {
+import java.util.Observable;
+import java.util.Observer;
+
+public class TeamScene extends Scene implements Observer {
+    private Commands commands;
+    private View view;
+
+    @Override
+    public void init(View view) {
+        super.init(view);
+        view.getAdapter().getTeamAdapter().addObserver(this);
+    }
+
     @Override
     protected void prepareCommands(Commands commands, View view) {
+        this.commands = commands;
+        this.view = view;
+
         super.prepareCommands(commands, view);
         switch (view.getAdapter().getTeamAdapter().getState()) {
             case LOBBY:
@@ -21,5 +36,10 @@ public class TeamScene extends Scene {
             default:
                 assert false;
         }
+    }
+
+    @Override
+    public void update(Observable observable, Object o) {
+        prepareCommands(commands, view);
     }
 }
