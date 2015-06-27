@@ -1,5 +1,7 @@
 package com.elgassia.bridge.Model;
 
+import com.elgassia.bridge.exception.BridgeLogicException;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -47,10 +49,9 @@ public class BiddingModel extends Observable implements Serializable{
         if(currentPlayer==4)
             currentPlayer=0;
     }
-    boolean bid(Bid bid,int user)
-    {
+    boolean bid(Bid bid,int user) throws BridgeLogicException {
         if(user!=playerOrder[currentPlayer])
-            return false;
+            throw new BridgeLogicException("This is not your turn");
         if(bid.getType()==BidType.CARD)
         {
             Bid lastCard=getLastCard();
@@ -69,7 +70,7 @@ public class BiddingModel extends Observable implements Serializable{
                 return true;
             }
             else
-                return false;
+                throw new BridgeLogicException("You cannot bid with value smaller from winning bid");
         }
         else if(bid.getType()==BidType.CONTRA)
         {
@@ -96,7 +97,7 @@ public class BiddingModel extends Observable implements Serializable{
                     return true;
                 }
             }
-            return false;
+            throw new BridgeLogicException("You can't bid with CONTRA when the opponent didn't bid with color or your partner already said CONTRA");
         }
         else if(bid.getType()==BidType.RECONTRA)
         {
@@ -123,7 +124,7 @@ public class BiddingModel extends Observable implements Serializable{
                     return true;
                 }
             }
-            return false;
+            throw new BridgeLogicException("You can't bid with RECONTRA when the opponent didn't bid with CONTRA or your partner already said RECONTRA");
         }
         else if(bid.getType()==BidType.PASS)
         {
