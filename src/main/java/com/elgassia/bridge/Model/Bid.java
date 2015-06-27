@@ -46,4 +46,20 @@ public class Bid implements Comparable<Bid>{
         }
         return 0;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj.getClass().equals(Bid.class))
+        {
+            Bid x=(Bid)obj;
+            if(!x.getCount().equals(this.getCount()))
+                return false;
+            if(!x.getType().equals(this.getType()))
+                return false;
+            if(!x.getColor().equals(this.getColor()))
+                return false;
+            return true;
+        }
+        return false;
+    }
 }
