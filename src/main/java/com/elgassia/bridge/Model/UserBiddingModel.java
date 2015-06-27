@@ -26,4 +26,8 @@ public class UserBiddingModel {
     {
         return biddingModel.getBiddingHistory();
     }
+    String getCurrentPlayer()
+    {
+        return biddingModel.getCurrentPlayer();
+    }
 }
