@@ -48,7 +48,6 @@ public class TeamModel extends Observable{
     }
     BiddingModel getBiddingModel()
     {
-
         return biddingModel;
     }
     GameModel getGameModel()
@@ -71,6 +70,7 @@ public class TeamModel extends Observable{
      *   'L' - lobby
      *   'B' - bidding
      *   'G' - game
+     *   'O' - game over
      */
     public char getState() {
         return state;
