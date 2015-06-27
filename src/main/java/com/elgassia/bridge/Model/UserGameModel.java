@@ -22,11 +22,11 @@ public class UserGameModel extends Observable implements Observer{
         }
         return false;
     }
-    List<Card> getGranpasDeck()
+    public List<Card> getGranpasDeck()
     {
         return gameModel.getGrandpasDeck();
     }
-    List<Card> getMyDeck()
+    public List<Card> getMyDeck()
     {
         return gameModel.getUserDeck(userID);
     }
