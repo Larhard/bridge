@@ -1,11 +1,13 @@
 package com.elgassia.bridge.Model;
 
 import java.util.List;
+import java.util.Observable;
+import java.util.Observer;
 
 /**
  * Created by vereena on 6/26/15.
  */
-public class UserGameModel {
+public class UserGameModel extends Observable implements Observer{
     private int userID;
     private GameModel gameModel;
     UserGameModel(int userID,GameModel gameModel) {
@@ -14,7 +16,13 @@ public class UserGameModel {
     }
     boolean playCard(Card card)
     {
-        return gameModel.playCard(userID,card);
+        if(gameModel.playCard(userID,card))
+        {
+            setChanged();
+            notifyObservers();
+            return true;
+        }
+        return false;
     }
     List<Card> getGranpasDeck()
     {
@@ -31,5 +39,11 @@ public class UserGameModel {
     String whoStartedTurn()
     {
         return gameModel.whoStartedTurn();
+    }
+
+    @Override
+    public void update(Observable o, Object arg) {
+        setChanged();
+        notifyObservers();
     }
 }
