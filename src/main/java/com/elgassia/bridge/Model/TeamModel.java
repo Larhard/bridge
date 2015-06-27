@@ -173,8 +173,21 @@ public class TeamModel extends Observable{
     {
         this.strategy=strategy;
     }
-    boolean deleteCard(int user,Card card)
+    void deleteCard(int user,Card card)
     {
-        return cardLists[user].remove(card);
+        cardLists[user].remove(card);
+    }
+    boolean checkForCard(int user,Card card)
+    {
+        return cardLists[user].contains(card);
+    }
+    boolean checkForCardColor(int user,Card.Suit suit)
+    {
+        for(Card card:cardLists[user])
+        {
+            if(card.getSuit().equals(suit))
+                return true;
+        }
+        return false;
     }
 }
