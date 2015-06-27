@@ -197,7 +197,7 @@ public class TeamModel extends Observable{
     }
     void setGameWinner(int winner)
     {
-        this.gameWinner=winner;
+        this.gameWinner=playerTeam[playerOrder[winner]];
     }
     void setHowManyTurnsPlayingTeamWon(int winnerWins)
     {
@@ -207,5 +207,24 @@ public class TeamModel extends Observable{
     {
         this.cardsInTurn=cardsInTurn;
         this.whoStartedTurn=whoStartedTurn;
+        //turn it to actual indexes
+        for(int i=0;i<13;i++)
+            whoStartedTurn[i]=playerOrder[whoStartedTurn[i]];
+    }
+    int getGameWinner()
+    {
+        return this.gameWinner;
+    }
+    int getTurnsWonByThePlayingTeam()
+    {
+        return this.turnsWonByThePlayingTeam;
+    }
+    Card[][] getPlayedCards()
+    {
+        return cardsInTurn;
+    }
+    int[] getWhoStartedTurn()
+    {
+        return whoStartedTurn;
     }
 }

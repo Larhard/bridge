@@ -9,4 +9,20 @@ public class GameOverModel {
     {
         this.teamModel=teamModel;
     }
+    int getGameWinner()
+    {
+        return teamModel.getGameWinner();
+    }
+    int getTurnsWonByThePlayingTeam()
+    {
+        return teamModel.getTurnsWonByThePlayingTeam();
+    }
+    Card[][] getPlayedCards()
+    {
+        return teamModel.getPlayedCards();
+    }
+    int[] getWhoStartedTurn()
+    {
+        return teamModel.getWhoStartedTurn();
+    }
 }
