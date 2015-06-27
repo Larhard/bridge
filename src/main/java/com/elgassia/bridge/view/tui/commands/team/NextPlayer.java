@@ -1,4 +1,4 @@
-package com.elgassia.bridge.view.tui.commands;
+package com.elgassia.bridge.view.tui.commands.team;
 
 import com.elgassia.bridge.adapter.Adapter;
 import com.elgassia.bridge.adapter.main.TeamAdapter;

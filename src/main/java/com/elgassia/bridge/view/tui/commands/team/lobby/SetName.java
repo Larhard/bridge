@@ -1,4 +1,4 @@
-package com.elgassia.bridge.view.tui.commands;
+package com.elgassia.bridge.view.tui.commands.team.lobby;
 
 import com.elgassia.bridge.adapter.LobbyAdapter;
 import com.elgassia.bridge.view.tui.Command;

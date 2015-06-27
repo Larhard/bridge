@@ -3,7 +3,12 @@ package com.elgassia.bridge.view.tui.scenes;
 import com.elgassia.bridge.view.tui.Commands;
 import com.elgassia.bridge.view.tui.Scene;
 import com.elgassia.bridge.view.tui.View;
-import com.elgassia.bridge.view.tui.commands.*;
+import com.elgassia.bridge.view.tui.commands.team.NextPlayer;
+import com.elgassia.bridge.view.tui.commands.team.bidding.Bid;
+import com.elgassia.bridge.view.tui.commands.team.lobby.SetName;
+import com.elgassia.bridge.view.tui.commands.team.lobby.SetRandomTeams;
+import com.elgassia.bridge.view.tui.commands.team.lobby.SetTeam;
+import com.elgassia.bridge.view.tui.commands.team.lobby.StartGame;
 
 import java.util.Observable;
 import java.util.Observer;

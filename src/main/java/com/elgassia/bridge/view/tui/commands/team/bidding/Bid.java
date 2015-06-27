@@ -1,4 +1,4 @@
-package com.elgassia.bridge.view.tui.commands;
+package com.elgassia.bridge.view.tui.commands.team.bidding;
 
 import com.elgassia.bridge.Model.BidType;
 import com.elgassia.bridge.utils.Colors;
