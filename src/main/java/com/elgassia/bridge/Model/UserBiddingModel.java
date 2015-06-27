@@ -1,11 +1,13 @@
 package com.elgassia.bridge.Model;
 
 import java.util.List;
+import java.util.Observable;
+import java.util.Observer;
 
 /**
  * Created by vereena on 6/20/15.
  */
-public class UserBiddingModel {
+public class UserBiddingModel extends Observable implements Observer {
     private int userID;
     private BiddingModel biddingModel;
     private List<Card> userDeck;
@@ -13,6 +15,7 @@ public class UserBiddingModel {
         this.userID = userID;
         this.biddingModel=biddingModel;
         this.userDeck=biddingModel.getPlayerCards(userID);
+        biddingModel.addObserver(this);
     }
     List<Card> getMyDeck()
     {
@@ -20,7 +23,13 @@ public class UserBiddingModel {
     }
     boolean bid(Bid bid)
     {
-        return biddingModel.bid(bid,userID);
+        if(biddingModel.bid(bid,userID))
+        {
+            setChanged();
+            notifyObservers();
+            return true;
+        }
+        return false;
     }
     List<Bid> getBiddingHistory()
     {
@@ -29,5 +38,11 @@ public class UserBiddingModel {
     String getCurrentPlayer()
     {
         return biddingModel.getCurrentPlayer();
+    }
+
+    @Override
+    public void update(Observable o, Object arg) {
+        setChanged();
+        notifyObservers();
     }
 }
