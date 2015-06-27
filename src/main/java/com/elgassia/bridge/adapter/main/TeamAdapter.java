@@ -7,7 +7,7 @@ import com.elgassia.bridge.adapter.LobbyAdapter;
 import java.util.Observable;
 import java.util.Observer;
 
-public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter, Observer {
+public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter implements Observer {
     public enum State {
         LOBBY,
         BIDDING,
@@ -25,7 +25,16 @@ public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter, Obs
     private State state;
 
     public void setState(State state) {
-        this.state = state;
+        if (!state.equals(this.state)) {
+            this.state = state;
+            setChanged();
+            notifyObservers();
+        }
+    }
+
+    @Override
+    public State getState() {
+        return state;
     }
 
     @Override
@@ -44,11 +53,16 @@ public class TeamAdapter implements com.elgassia.bridge.adapter.TeamAdapter, Obs
         for (int i = 0; i < players.length; ++i) {
             player_team_models[i] = new UserTeamModel(players[i], team_model);
         }
+
+        setState(State.LOBBY);
+        team_model.addObserver(this);
     }
 
     @Override
     public void nextPlayer() {
         active_player = (active_player + 1) % players.length;
+        setChanged();
+        notifyObservers();
     }
 
     @Override

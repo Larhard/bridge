@@ -16,7 +16,10 @@ public class MainAdapter extends com.elgassia.bridge.adapter.Adapter {
 
     @Override
     public void update(Observable observable, Object o) {
-
+        if (observable == team_adapter) {
+            setChanged();
+            notifyObservers();
+        }
     }
 
     @Override
