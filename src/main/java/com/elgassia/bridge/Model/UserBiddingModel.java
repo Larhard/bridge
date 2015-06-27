@@ -17,11 +17,11 @@ public class UserBiddingModel extends Observable implements Observer {
         this.userDeck=biddingModel.getPlayerCards(userID);
         biddingModel.addObserver(this);
     }
-    List<Card> getMyDeck()
+    public List<Card> getMyDeck()
     {
         return userDeck;
     }
-    boolean bid(Bid bid)
+    public boolean bid(Bid bid)
     {
         if(biddingModel.bid(bid,userID))
         {
@@ -31,11 +31,11 @@ public class UserBiddingModel extends Observable implements Observer {
         }
         return false;
     }
-    List<Bid> getBiddingHistory()
+    public List<Bid> getBiddingHistory()
     {
         return biddingModel.getBiddingHistory();
     }
-    String getCurrentPlayer()
+    public String getCurrentPlayer()
     {
         return biddingModel.getCurrentPlayer();
     }

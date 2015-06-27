@@ -36,6 +36,8 @@ public class TeamScene extends Scene implements Observer {
                 System.out.println("Player: " + view.getAdapter().getTeamAdapter().getName());
                 break;
             case BIDDING:
+                commands.add("next", new NextPlayer(view.getAdapter().getTeamAdapter()));
+                commands.add("bid", new Bid(view.getAdapter().getTeamAdapter().getBiddingAdapter()));
                 break;
             case GAME:
                 break;
