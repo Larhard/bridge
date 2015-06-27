@@ -1,6 +1,7 @@
 package com.elgassia.bridge.Model;
 
 import com.elgassia.bridge.exception.BridgeLogicException;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.mockito.Matchers.any;
@@ -12,8 +13,14 @@ import static org.mockito.Mockito.when;
 
 public class UserGameModelWithMockGameModelTest {
 
-    GameModel gameModel=mock(GameModel.class);
-    UserGameModel userGameModel=new UserGameModel(0,gameModel);
+    GameModel gameModel;
+    UserGameModel userGameModel;
+    @Before
+    public void setUp()
+    {
+        gameModel=mock(GameModel.class);
+        userGameModel=new UserGameModel(0,gameModel);
+    }
     @Test
     public void testPlayCard() throws Exception {
         when(gameModel.playCard(anyInt(),any(Card.class))).thenReturn(true).thenThrow(new BridgeLogicException());

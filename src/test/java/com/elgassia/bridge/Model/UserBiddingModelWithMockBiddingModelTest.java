@@ -1,7 +1,10 @@
 package com.elgassia.bridge.Model;
 
 import com.elgassia.bridge.exception.BridgeLogicException;
+import org.junit.Before;
 import org.junit.Test;
+
+import java.util.LinkedList;
 
 import static junit.framework.Assert.assertTrue;
 import static org.mockito.Matchers.any;
@@ -10,9 +13,15 @@ import static org.mockito.Mockito.*;
 
 public class UserBiddingModelWithMockBiddingModelTest {
 
-    BiddingModel biddingModel=mock(BiddingModel.class);
-    UserBiddingModel userBiddingModel=new UserBiddingModel(0,biddingModel);
-
+    BiddingModel biddingModel;
+    UserBiddingModel userBiddingModel;
+    @Before
+    public void setUp()
+    {
+        biddingModel=mock(BiddingModel.class);
+        when(biddingModel.getPlayerCards(0)).thenReturn(new LinkedList<Card>());
+        userBiddingModel=new UserBiddingModel(0,biddingModel);
+    }
     @Test
     public void testBid() throws Exception {
         when(biddingModel.bid(any(Bid.class),anyInt())).thenReturn(true).thenThrow(new BridgeLogicException());

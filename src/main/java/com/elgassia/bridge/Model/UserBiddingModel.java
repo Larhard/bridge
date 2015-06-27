@@ -40,6 +40,9 @@ public class UserBiddingModel extends Observable implements Observer {
     {
         return biddingModel.getCurrentPlayer();
     }
+    public int getCurrentPlayerID(){
+        return biddingModel.getCurrentPlayerID();
+    }
 
     @Override
     public void update(Observable o, Object arg) {

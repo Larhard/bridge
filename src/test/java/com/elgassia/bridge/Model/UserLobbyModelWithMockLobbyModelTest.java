@@ -1,6 +1,7 @@
 package com.elgassia.bridge.Model;
 
 import com.elgassia.bridge.exception.BridgeLogicException;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
@@ -10,12 +11,20 @@ import static org.mockito.Mockito.*;
 
 public class UserLobbyModelWithMockLobbyModelTest {
 
-    LobbyModel lobbyModel= mock(LobbyModel.class);
-    UserLobbyModel userLobbyModel1=new UserLobbyModel(0,lobbyModel);
-    UserLobbyModel userLobbyModel2=new UserLobbyModel(1,lobbyModel);
-    UserLobbyModel userLobbyModel3=new UserLobbyModel(2,lobbyModel);
-    UserLobbyModel userLobbyModel4=new UserLobbyModel(3,lobbyModel);
-
+    LobbyModel lobbyModel;
+    UserLobbyModel userLobbyModel1;
+    UserLobbyModel userLobbyModel2;
+    UserLobbyModel userLobbyModel3;
+    UserLobbyModel userLobbyModel4;
+    @Before
+    public void setUp()
+    {
+        lobbyModel= mock(LobbyModel.class);
+        userLobbyModel1=new UserLobbyModel(0,lobbyModel);
+        userLobbyModel2=new UserLobbyModel(1,lobbyModel);
+        userLobbyModel3=new UserLobbyModel(2,lobbyModel);
+        userLobbyModel4=new UserLobbyModel(3,lobbyModel);
+    }
     @Test
     public void testSetName() throws Exception {
         when(lobbyModel.setName(anyInt(),anyString())).thenReturn(true).thenReturn(true).thenReturn(true).thenReturn(true);

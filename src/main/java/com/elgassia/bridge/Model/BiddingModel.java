@@ -22,6 +22,9 @@ public class BiddingModel extends Observable implements Serializable{
         this.currentPlayer=new Random().nextInt(4);
         this.playerOrder=teamModel.getPlayerOrder();
     }
+    int getCurrentPlayerID(){
+        return playerOrder[currentPlayer];
+    }
     String getCurrentPlayer(){
         return teamModel.getPlayerName(playerOrder[currentPlayer]);
     }
