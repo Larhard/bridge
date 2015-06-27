@@ -2,12 +2,13 @@ package com.elgassia.bridge.Model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Observable;
 import java.util.Random;
 
 /**
  * Created by vereena on 6/19/15.
  */
-public class BiddingModel {
+public class BiddingModel extends Observable{
     private TeamModel teamModel;
     private int currentPlayer;
     private List<Bid> biddingHistory=new ArrayList<>();
@@ -55,11 +56,15 @@ public class BiddingModel {
             if(lastCard==null)
             {
                 addBid(bid);
+                setChanged();
+                notifyObservers();
                 return true;
             }
             if(bid.compareTo(lastCard)>0)
             {
                 addBid(bid);
+                setChanged();
+                notifyObservers();
                 return true;
             }
             else
@@ -73,6 +78,8 @@ public class BiddingModel {
                 if(biddingHistory.get(biddingHistory.size()-1).getType()==BidType.CARD)
                 {
                     addBid(bid);
+                    setChanged();
+                    notifyObservers();
                     return true;
                 }
             }
@@ -83,6 +90,8 @@ public class BiddingModel {
                         && biddingHistory.get(biddingHistory.size()-2).getType()!=BidType.CONTRA)
                 {
                     addBid(bid);
+                    setChanged();
+                    notifyObservers();
                     return true;
                 }
             }
@@ -96,6 +105,8 @@ public class BiddingModel {
                 if(biddingHistory.get(biddingHistory.size()-1).getType()==BidType.CONTRA)
                 {
                     addBid(bid);
+                    setChanged();
+                    notifyObservers();
                     return true;
                 }
             }
@@ -106,6 +117,8 @@ public class BiddingModel {
                         && biddingHistory.get(biddingHistory.size()-2).getType()!=BidType.RECONTRA)
                 {
                     addBid(bid);
+                    setChanged();
+                    notifyObservers();
                     return true;
                 }
             }
@@ -124,6 +137,8 @@ public class BiddingModel {
                     if(biddingHistory.get(biddingHistory.size()-4).getType()==BidType.PASS)
                     {
                         teamModel.changeGameState('B');
+                        setChanged();
+                        notifyObservers();
                         return true;
                     }
                     //there is a winner
@@ -145,6 +160,8 @@ public class BiddingModel {
                             }
                         }
                         teamModel.changeGameState('G');
+                        setChanged();
+                        notifyObservers();
                         return true;
                     }
                 }
