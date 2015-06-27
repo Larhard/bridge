@@ -24,4 +24,12 @@ public class UserGameModel {
     {
         return gameModel.getUserDeck(userID);
     }
+    Card[] getTurnHistory()
+    {
+        return gameModel.getTurnHistory();
+    }
+    String whoStartedTurn()
+    {
+        return gameModel.whoStartedTurn();
+    }
 }

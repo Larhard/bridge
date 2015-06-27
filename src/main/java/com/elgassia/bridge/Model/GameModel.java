@@ -36,7 +36,7 @@ public class GameModel {
     private void checkWhoWinTurn()
     {
         //check for the winner - if playingTeam wins winnerWins++
-        //for the next turn (if its not 13) whoStartedTurn is the winner
+        //for the next turn (if its not 13) whoStartedTurn and currentPlayer is the winner
     }
     private void changePlayer()
     {
@@ -53,6 +53,9 @@ public class GameModel {
             if(turnCount==13)
             {
                 //Game Over
+                //teamModel.setGameWinner(whoWinsTheGame)
+                //teamModel.setHowManyTurnsPlayingTeamWin(winnerWins)
+                //teamModel.setGameHistory(cardsInTurn,whoStartedTurn)
                 teamModel.changeGameState('O');
             }
         }
@@ -121,5 +124,13 @@ public class GameModel {
     List<Card> getUserDeck(int user)
     {
         return teamModel.getPlayerCards(user);
+    }
+    Card[] getTurnHistory()
+    {
+        return cardsInTurn[turnCount];
+    }
+    String whoStartedTurn()
+    {
+        return teamModel.getPlayerName(playerOrder[whoStartedTurn[turnCount]]);
     }
 }
