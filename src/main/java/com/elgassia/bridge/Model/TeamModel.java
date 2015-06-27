@@ -248,6 +248,9 @@ public class TeamModel extends Observable implements Serializable{
     {
         return whoStartedTurn;
     }
+    Memento saveToMemento() throws IOException {
+        return new Memento(this);
+    }
     public static class Memento {
         byte [] teamModel;
         Memento(TeamModel teamModel)throws IOException
