@@ -94,7 +94,7 @@ public class TeamModel extends Observable{
     }
     boolean setTeam(int user,int team) throws BridgeLogicException
     {
-        if(team>2)
+        if(team>1 || team<0)
             throw new BridgeLogicException("Invalid team number");
         if(playerTeam[user]==team)
             return true;
