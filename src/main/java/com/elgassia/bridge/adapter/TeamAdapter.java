@@ -19,5 +19,7 @@ abstract public class TeamAdapter extends Observable {
 
     public abstract LobbyAdapter getLobbyAdapter();
 
+    public abstract BiddingAdapter getBiddingAdapter();
+
     public abstract UserTeamModel[] getUserTeamModels();
 }

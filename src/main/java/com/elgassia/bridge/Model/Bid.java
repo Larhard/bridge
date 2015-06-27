@@ -20,14 +20,14 @@ public class Bid implements Comparable<Bid>{
         return color;
     }
 
-    Bid(BidType type) {
+    public Bid(BidType type) {
         this.type = type;
         if (this.type == BidType.CARD) {
             throw new IllegalArgumentException();
         }
     }
 
-    Bid(BidType type, Integer count, Color color) {
+    public Bid(BidType type, Integer count, Color color) {
         this.type = type;
         if (this.type == BidType.CARD) {
             this.count = count;
