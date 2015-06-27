@@ -41,6 +41,7 @@ public class UserGameModel extends Observable implements Observer{
     {
         return gameModel.whoStartedTurn();
     }
+    int getCurrentPlayerID(){ return  gameModel.getCurrentPlayerID();}
 
     @Override
     public void update(Observable o, Object arg) {

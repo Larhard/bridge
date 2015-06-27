@@ -180,4 +180,7 @@ public class GameModel extends Observable implements Serializable{
     {
         return teamModel.getPlayerName(playerOrder[whoStartedTurn[turnCount]]);
     }
+    int getCurrentPlayerID(){
+        return playerOrder[currentPlayer];
+    }
 }
