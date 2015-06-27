@@ -52,11 +52,21 @@ public class Bid implements Comparable<Bid>{
         if(obj.getClass().equals(Bid.class))
         {
             Bid x=(Bid)obj;
-            if(!x.getCount().equals(this.getCount()))
+            if(x.getCount()==null)
+            {
+                if(this.getCount()!=null)
+                    return false;
+            }
+            else if(!x.getCount().equals(this.getCount()))
                 return false;
             if(!x.getType().equals(this.getType()))
                 return false;
-            if(!x.getColor().equals(this.getColor()))
+            if(x.getColor()==null)
+            {
+                if(this.getColor()!=null)
+                    return false;
+            }
+            else if(!x.getColor().equals(this.getColor()))
                 return false;
             return true;
         }

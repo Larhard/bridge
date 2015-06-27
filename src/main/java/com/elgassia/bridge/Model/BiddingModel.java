@@ -150,7 +150,7 @@ public class BiddingModel extends Observable implements Serializable{
                     else
                     {
                         int curr=currentPlayer;
-                        for(int i=biddingHistory.size()-2;i>=0;i--)
+                        for(int i=biddingHistory.size()-1;i>=0;i--)
                         {
                             curr--;
                             if(curr<0)
