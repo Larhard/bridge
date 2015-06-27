@@ -2,13 +2,14 @@ package com.elgassia.bridge.Model;
 
 import com.elgassia.bridge.exception.BridgeLogicException;
 
+import java.io.Serializable;
 import java.util.Observable;
 import java.util.Random;
 
 /**
  * Created by vereena on 6/19/15.
  */
-public class LobbyModel extends Observable{
+public class LobbyModel extends Observable implements Serializable{
     private TeamModel teamModel;
     private boolean readyUsers[]=new boolean[4];
     LobbyModel(TeamModel teamModel)

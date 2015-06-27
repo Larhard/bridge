@@ -2,13 +2,14 @@ package com.elgassia.bridge.Model;
 
 import com.elgassia.bridge.exception.BridgeLogicException;
 
+import java.io.*;
 import java.util.List;
 import java.util.Observable;
 
 /**
  * Created by vereena on 6/19/15.
  */
-public class TeamModel extends Observable{
+public class TeamModel extends Observable implements Serializable{
     private char state;
     private String players[]=new String[4];
     private int playerTeam[]=new int[4];
@@ -246,5 +247,56 @@ public class TeamModel extends Observable{
     int[] getWhoStartedTurn()
     {
         return whoStartedTurn;
+    }
+    public static class Memento {
+        byte [] teamModel;
+        Memento(TeamModel teamModel)throws IOException
+        {
+                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                ObjectOutput objectOutput = null;
+            try {
+                objectOutput = new ObjectOutputStream(byteArrayOutputStream);
+                objectOutput.writeObject(teamModel);
+                this.teamModel = byteArrayOutputStream.toByteArray();
+            }
+            finally {
+                if (objectOutput != null) {
+                    try {
+                        objectOutput.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    byteArrayOutputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        TeamModel restore() throws IOException,ClassNotFoundException{
+            ByteArrayInputStream byteArrayInputStream=new ByteArrayInputStream(this.teamModel);
+            ObjectInput objectInput=null;
+            TeamModel teamModel1=null;
+            try {
+                objectInput = new ObjectInputStream(byteArrayInputStream);
+                teamModel1 = (TeamModel) objectInput.readObject();
+            }
+            finally {
+                if(objectInput!=null) {
+                    try {
+                        objectInput.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    byteArrayInputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            return teamModel1;
+        }
     }
 }
