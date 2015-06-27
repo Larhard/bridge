@@ -1,9 +1,10 @@
 package com.elgassia.bridge.view.tui.commands.team.bidding;
 
 import com.elgassia.bridge.Model.BidType;
+import com.elgassia.bridge.Model.Color;
+import com.elgassia.bridge.adapter.BiddingAdapter;
 import com.elgassia.bridge.exception.BridgeLogicException;
 import com.elgassia.bridge.utils.Colors;
-import com.elgassia.bridge.adapter.BiddingAdapter;
 import com.elgassia.bridge.view.tui.Command;
 
 public class Bid extends Command {
@@ -30,8 +31,14 @@ public class Bid extends Command {
                 }
             } else if (args.length == 3) {
                 Integer count = Integer.parseInt(args[1]);
-                String color = args[2];
-                biddingAdapter.bid(new com.elgassia.bridge.Model.Bid(BidType.CARD, count, Colors.fromString(color)));
+
+                Color color = Colors.fromString(args[2]);
+                if (color == null) {
+                    System.out.println("invalid color");
+                    return;
+                }
+
+                biddingAdapter.bid(new com.elgassia.bridge.Model.Bid(BidType.CARD, count, color));
                 return;
             }
             usage();
