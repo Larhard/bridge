@@ -106,11 +106,11 @@ public class TeamModel extends Observable implements Serializable{
         }
         throw new BridgeLogicException("You can't be in a team which already has two players");
     }
-    int getUserTeam(int user)
+    public int getUserTeam(int user)
     {
         return playerTeam[user];
     }
-    String getPlayerName(int user)
+    public String getPlayerName(int user)
     {
         return players[user];
     }

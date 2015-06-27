@@ -17,6 +17,12 @@ abstract public class TeamAdapter extends Observable {
 
     public abstract String getName();
 
+    public abstract String getPlayerName(int player);
+
+    public abstract int getPlayerTeam(int player);
+
+    public abstract int[] getPlayersOrder();
+
     public abstract LobbyAdapter getLobbyAdapter();
 
     public abstract BiddingAdapter getBiddingAdapter();

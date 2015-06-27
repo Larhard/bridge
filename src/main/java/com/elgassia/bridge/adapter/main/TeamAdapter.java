@@ -84,6 +84,21 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
     }
 
     @Override
+    public String getPlayerName(int player) {
+        return team_model.getPlayerName(player);
+    }
+
+    @Override
+    public int getPlayerTeam(int player) {
+        return team_model.getUserTeam(player);
+    }
+
+    @Override
+    public int[] getPlayersOrder() {
+        return team_model.getPlayerOrder();
+    }
+
+    @Override
     public LobbyAdapter getLobbyAdapter() {
         return lobby_adapter;
     }
