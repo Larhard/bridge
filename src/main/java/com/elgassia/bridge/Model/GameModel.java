@@ -1,5 +1,7 @@
 package com.elgassia.bridge.Model;
 
+import com.elgassia.bridge.exception.BridgeLogicException;
+
 import java.io.Serializable;
 import java.util.List;
 import java.util.Observable;
@@ -101,12 +103,11 @@ public class GameModel extends Observable implements Serializable{
             }
         }
     }
-    private boolean tryToPlay(Card card)
-    {
+    private boolean tryToPlay(Card card) throws BridgeLogicException {
         //check if currentPlayer has that Card
         //if not return false
         if(!teamModel.checkForCard(playerOrder[currentPlayer],card))
-            return false;
+            throw new BridgeLogicException("You can't play with card you don't have");
 
         //check if he is first player
         //if he is - play that Card, changePlayer() and return true
@@ -144,11 +145,10 @@ public class GameModel extends Observable implements Serializable{
             return true;
         }
 
-        return false;
+        throw new BridgeLogicException("You can't play with card of different color than first player if you have cards in remaining color");
         //return false
     }
-    boolean playCard(int user,Card card)
-    {
+    boolean playCard(int user,Card card) throws BridgeLogicException {
         //check if its our turn
         if(currentPlayer==grandpa)
         {
@@ -158,10 +158,10 @@ public class GameModel extends Observable implements Serializable{
                 return tryToPlay(card);
             }
             else
-                return false;
+                throw new BridgeLogicException("This is not your turn");
         }
         if(user!=playerOrder[currentPlayer])
-            return false;
+            throw new BridgeLogicException("This is not your turn");
         return tryToPlay(card);
     }
     List<Card> getGrandpasDeck()
