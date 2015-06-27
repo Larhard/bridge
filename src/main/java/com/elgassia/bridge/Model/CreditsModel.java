@@ -7,6 +7,7 @@ import java.util.List;
  * Created by vereena on 6/19/15.
  */
 public class CreditsModel {
+
     public List<String> getCredits()
     {
         ArrayList<String>creditsList=new ArrayList<>();

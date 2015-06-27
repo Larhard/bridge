@@ -1,11 +1,12 @@
 package com.elgassia.bridge.Model;
 
 import java.util.List;
+import java.util.Observable;
 
 /**
  * Created by vereena on 6/19/15.
  */
-public class GameModel {
+public class GameModel extends Observable{
     private TeamModel teamModel;
     private int [] playerOrder;
     private int [] whoStartedTurn=new int[13];
@@ -113,6 +114,8 @@ public class GameModel {
             teamModel.deleteCard(playerOrder[currentPlayer],card);
             cardsInTurn[turnCount][playerCount]=card;
             changePlayer();
+            setChanged();
+            notifyObservers();
             return true;
         }
 
@@ -123,6 +126,8 @@ public class GameModel {
             teamModel.deleteCard(playerOrder[currentPlayer],card);
             cardsInTurn[turnCount][playerCount]=card;
             changePlayer();
+            setChanged();
+            notifyObservers();
             return true;
         }
 
@@ -133,6 +138,8 @@ public class GameModel {
             teamModel.deleteCard(playerOrder[currentPlayer],card);
             cardsInTurn[turnCount][playerCount]=card;
             changePlayer();
+            setChanged();
+            notifyObservers();
             return true;
         }
 
