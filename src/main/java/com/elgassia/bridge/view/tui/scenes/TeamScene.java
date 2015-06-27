@@ -23,6 +23,8 @@ public class TeamScene extends Scene implements Observer {
         this.commands = commands;
         this.view = view;
 
+        commands.clear();
+
         super.prepareCommands(commands, view);
         switch (view.getAdapter().getTeamAdapter().getState()) {
             case LOBBY:
