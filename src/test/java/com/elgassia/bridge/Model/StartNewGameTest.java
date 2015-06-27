@@ -1,8 +1,11 @@
 package com.elgassia.bridge.Model;
 
-import junit.framework.TestCase;
+import org.junit.Test;
 
-public class StartNewGameTest extends TestCase {
+import static org.junit.Assert.assertEquals;
+
+public class StartNewGameTest {
+    @Test
     public void testReadyOnUserLobbyModels() throws Exception {
         TeamModel teamModel = new TeamModel();
 

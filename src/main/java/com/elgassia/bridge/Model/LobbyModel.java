@@ -41,9 +41,9 @@ public class LobbyModel extends Observable implements Serializable{
     }
     boolean randomTeam(int user) throws BridgeLogicException {
         if(readyUsers[user]==false) {
-            int team = new Random().nextInt(2);
             while (true)
             {
+                int team = new Random().nextInt(2);
                 try {
                     setTeam(user,team);
                 }catch (BridgeLogicException e)
