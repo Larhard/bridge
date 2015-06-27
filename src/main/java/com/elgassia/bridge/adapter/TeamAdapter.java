@@ -4,16 +4,20 @@ import com.elgassia.bridge.Model.TeamModel;
 import com.elgassia.bridge.Model.UserTeamModel;
 import com.elgassia.bridge.adapter.main.MainAdapter;
 
-public interface TeamAdapter {
-    void init(MainAdapter main_adapter, TeamModel team_model);
+import java.util.Observable;
 
-    void nextPlayer();
+abstract public class TeamAdapter extends Observable {
+    public abstract com.elgassia.bridge.adapter.main.TeamAdapter.State getState();
 
-    UserTeamModel getUserTeamModel();
+    public abstract void init(MainAdapter main_adapter, TeamModel team_model);
 
-    String getName();
+    public abstract void nextPlayer();
 
-    LobbyAdapter getLobbyAdapter();
+    public abstract UserTeamModel getUserTeamModel();
 
-    UserTeamModel[] getUserTeamModels();
+    public abstract String getName();
+
+    public abstract LobbyAdapter getLobbyAdapter();
+
+    public abstract UserTeamModel[] getUserTeamModels();
 }

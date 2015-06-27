@@ -16,7 +16,10 @@ public class MainAdapter extends com.elgassia.bridge.adapter.Adapter {
 
     @Override
     public void update(Observable observable, Object o) {
-
+        if (observable == team_adapter) {
+            setChanged();
+            notifyObservers();
+        }
     }
 
     @Override
@@ -30,7 +33,7 @@ public class MainAdapter extends com.elgassia.bridge.adapter.Adapter {
         team_adapter = new TeamAdapter();
         team_adapter.init(this, main_model.newGame());
 
-        setState(State.LOBBY);
+        setState(State.TEAM);
     }
 
     @Override

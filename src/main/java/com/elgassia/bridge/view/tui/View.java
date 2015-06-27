@@ -1,7 +1,7 @@
 package com.elgassia.bridge.view.tui;
 
 import com.elgassia.bridge.adapter.Adapter;
-import com.elgassia.bridge.view.tui.scenes.LobbyScene;
+import com.elgassia.bridge.view.tui.scenes.TeamScene;
 import com.elgassia.bridge.view.tui.scenes.MainScene;
 
 import java.util.EnumMap;
@@ -53,7 +53,7 @@ public class View implements com.elgassia.bridge.view.View {
     @Override
     public void init(Adapter adapter) {
         state_map.put(Adapter.State.MAIN_MENU, MainScene.class);
-        state_map.put(Adapter.State.LOBBY, LobbyScene.class);
+        state_map.put(Adapter.State.TEAM, TeamScene.class);
 
         this.adapter = adapter;
         adapter.addObserver(this);
