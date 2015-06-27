@@ -1,5 +1,7 @@
 package com.elgassia.bridge.Model;
 
+import com.elgassia.bridge.exception.BridgeLogicException;
+
 import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
@@ -21,8 +23,7 @@ public class UserBiddingModel extends Observable implements Observer {
     {
         return userDeck;
     }
-    public boolean bid(Bid bid)
-    {
+    public boolean bid(Bid bid) throws BridgeLogicException {
         if(biddingModel.bid(bid,userID))
         {
             setChanged();
