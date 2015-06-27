@@ -2,10 +2,13 @@ package com.elgassia.bridge.Model;
 
 import com.elgassia.bridge.exception.BridgeLogicException;
 
+import java.util.Observable;
+import java.util.Observer;
+
 /**
  * Created by vereena on 6/19/15.
  */
-public class UserLobbyModel {
+public class UserLobbyModel extends Observable implements Observer{
     private int userID;
     private LobbyModel lobbyModel;
     UserLobbyModel(int userID,LobbyModel lobbyModel) {
@@ -14,20 +17,52 @@ public class UserLobbyModel {
     }
     public boolean setName(String name)
     {
-        return lobbyModel.setName(userID,name);
+        if(lobbyModel.setName(userID,name))
+        {
+            setChanged();
+            notifyObservers();
+            return true;
+        }
+        return false;
     }
     public boolean setTeam(int team) throws BridgeLogicException {
-        return lobbyModel.setTeam(userID,team);
+        if(lobbyModel.setTeam(userID,team))
+        {
+            setChanged();
+            notifyObservers();
+            return true;
+        }
+        return false;
     }
     public boolean randomTeam(){
-        return lobbyModel.randomTeam(userID);
+        if(lobbyModel.randomTeam(userID))
+        {
+            setChanged();
+            notifyObservers();
+            return true;
+        }
+        return false;
     }
     public boolean ready()
     {
-        return lobbyModel.ready(userID);
+        if(lobbyModel.ready(userID))
+        {
+            setChanged();
+            notifyObservers();
+            return true;
+        }
+        return false;
     }
     void chooseDeckStrategy(Strategy strategy)
     {
         lobbyModel.chooseDeckStrategy(strategy);
+        setChanged();
+        notifyObservers();
+    }
+
+    @Override
+    public void update(Observable o, Object arg) {
+        setChanged();
+        notifyObservers();
     }
 }
