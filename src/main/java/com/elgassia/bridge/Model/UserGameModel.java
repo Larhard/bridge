@@ -1,5 +1,7 @@
 package com.elgassia.bridge.Model;
 
+import com.elgassia.bridge.exception.BridgeLogicException;
+
 import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
@@ -14,8 +16,7 @@ public class UserGameModel extends Observable implements Observer{
         this.userID = userID;
         this.gameModel=gameModel;
     }
-    boolean playCard(Card card)
-    {
+    boolean playCard(Card card) throws BridgeLogicException {
         if(gameModel.playCard(userID,card))
         {
             setChanged();
