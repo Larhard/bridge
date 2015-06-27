@@ -1,12 +1,16 @@
 package com.elgassia.bridge.Model;
 
-public class UserTeamModel {
+import java.util.Observable;
+import java.util.Observer;
+
+public class UserTeamModel extends Observable implements Observer{
     private final TeamModel teamModel;
     private final int userID;
 
     public UserTeamModel(int userID, TeamModel teamModel) {
         this.userID = userID;
         this.teamModel = teamModel;
+        teamModel.addObserver(this);
     }
 
     public UserLobbyModel getUserLobbyModel()
@@ -25,5 +29,11 @@ public class UserTeamModel {
 
     public String getPlayerName() {
         return teamModel.getPlayerName(userID);
+    }
+
+    @Override
+    public void update(Observable o, Object arg) {
+        setChanged();
+        notifyObservers();
     }
 }
