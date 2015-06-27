@@ -37,4 +37,28 @@ public class UserBiddingModelWithMockBiddingModelTest {
         }
         assertTrue("bid method with exception from BiddingModel failed",x);
     }
+    @Test
+    public void testGetMyDeck() throws Exception
+    {
+        userBiddingModel.getMyDeck();
+        verify(biddingModel,times(1)).getPlayerCards(0);
+    }
+    @Test
+    public void testGetBiddingHistory() throws Exception
+    {
+        userBiddingModel.getBiddingHistory();
+        verify(biddingModel,times(1)).getBiddingHistory();
+    }
+    @Test
+    public void testCurrentPlayer() throws Exception
+    {
+        userBiddingModel.getCurrentPlayer();
+        verify(biddingModel,times(1)).getCurrentPlayer();
+    }
+    @Test
+    public void testCurrentPlayerID() throws Exception
+    {
+        userBiddingModel.getCurrentPlayerID();
+        verify(biddingModel,times(1)).getCurrentPlayerID();
+    }
 }

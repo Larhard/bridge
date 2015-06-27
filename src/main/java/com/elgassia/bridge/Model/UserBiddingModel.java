@@ -12,16 +12,14 @@ import java.util.Observer;
 public class UserBiddingModel extends Observable implements Observer {
     private int userID;
     private BiddingModel biddingModel;
-    private List<Card> userDeck;
     UserBiddingModel(int userID,BiddingModel biddingModel) {
         this.userID = userID;
         this.biddingModel=biddingModel;
-        this.userDeck=biddingModel.getPlayerCards(userID);
         biddingModel.addObserver(this);
     }
     public List<Card> getMyDeck()
     {
-        return userDeck;
+        return biddingModel.getPlayerCards(userID);
     }
     public boolean bid(Bid bid) throws BridgeLogicException {
         if(biddingModel.bid(bid,userID))

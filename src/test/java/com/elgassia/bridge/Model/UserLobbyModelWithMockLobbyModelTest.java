@@ -97,4 +97,10 @@ public class UserLobbyModelWithMockLobbyModelTest {
         }
         assertTrue("ready when LobbyModel throws exception failed",x);
     }
+    @Test
+    public void testCheckDeckStrategy() throws Exception
+    {
+        userLobbyModel1.chooseDeckStrategy(new RandomStrategy());
+        verify(lobbyModel, times(1)).chooseDeckStrategy(any(RandomStrategy.class));
+    }
 }

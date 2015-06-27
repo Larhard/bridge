@@ -4,12 +4,10 @@ import com.elgassia.bridge.exception.BridgeLogicException;
 import org.junit.Before;
 import org.junit.Test;
 
+import static junit.framework.Assert.assertTrue;
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyInt;
-import static org.mockito.Mockito.mock;
-import static junit.framework.Assert.assertTrue;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 public class UserGameModelWithMockGameModelTest {
 
@@ -34,5 +32,34 @@ public class UserGameModelWithMockGameModelTest {
             x=true;
         }
         assertTrue("playCard method failed when received exception from gameModel",x);
+    }
+    @Test
+    public void testGetGranpasDeck() throws Exception
+    {
+        userGameModel.getGranpasDeck();
+        verify(gameModel,times(1)).getGrandpasDeck();
+    }
+    @Test
+    public void testGetMyDeck() throws Exception
+    {
+        userGameModel.getMyDeck();
+        verify(gameModel,times(1)).getUserDeck(0);
+    }
+    @Test
+    public void testGetTurnHistory() throws Exception
+    {
+        userGameModel.getTurnHistory();
+        verify(gameModel,times(1)).getTurnHistory();
+    }
+    @Test
+    public void testWhoStartedTurn()
+    {
+        userGameModel.whoStartedTurn();
+        verify(gameModel,times(1)).whoStartedTurn();
+    }
+    @Test
+    public void testGetCurrentPlayerID(){
+        userGameModel.getCurrentPlayerID();
+        verify(gameModel,times(1)).getCurrentPlayerID();
     }
 }
