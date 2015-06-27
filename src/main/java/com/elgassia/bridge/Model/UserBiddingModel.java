@@ -6,9 +6,6 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 
-/**
- * Created by vereena on 6/20/15.
- */
 public class UserBiddingModel extends Observable implements Observer {
     private int userID;
     private BiddingModel biddingModel;

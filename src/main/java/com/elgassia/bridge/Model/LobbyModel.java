@@ -6,9 +6,6 @@ import java.io.Serializable;
 import java.util.Observable;
 import java.util.Random;
 
-/**
- * Created by vereena on 6/19/15.
- */
 public class LobbyModel extends Observable implements Serializable{
     private TeamModel teamModel;
     private boolean readyUsers[]=new boolean[4];
@@ -19,7 +16,7 @@ public class LobbyModel extends Observable implements Serializable{
         this.teamModel=teamModel;
     }
     boolean setName(int user,String name) throws BridgeLogicException {
-        if(readyUsers[user]==false) {
+        if(!readyUsers[user]) {
             teamModel.setName(user, name);
             setChanged();
             notifyObservers();
@@ -28,7 +25,7 @@ public class LobbyModel extends Observable implements Serializable{
         throw new BridgeLogicException("You can't change your name when you said you're ready");
     }
     boolean setTeam(int user,int team) throws BridgeLogicException {
-        if(readyUsers[user]==false) {
+        if(!readyUsers[user]) {
             if(teamModel.setTeam(user, team))
             {
                 setChanged();
@@ -40,7 +37,7 @@ public class LobbyModel extends Observable implements Serializable{
         throw new BridgeLogicException("You can't change your team when you said you're ready");
     }
     boolean randomTeam(int user) throws BridgeLogicException {
-        if(readyUsers[user]==false) {
+        if(!readyUsers[user]) {
             while (true)
             {
                 int team = new Random().nextInt(2);
@@ -64,7 +61,7 @@ public class LobbyModel extends Observable implements Serializable{
         readyUsers[user]=true;
         for(int i=0;i<4;i++)
         {
-            if(readyUsers[i]==false) {
+            if(!readyUsers[i]) {
                 setChanged();
                 notifyObservers();
                 return true;

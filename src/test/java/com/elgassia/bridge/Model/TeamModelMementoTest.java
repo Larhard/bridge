@@ -6,6 +6,7 @@ import java.io.IOException;
 
 public class TeamModelMementoTest {
     @Test
+    @SuppressWarnings("UnusedAssignment")
     public void testMemento() throws IOException, ClassNotFoundException {
         TeamModel x=new TeamModel();
         TeamModel.Memento memento=new TeamModel.Memento(x);

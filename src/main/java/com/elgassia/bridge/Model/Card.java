@@ -1,15 +1,12 @@
 package com.elgassia.bridge.Model;
 
-/**
- * Created by vereena on 6/20/15.
- */
 public class Card implements Comparable<Card> {
 
-    public static enum Rank {
-        TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE;
+    public enum Rank {
+        TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE
     }
-    public static enum Suit {
-        SPADES, HEARTS, DIAMONDS, CLUBS;
+    public enum Suit {
+        SPADES, HEARTS, DIAMONDS, CLUBS
     }
     private Rank rank;
     private Suit suit;

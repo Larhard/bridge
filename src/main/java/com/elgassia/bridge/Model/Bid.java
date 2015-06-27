@@ -1,8 +1,7 @@
 package com.elgassia.bridge.Model;
 
-/**
- * Created by vereena on 6/20/15.
- */
+import java.util.Objects;
+
 public class Bid implements Comparable<Bid>{
     private BidType type;
     private Integer count;
@@ -41,7 +40,7 @@ public class Bid implements Comparable<Bid>{
             return -1;
         if(this.type==BidType.CARD && o.getType()==BidType.CARD)
         {
-            if(this.count!=o.getCount())
+            if(!Objects.equals(this.count, o.getCount()))
                 return this.count.compareTo(o.getCount());
             else if(this.color!=o.getColor())
                 return this.color.compareTo(o.getColor());

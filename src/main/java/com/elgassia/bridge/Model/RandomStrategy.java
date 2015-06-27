@@ -4,12 +4,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Created by vereena on 6/26/15.
- */
 public class RandomStrategy implements Strategy {
     @Override
     public List<Card>[] getCards() {
+        @SuppressWarnings("unchecked")
         List<Card>[] cardLists = new List[4];
         cardLists[0]=new LinkedList<>();
         cardLists[1]=new LinkedList<>();

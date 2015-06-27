@@ -1,7 +1,5 @@
 package com.elgassia.bridge.view.tui.commands.team;
 
-import com.elgassia.bridge.adapter.Adapter;
-import com.elgassia.bridge.adapter.main.TeamAdapter;
 import com.elgassia.bridge.view.tui.Command;
 
 public class NextPlayer extends Command {
