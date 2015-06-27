@@ -33,4 +33,18 @@ public class Card implements Comparable<Card> {
             return this.suit.compareTo(o.getSuit());
         return this.rank.compareTo(o.getRank());
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj.getClass().equals(Card.class))
+        {
+            Card x=(Card)obj;
+            if(!this.rank.equals(x.getRank()))
+                return false;
+            if(!this.suit.equals(x.getSuit()))
+                return false;
+            return true;
+        }
+        return false;
+    }
 }
