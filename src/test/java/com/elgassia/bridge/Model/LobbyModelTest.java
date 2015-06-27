@@ -1,17 +1,20 @@
 package com.elgassia.bridge.Model;
 
 import com.elgassia.bridge.exception.BridgeLogicException;
-import junit.framework.TestCase;
+import org.junit.Before;
+import org.junit.Test;
 
-public class LobbyModelTest extends TestCase {
+import static org.junit.Assert.*;
+
+public class LobbyModelTest {
     TeamModel teamModel;
     LobbyModel lobbyModel;
     UserLobbyModel userLobbyModel1;
     UserLobbyModel userLobbyModel2;
     UserLobbyModel userLobbyModel3;
     UserLobbyModel userLobbyModel4;
-    @Override
-    protected void setUp() throws Exception {
+    @Before
+    public void setUp() throws Exception {
         teamModel=new TeamModel();
         lobbyModel=new LobbyModel(teamModel);
         userLobbyModel1=new UserLobbyModel(0,lobbyModel);
@@ -19,6 +22,7 @@ public class LobbyModelTest extends TestCase {
         userLobbyModel3=new UserLobbyModel(2,lobbyModel);
         userLobbyModel4=new UserLobbyModel(3,lobbyModel);
     }
+    @Test
     public void testSetName() throws BridgeLogicException {
         assertTrue(userLobbyModel1.setName("Ala"));
         assertTrue(userLobbyModel2.setName("Ma"));
@@ -39,6 +43,7 @@ public class LobbyModelTest extends TestCase {
             assertTrue("User setTeam failed",false);
         }
         try {
+            
             assertTrue(userLobbyModel2.setTeam(0));
             assertEquals(teamModel.getUserTeam(1),0);
         }

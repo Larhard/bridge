@@ -1,10 +1,11 @@
 package com.elgassia.bridge.Model;
 
-import junit.framework.TestCase;
+import org.junit.Test;
 
 import java.io.IOException;
 
-public class TeamModelMementoTest extends TestCase {
+public class TeamModelMementoTest {
+    @Test
     public void testMemento() throws IOException, ClassNotFoundException {
         TeamModel x=new TeamModel();
         TeamModel.Memento memento=new TeamModel.Memento(x);
