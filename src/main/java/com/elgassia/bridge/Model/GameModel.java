@@ -33,10 +33,46 @@ public class GameModel {
             this.grandpa=0;
         this.whoStartedTurn[0]=this.currentPlayer;
     }
+    private boolean isAtu(Card.Suit suit)
+    {
+        if(suit.equals(Card.Suit.CLUBS) && atu.equals(Color.CLUBS))
+            return true;
+        if(suit.equals(Card.Suit.DIAMONDS) && atu.equals(Color.DIAMONDS))
+            return true;
+        if(suit.equals(Card.Suit.SPADES) && atu.equals(Color.SPADES))
+            return true;
+        if(suit.equals(Card.Suit.HEARTS) && atu.equals(Color.HEARTS))
+            return true;
+        return false;
+    }
     private void checkWhoWinTurn()
     {
         //check for the winner - if playingTeam wins winnerWins++
+        int tempWinner=0;
+        for(int i=1;i<4;i++)
+        {
+            //if the color is the same
+            if(cardsInTurn[turnCount][i].getSuit().equals(cardsInTurn[turnCount][tempWinner].getSuit()))
+            {
+                //if this Card is bigger than tempWinner card
+                if(cardsInTurn[turnCount][i].compareTo(cardsInTurn[turnCount][tempWinner])>0)
+                    tempWinner=i;
+            }
+            //if the color is different but his color is atu
+            else if(isAtu(cardsInTurn[turnCount][i].getSuit()))
+            {
+                tempWinner=i;
+            }
+        }
+        currentPlayer+=tempWinner;
+        currentPlayer=currentPlayer%4;
+        if(currentPlayer%2==playingTeam)
+            winnerWins++;
         //for the next turn (if its not 13) whoStartedTurn and currentPlayer is the winner
+        if(turnCount!=12)
+        {
+            whoStartedTurn[turnCount+1]=currentPlayer;
+        }
     }
     private void changePlayer()
     {
