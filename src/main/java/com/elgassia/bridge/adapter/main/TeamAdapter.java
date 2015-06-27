@@ -3,6 +3,7 @@ package com.elgassia.bridge.adapter.main;
 import com.elgassia.bridge.Model.TeamModel;
 import com.elgassia.bridge.Model.UserTeamModel;
 import com.elgassia.bridge.adapter.BiddingAdapter;
+import com.elgassia.bridge.adapter.GameAdapter;
 import com.elgassia.bridge.adapter.LobbyAdapter;
 
 import java.util.Observable;
@@ -19,6 +20,7 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
     private TeamModel team_model;
     private com.elgassia.bridge.adapter.LobbyAdapter lobby_adapter;
     private BiddingAdapter bidding_adapter;
+    private GameAdapter game_adapter;
 
     int[] players;
     int active_player;
@@ -49,6 +51,9 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
 
         bidding_adapter = new com.elgassia.bridge.adapter.main.BiddingAdapter();
         bidding_adapter.init(this);
+
+        game_adapter = new com.elgassia.bridge.adapter.main.GameAdapter();
+        game_adapter.init(this);
 
         assert team_model != null;
 
@@ -88,6 +93,11 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
     @Override
     public BiddingAdapter getBiddingAdapter() {
         return bidding_adapter;
+    }
+
+    @Override
+    public GameAdapter getGameAdapter() {
+        return game_adapter;
     }
 
     @Override

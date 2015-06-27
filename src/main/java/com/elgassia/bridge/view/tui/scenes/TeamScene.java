@@ -5,6 +5,7 @@ import com.elgassia.bridge.view.tui.Scene;
 import com.elgassia.bridge.view.tui.View;
 import com.elgassia.bridge.view.tui.commands.team.NextPlayer;
 import com.elgassia.bridge.view.tui.commands.team.bidding.Bid;
+import com.elgassia.bridge.view.tui.commands.team.game.PlayCard;
 import com.elgassia.bridge.view.tui.commands.team.lobby.SetName;
 import com.elgassia.bridge.view.tui.commands.team.lobby.SetRandomTeams;
 import com.elgassia.bridge.view.tui.commands.team.lobby.SetTeam;
@@ -45,6 +46,8 @@ public class TeamScene extends Scene implements Observer {
                 commands.add("bid", new Bid(view.getAdapter().getTeamAdapter().getBiddingAdapter()));
                 break;
             case GAME:
+                commands.add("next", new NextPlayer(view.getAdapter().getTeamAdapter()));
+                commands.add("play", new PlayCard(view.getAdapter().getTeamAdapter().getGameAdapter()));
                 break;
             default:
                 assert false;

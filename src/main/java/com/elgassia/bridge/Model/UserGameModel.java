@@ -16,7 +16,7 @@ public class UserGameModel extends Observable implements Observer{
         this.userID = userID;
         this.gameModel=gameModel;
     }
-    boolean playCard(Card card) throws BridgeLogicException {
+    public boolean playCard(Card card) throws BridgeLogicException {
         if(gameModel.playCard(userID,card))
         {
             setChanged();
