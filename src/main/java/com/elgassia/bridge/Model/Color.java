@@ -5,5 +5,5 @@ public enum Color {
     DIAMONDS,
     HEARTS,
     SPADES,
-    NT
+    NT;
 }

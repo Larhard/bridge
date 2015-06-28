@@ -78,4 +78,30 @@ public class Bid implements Comparable<Bid>{
         }
         return false;
     }
+
+    @Override
+    public String toString() {
+        if(this.getType().equals(BidType.CARD))
+        {
+            String x="";
+            x+=this.getCount().toString();
+            x+="-";
+            if(this.getColor()==Color.CLUBS)
+                x+="CLUBS";
+            else if(this.getColor()==Color.SPADES)
+                x+="SPADES";
+            else if(this.getColor()==Color.HEARTS)
+                x+="HEARTS";
+            else if(this.getColor()==Color.DIAMONDS)
+                x+="DIAMONDS";
+            else if(this.getColor()==Color.NT)
+                x+="NT";
+            return x;
+        }
+        if(this.getType()==BidType.PASS)
+            return "PASS";
+        if(this.getType()==BidType.CONTRA)
+            return "CONTRA";
+        return "RECONTRA";
+    }
 }
