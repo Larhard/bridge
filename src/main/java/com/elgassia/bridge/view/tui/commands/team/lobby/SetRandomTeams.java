@@ -15,12 +15,12 @@ public class SetRandomTeams extends Command {
 
     @Override
     public void execute() {
-        try {
-            for (LobbyAdapter adapter : lobbyAdapters) {
+        for (LobbyAdapter adapter : lobbyAdapters) {
+            try {
                 adapter.setRandomTeam();
+            }catch (BridgeLogicException e){
+                System.out.println(adapter.getName() + ": " + e.getMessage());
             }
-        }catch (BridgeLogicException e){
-            System.out.println(e.getMessage());
         }
     }
 
