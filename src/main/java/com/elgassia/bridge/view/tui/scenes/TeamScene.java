@@ -72,7 +72,6 @@ public class TeamScene extends Scene implements Observer {
                     commands.add("set_team", new SetTeam(currentLobbyAdapter));
                     commands.add("status", new LobbyStatus(getCurrentUserTeamAdapter()));
                     commands.add("set_bot", new SetBot(this, getCurrentUserTeamAdapter(), getCurrentPlayer()));
-                    System.out.println("Player: " + getCurrentUserTeamAdapter().getName());
                 }
 
                 break;
