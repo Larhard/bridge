@@ -224,6 +224,10 @@ public class TeamModelTest {
     @Test
     public void testSetGameWinner() throws Exception {
         teamModel.setTeam(0,0);
+        teamModel.setTeam(1,0);
+        teamModel.setTeam(2,1);
+        teamModel.setTeam(3,1);
+        teamModel.getPlayerOrder();
         teamModel.setGameWinner(0);
         assertEquals("setGameWinnerFailed",teamModel.getGameWinner(),0);
     }
