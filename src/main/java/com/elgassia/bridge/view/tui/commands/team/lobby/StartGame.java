@@ -25,4 +25,9 @@ public class StartGame extends Command{
             }
         }
     }
+
+    @Override
+    public String description() {
+        return "set ready flag for all players";
+    }
 }
