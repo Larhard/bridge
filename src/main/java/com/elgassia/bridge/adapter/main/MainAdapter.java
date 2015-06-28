@@ -2,6 +2,7 @@ package com.elgassia.bridge.adapter.main;
 
 import com.elgassia.bridge.Model.MainModel;
 import com.elgassia.bridge.Model.TeamModel;
+import com.elgassia.bridge.utils.Streams;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -42,8 +43,7 @@ public class MainAdapter extends com.elgassia.bridge.adapter.Adapter {
     @Override
     public void loadGame(FileInputStream in){
         try {
-            byte[] bytes = new byte[2 << 10];
-            in.read(bytes);
+            byte[] bytes = Streams.read(in);
             TeamModel.Memento memento = new TeamModel.Memento(bytes);
             team_adapter = new TeamAdapter();
             team_adapter.init(this, main_model.newGame(memento));
