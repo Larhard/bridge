@@ -1,12 +1,12 @@
 package com.elgassia.bridge.view.tui.commands.team.lobby;
 
-import com.elgassia.bridge.adapter.TeamAdapter;
+import com.elgassia.bridge.adapter.UserTeamAdapter;
 import com.elgassia.bridge.view.tui.Command;
 
 public class LobbyStatus extends Command {
-    private final TeamAdapter teamAdapter;
+    private final UserTeamAdapter teamAdapter;
 
-    public LobbyStatus(TeamAdapter teamAdapter) {
+    public LobbyStatus(UserTeamAdapter teamAdapter) {
         this.teamAdapter = teamAdapter;
     }
 

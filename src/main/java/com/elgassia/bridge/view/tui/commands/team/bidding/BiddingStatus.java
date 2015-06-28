@@ -1,16 +1,17 @@
 package com.elgassia.bridge.view.tui.commands.team.bidding;
 
 import com.elgassia.bridge.Model.Card;
-import com.elgassia.bridge.adapter.TeamAdapter;
+import com.elgassia.bridge.adapter.UserTeamAdapter;
 import com.elgassia.bridge.view.tui.Command;
 
 import java.util.Collections;
 import java.util.List;
 
 public class BiddingStatus extends Command {
-    private final TeamAdapter teamAdapter;
 
-    public BiddingStatus(TeamAdapter teamAdapter) {
+    private final UserTeamAdapter teamAdapter;
+
+    public BiddingStatus(UserTeamAdapter teamAdapter) {
         this.teamAdapter = teamAdapter;
     }
 

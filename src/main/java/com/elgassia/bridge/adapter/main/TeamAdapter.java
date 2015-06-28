@@ -2,12 +2,9 @@ package com.elgassia.bridge.adapter.main;
 
 import com.elgassia.bridge.Model.TeamModel;
 import com.elgassia.bridge.Model.UserTeamModel;
-import com.elgassia.bridge.adapter.BiddingAdapter;
-import com.elgassia.bridge.adapter.GameAdapter;
-import com.elgassia.bridge.adapter.LobbyAdapter;
+import com.elgassia.bridge.adapter.UserTeamAdapter;
 
-import java.util.Observable;
-import java.util.Observer;
+import java.util.*;
 
 public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter implements Observer {
     public enum State {
@@ -17,13 +14,8 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
     }
 
     private TeamModel team_model;
-    private com.elgassia.bridge.adapter.LobbyAdapter lobby_adapter;
-    private BiddingAdapter bidding_adapter;
-    private GameAdapter game_adapter;
 
-    int[] players;
-    int active_player;
-    UserTeamModel[] player_team_models;
+    Map<Integer, UserTeamAdapter> playerTeamAdapters = new HashMap<>();
 
     private State state;
 
@@ -44,43 +36,16 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
     public void init(MainAdapter main_adapter, TeamModel team_model) {
         this.team_model = team_model;
 
-        lobby_adapter = new com.elgassia.bridge.adapter.main.LobbyAdapter();
-        lobby_adapter.init(this);
-
-        bidding_adapter = new com.elgassia.bridge.adapter.main.BiddingAdapter();
-        bidding_adapter.init(this);
-
-        game_adapter = new com.elgassia.bridge.adapter.main.GameAdapter();
-        game_adapter.init(this);
 
         assert team_model != null;
 
-        players = team_model.getPlayerOrder();
-        active_player = 0;
-        player_team_models = new UserTeamModel[players.length];
-        for (int i = 0; i < players.length; ++i) {
-            player_team_models[i] = new UserTeamModel(players[i], team_model);
+        int[] players = team_model.getPlayerOrder();
+        for (int player : players) {
+            playerTeamAdapters.put(player, new com.elgassia.bridge.adapter.main.UserTeamAdapter(player, this, new UserTeamModel(player, team_model)));
         }
 
         setState(State.LOBBY);
         team_model.addObserver(this);
-    }
-
-    @Override
-    public void nextPlayer() {
-        active_player = (active_player + 1) % players.length;
-        setChanged();
-        notifyObservers();
-    }
-
-    @Override
-    public UserTeamModel getUserTeamModel() {
-        return player_team_models[active_player];
-    }
-
-    @Override
-    public String getName() {
-        return getUserTeamModel().getPlayerName();
     }
 
     @Override
@@ -99,23 +64,8 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
     }
 
     @Override
-    public LobbyAdapter getLobbyAdapter() {
-        return lobby_adapter;
-    }
-
-    @Override
-    public BiddingAdapter getBiddingAdapter() {
-        return bidding_adapter;
-    }
-
-    @Override
-    public GameAdapter getGameAdapter() {
-        return game_adapter;
-    }
-
-    @Override
-    public UserTeamModel[] getUserTeamModels() {
-        return player_team_models;
+    public UserTeamAdapter getPlayerTeamAdapter(int playerId) {
+        return playerTeamAdapters.get(playerId);
     }
 
     @Override

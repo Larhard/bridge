@@ -7,8 +7,6 @@ import com.elgassia.bridge.exception.BridgeLogicException;
 import java.util.List;
 
 public interface BiddingAdapter {
-    void init(TeamAdapter teamAdapter);
-
     void bid(Bid bid) throws BridgeLogicException;
 
     List<Card> getCards();

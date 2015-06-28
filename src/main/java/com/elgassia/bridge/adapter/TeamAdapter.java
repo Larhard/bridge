@@ -11,23 +11,11 @@ abstract public class TeamAdapter extends Observable {
 
     public abstract void init(MainAdapter main_adapter, TeamModel team_model);
 
-    public abstract void nextPlayer();
-
-    public abstract UserTeamModel getUserTeamModel();
-
-    public abstract String getName();
-
     public abstract String getPlayerName(int player);
 
     public abstract int getPlayerTeam(int player);
 
     public abstract int[] getPlayersOrder();
 
-    public abstract LobbyAdapter getLobbyAdapter();
-
-    public abstract BiddingAdapter getBiddingAdapter();
-
-    public abstract GameAdapter getGameAdapter();
-
-    public abstract UserTeamModel[] getUserTeamModels();
+    public abstract UserTeamAdapter getPlayerTeamAdapter(int playerId);
 }
