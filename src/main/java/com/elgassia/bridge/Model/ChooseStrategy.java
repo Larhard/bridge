@@ -9,6 +9,11 @@ public class ChooseStrategy implements Strategy{
     {
         if(cardList.length!=4)
             throw new IllegalArgumentException();
+        for(int i=0;i<4;i++)
+        {
+            if(cardList[i].size()!=13)
+                throw new IllegalArgumentException();
+        }
         System.arraycopy(cardList, 0, this.cardList, 0, 4);
     }
 
