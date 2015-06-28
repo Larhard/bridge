@@ -57,15 +57,19 @@ public class Cards {
             case "c":
             case "clubs":
                 color = Card.Suit.CLUBS;
+                break;
             case "h":
             case "hearts":
                 color = Card.Suit.HEARTS;
+                break;
             case "d":
             case "diamonds":
                 color = Card.Suit.DIAMONDS;
+                break;
             case "s":
             case "spades":
                 color = Card.Suit.SPADES;
+                break;
         }
 
         if (color == null || rank == null) {

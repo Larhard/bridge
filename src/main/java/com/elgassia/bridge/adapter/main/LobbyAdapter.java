@@ -1,46 +1,35 @@
 package com.elgassia.bridge.adapter.main;
 
-import com.elgassia.bridge.Model.UserTeamModel;
-import com.elgassia.bridge.adapter.TeamAdapter;
+import com.elgassia.bridge.Model.UserLobbyModel;
 import com.elgassia.bridge.exception.BridgeLogicException;
 
 public class LobbyAdapter implements com.elgassia.bridge.adapter.LobbyAdapter {
 
-    private TeamAdapter teamAdapter;
+    private final UserTeamAdapter userTeamAdapter;
+    private final UserLobbyModel userLobbyModel;
 
-    @Override
-    public void init(TeamAdapter teamAdapter) {
-        this.teamAdapter = teamAdapter;
+    public LobbyAdapter(UserTeamAdapter userTeamAdapter, UserLobbyModel userLobbyModel) {
+        this.userTeamAdapter = userTeamAdapter;
+        this.userLobbyModel = userLobbyModel;
     }
 
     @Override
     public boolean setName(String name) throws BridgeLogicException {
-        return teamAdapter.getUserTeamModel().getUserLobbyModel().setName(name);
+        return userLobbyModel.setName(name);
     }
 
     @Override
     public void startGame() throws BridgeLogicException {
-        for (UserTeamModel model : teamAdapter.getUserTeamModels()) {
-            if (! model.getUserLobbyModel().ready()) {
-                throw new BridgeLogicException("player " + model.getPlayerName() + " can not be ready yet");
-            }
-        }
-    }
-
-    @Override
-    public void setRandomTeams() throws BridgeLogicException {
-        for (UserTeamModel model : teamAdapter.getUserTeamModels()) {
-            model.getUserLobbyModel().randomTeam();
-        }
+        userLobbyModel.ready();
     }
 
     @Override
     public void setRandomTeam() throws BridgeLogicException {
-        teamAdapter.getUserTeamModel().getUserLobbyModel().randomTeam();
+        userLobbyModel.randomTeam();
     }
 
     @Override
     public void setTeam(int team) throws BridgeLogicException {
-        teamAdapter.getUserTeamModel().getUserLobbyModel().setTeam(team);
+        userLobbyModel.setTeam(team);
     }
 }

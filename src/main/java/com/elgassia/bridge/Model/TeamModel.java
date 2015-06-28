@@ -6,9 +6,6 @@ import java.io.*;
 import java.util.List;
 import java.util.Observable;
 
-/**
- * Created by vereena on 6/19/15.
- */
 public class TeamModel extends Observable implements Serializable{
     private char state;
     private String players[]=new String[4];
@@ -16,6 +13,7 @@ public class TeamModel extends Observable implements Serializable{
     private int playerOrder[]=new int[4];
     private int biddingWinnerOrder;
     private Strategy strategy=new RandomStrategy();
+    @SuppressWarnings("unchecked")
     private List<Card>[] cardLists = new List[4];
     private Color atu;
     private int contract;
@@ -108,11 +106,11 @@ public class TeamModel extends Observable implements Serializable{
         }
         throw new BridgeLogicException("You can't be in a team which already has two players");
     }
-    int getUserTeam(int user)
+    public int getUserTeam(int user)
     {
         return playerTeam[user];
     }
-    String getPlayerName(int user)
+    public String getPlayerName(int user)
     {
         return players[user];
     }

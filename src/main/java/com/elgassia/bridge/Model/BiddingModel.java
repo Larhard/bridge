@@ -8,9 +8,6 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Random;
 
-/**
- * Created by vereena on 6/19/15.
- */
 public class BiddingModel extends Observable implements Serializable{
     private TeamModel teamModel;
     private int currentPlayer;

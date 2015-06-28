@@ -5,6 +5,7 @@ import com.elgassia.bridge.exception.BridgeLogicException;
 import com.elgassia.bridge.view.tui.Command;
 
 public class SetName extends Command {
+
     private final LobbyAdapter lobbyAdapter;
 
     public SetName(LobbyAdapter lobbyAdapter) {

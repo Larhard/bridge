@@ -6,9 +6,6 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 
-/**
- * Created by vereena on 6/26/15.
- */
 public class UserGameModel extends Observable implements Observer{
     private int userID;
     private GameModel gameModel;
@@ -25,20 +22,20 @@ public class UserGameModel extends Observable implements Observer{
         }
         return false;
     }
-    List<Card> getGranpasDeck()
+    public List<Card> getGranpasDeck()
     {
         return gameModel.getGrandpasDeck();
     }
-    List<Card> getMyDeck()
+    public List<Card> getMyDeck()
     {
         return gameModel.getUserDeck(userID);
     }
-    Card[] getTurnHistory()
+    public Card[] getTurnHistory()
     {
         return gameModel.getTurnHistory();
     }
     Card[] getPreviousTurnHistory() throws BridgeLogicException { return gameModel.getPreviousTurnHistory();}
-    String whoStartedTurn()
+    public String whoStartedTurn()
     {
         return gameModel.whoStartedTurn();
     }

@@ -1,19 +1,42 @@
 package com.elgassia.bridge.adapter.main;
 
 import com.elgassia.bridge.Model.Card;
-import com.elgassia.bridge.adapter.TeamAdapter;
+import com.elgassia.bridge.Model.UserGameModel;
 import com.elgassia.bridge.exception.BridgeLogicException;
 
-public class GameAdapter implements com.elgassia.bridge.adapter.GameAdapter {
-    private TeamAdapter teamAdapter;
+import java.util.List;
 
-    @Override
-    public void init(TeamAdapter teamAdapter) {
-        this.teamAdapter = teamAdapter;
+public class GameAdapter implements com.elgassia.bridge.adapter.GameAdapter {
+    private final UserTeamAdapter userTeamAdapter;
+    private final UserGameModel userGameModel;
+
+    public GameAdapter(UserTeamAdapter userTeamAdapter, UserGameModel userGameModel) {
+        this.userTeamAdapter = userTeamAdapter;
+        this.userGameModel = userGameModel;
     }
 
     @Override
     public void playCard(Card card) throws BridgeLogicException {
-        teamAdapter.getUserTeamModel().getUserGameModel().playCard(card);
+        userGameModel.playCard(card);
+    }
+
+    @Override
+    public List<Card> getCards() {
+        return userGameModel.getMyDeck();
+    }
+
+    @Override
+    public List<Card> getGrandpasCards() {
+        return userGameModel.getGranpasDeck();
+    }
+
+    @Override
+    public Card[] turnHistory() {
+        return userGameModel.getTurnHistory();
+    }
+
+    @Override
+    public String whoStartedTurn() {
+        return userGameModel.whoStartedTurn();
     }
 }

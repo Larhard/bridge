@@ -5,9 +5,6 @@ import com.elgassia.bridge.exception.BridgeLogicException;
 import java.util.Observable;
 import java.util.Observer;
 
-/**
- * Created by vereena on 6/19/15.
- */
 public class UserLobbyModel extends Observable implements Observer{
     private int userID;
     private LobbyModel lobbyModel;

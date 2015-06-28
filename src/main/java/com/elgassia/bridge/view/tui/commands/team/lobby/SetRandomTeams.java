@@ -4,17 +4,21 @@ import com.elgassia.bridge.adapter.LobbyAdapter;
 import com.elgassia.bridge.exception.BridgeLogicException;
 import com.elgassia.bridge.view.tui.Command;
 
-public class SetRandomTeams extends Command {
-    private final LobbyAdapter lobbyAdapter;
+import java.util.List;
 
-    public SetRandomTeams(LobbyAdapter lobbyAdapter) {
-        this.lobbyAdapter = lobbyAdapter;
+public class SetRandomTeams extends Command {
+    private final List<LobbyAdapter> lobbyAdapters;
+
+    public SetRandomTeams(List<LobbyAdapter> lobbyAdapters) {
+        this.lobbyAdapters = lobbyAdapters;
     }
 
     @Override
     public void execute() {
         try {
-            lobbyAdapter.setRandomTeams();
+            for (LobbyAdapter adapter : lobbyAdapters) {
+                adapter.setRandomTeam();
+            }
         }catch (BridgeLogicException e){
             System.out.println(e.getMessage());
         }
