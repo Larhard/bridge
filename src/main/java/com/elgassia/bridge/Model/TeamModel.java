@@ -22,10 +22,10 @@ public class TeamModel extends Observable implements Serializable{
     private int turnsWonByThePlayingTeam;
     private int [] whoStartedTurn=new int[13];
     private Card [][] cardsInTurn=new Card[13][4];
-    private final LobbyModel lobbyModel;
-    private final BiddingModel biddingModel;
-    private final GameModel gameModel;
-    private final GameOverModel gameOverModel;
+    private LobbyModel lobbyModel;
+    private BiddingModel biddingModel;
+    private GameModel gameModel;
+    private GameOverModel gameOverModel;
     TeamModel()
     {
         players[0]="user1";
@@ -35,11 +35,7 @@ public class TeamModel extends Observable implements Serializable{
         for(int i=0;i<4;i++)
             playerTeam[i]=-1;
         playerOrder[0]=-1;
-        state='L';
-        lobbyModel = new LobbyModel(this);
-        biddingModel = new BiddingModel(this);
-        gameModel = new GameModel(this);
-        gameOverModel = new GameOverModel(this);
+        changeGameState('L');
     }
     LobbyModel getLobbyModel()
     {
@@ -59,9 +55,30 @@ public class TeamModel extends Observable implements Serializable{
     }
     void changeGameState(char state)
     {
-        this.state=state;
-        setChanged();
-        notifyObservers();
+        if (this.state != state) {
+            this.state = state;
+
+            switch (state) {
+                case 'L':
+                    lobbyModel = new LobbyModel(this);
+                    break;
+
+                case 'B':
+                    biddingModel = new BiddingModel(this);
+                    break;
+
+                case 'G':
+                    gameModel = new GameModel(this);
+                    break;
+
+                case 'O':
+                    gameOverModel = new GameOverModel(this);
+                    break;
+            }
+
+            setChanged();
+            notifyObservers();
+        }
     }
 
     /**
