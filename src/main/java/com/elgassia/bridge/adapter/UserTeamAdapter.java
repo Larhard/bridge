@@ -1,21 +1,24 @@
 package com.elgassia.bridge.adapter;
 
-public interface UserTeamAdapter {
-    String getName();
+import java.util.Observable;
+import java.util.Observer;
 
-    String getPlayerName(int player);
+public abstract class UserTeamAdapter extends Observable implements Observer {
+    public abstract String getName();
 
-    int getPlayerTeam(int player);
+    public abstract String getPlayerName(int player);
 
-    int[] getPlayersOrder();
+    public abstract int getPlayerTeam(int player);
 
-    LobbyAdapter getLobbyAdapter();
+    public abstract int[] getPlayersOrder();
 
-    BiddingAdapter getBiddingAdapter();
+    public abstract LobbyAdapter getLobbyAdapter();
 
-    GameAdapter getGameAdapter();
+    public abstract BiddingAdapter getBiddingAdapter();
 
-    com.elgassia.bridge.adapter.main.TeamAdapter.State getState();
+    public abstract GameAdapter getGameAdapter();
 
-    int getPlayerId();
+    public abstract com.elgassia.bridge.adapter.main.TeamAdapter.State getState();
+
+    public abstract int getPlayerId();
 }

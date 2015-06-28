@@ -5,7 +5,9 @@ import com.elgassia.bridge.adapter.BiddingAdapter;
 import com.elgassia.bridge.adapter.GameAdapter;
 import com.elgassia.bridge.adapter.LobbyAdapter;
 
-public class UserTeamAdapter implements com.elgassia.bridge.adapter.UserTeamAdapter {
+import java.util.Observable;
+
+public class UserTeamAdapter extends com.elgassia.bridge.adapter.UserTeamAdapter {
     private int playerId;
     private com.elgassia.bridge.adapter.TeamAdapter teamAdapter;
     private UserTeamModel userTeamModel;
@@ -17,6 +19,8 @@ public class UserTeamAdapter implements com.elgassia.bridge.adapter.UserTeamAdap
         this.playerId = playerId;
         this.teamAdapter = teamAdapter;
         this.userTeamModel = userTeamModel;
+
+        teamAdapter.addObserver(this);
     }
 
     @Override
@@ -62,5 +66,11 @@ public class UserTeamAdapter implements com.elgassia.bridge.adapter.UserTeamAdap
     @Override
     public int getPlayerId() {
         return playerId;
+    }
+
+    @Override
+    public void update(Observable observable, Object o) {
+        setChanged();
+        notifyObservers();
     }
 }

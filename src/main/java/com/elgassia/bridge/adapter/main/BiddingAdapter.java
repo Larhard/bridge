@@ -30,4 +30,9 @@ public class BiddingAdapter implements com.elgassia.bridge.adapter.BiddingAdapte
     public String getCurrentPlayer() {
         return userBiddingModel.getCurrentPlayer();
     }
+
+    @Override
+    public List<Bid> getBiddingHistory() {
+        return userBiddingModel.getBiddingHistory();
+    }
 }

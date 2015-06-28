@@ -12,4 +12,6 @@ public interface BiddingAdapter {
     List<Card> getCards();
 
     public abstract String getCurrentPlayer();
+
+    List<Bid> getBiddingHistory();
 }

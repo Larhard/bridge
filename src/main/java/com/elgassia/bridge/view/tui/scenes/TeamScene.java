@@ -1,9 +1,11 @@
 package com.elgassia.bridge.view.tui.scenes;
 
+import com.elgassia.bridge.Model.Card;
 import com.elgassia.bridge.adapter.BiddingAdapter;
 import com.elgassia.bridge.adapter.GameAdapter;
 import com.elgassia.bridge.adapter.LobbyAdapter;
 import com.elgassia.bridge.adapter.UserTeamAdapter;
+import com.elgassia.bridge.adapter.main.TeamAdapter;
 import com.elgassia.bridge.bot.Bot;
 import com.elgassia.bridge.view.tui.Commands;
 import com.elgassia.bridge.view.tui.Scene;
@@ -15,16 +17,16 @@ import com.elgassia.bridge.view.tui.commands.team.game.GameStatus;
 import com.elgassia.bridge.view.tui.commands.team.game.PlayCard;
 import com.elgassia.bridge.view.tui.commands.team.lobby.*;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Observable;
-import java.util.Observer;
+import java.util.*;
 
 public class TeamScene extends Scene implements Observer {
     private Commands commands;
     private View view;
     private List<UserTeamAdapter> userTeamAdapters;
     private int currentPlayer;
+
+    Card[] last_turn;
+    List<com.elgassia.bridge.Model.Bid> lastBidding;
 
     @Override
     public void init(View view) {
@@ -33,6 +35,7 @@ public class TeamScene extends Scene implements Observer {
         userTeamAdapters = new ArrayList<>();
         for (int userId : teamAdapter.getPlayersOrder()) {
             userTeamAdapters.add(teamAdapter.getPlayerTeamAdapter(userId));
+            userTeamAdapters.get(userTeamAdapters.size()-1).addObserver(this);
         }
 
         super.init(view);
@@ -100,6 +103,41 @@ public class TeamScene extends Scene implements Observer {
     @Override
     public void update(Observable observable, Object o) {
         prepareCommands(commands, view);
+        if (observable instanceof UserTeamAdapter) {
+            final UserTeamAdapter teamAdapter = (UserTeamAdapter) observable;
+
+            if (teamAdapter.getState() == TeamAdapter.State.BIDDING) {
+                final BiddingAdapter biddingAdapter = teamAdapter.getBiddingAdapter();
+                List<com.elgassia.bridge.Model.Bid> actualBidding = biddingAdapter.getBiddingHistory();
+
+                if (!actualBidding.equals(lastBidding)) {
+                    lastBidding = new ArrayList<>(actualBidding.size());
+                    Collections.copy(lastBidding, actualBidding);
+
+                    StringBuilder str = new StringBuilder();
+                    System.out.println("Bidding History: " + actualBidding);
+                }
+            }
+
+            if (teamAdapter.getState() == TeamAdapter.State.GAME && lastBidding != null) {
+                final BiddingAdapter biddingAdapter = teamAdapter.getBiddingAdapter();
+                List<com.elgassia.bridge.Model.Bid> actualBidding = biddingAdapter.getBiddingHistory();
+
+                lastBidding = null;
+                System.out.println("Bidding History: " + actualBidding);
+            }
+
+            if (teamAdapter.getState() == TeamAdapter.State.GAME) {
+                final GameAdapter gameAdapter = teamAdapter.getGameAdapter();
+
+                Card[] actual_turn = gameAdapter.turnHistory();
+
+                if (!Arrays.equals(actual_turn, last_turn)) {
+                    last_turn = Arrays.copyOf(actual_turn, actual_turn.length);
+                    System.out.println("Actual turn by " + gameAdapter.whoStartedTurn() + ": " + Arrays.toString(gameAdapter.turnHistory()));
+                }
+            }
+        }
     }
 
     public List<UserTeamAdapter> getUserTeamAdapters() {
