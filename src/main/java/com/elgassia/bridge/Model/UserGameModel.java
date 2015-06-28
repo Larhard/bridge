@@ -34,7 +34,7 @@ public class UserGameModel extends Observable implements Observer{
     {
         return gameModel.getTurnHistory();
     }
-    Card[] getPreviousTurnHistory() throws BridgeLogicException { return gameModel.getPreviousTurnHistory();}
+    public Card[] getPreviousTurnHistory() throws BridgeLogicException { return gameModel.getPreviousTurnHistory();}
     public String whoStartedTurn()
     {
         return gameModel.whoStartedTurn();

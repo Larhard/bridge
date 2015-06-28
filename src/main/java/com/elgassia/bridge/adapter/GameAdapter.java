@@ -14,5 +14,9 @@ public interface GameAdapter {
 
     Card[] turnHistory();
 
+    Card[] previousTurnHistory() throws BridgeLogicException;
+
     String whoStartedTurn();
+
+    String whoStartedPreviousTurn() throws BridgeLogicException;
 }

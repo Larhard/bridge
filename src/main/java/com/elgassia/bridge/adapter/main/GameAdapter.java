@@ -36,7 +36,17 @@ public class GameAdapter implements com.elgassia.bridge.adapter.GameAdapter {
     }
 
     @Override
+    public Card[] previousTurnHistory() throws BridgeLogicException {
+        return userGameModel.getPreviousTurnHistory();
+    }
+
+    @Override
     public String whoStartedTurn() {
         return userGameModel.whoStartedTurn();
+    }
+
+    @Override
+    public String whoStartedPreviousTurn() throws BridgeLogicException {
+        return userGameModel.whoStartedPreviousTurn();
     }
 }

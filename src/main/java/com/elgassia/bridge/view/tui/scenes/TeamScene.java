@@ -7,6 +7,7 @@ import com.elgassia.bridge.adapter.LobbyAdapter;
 import com.elgassia.bridge.adapter.UserTeamAdapter;
 import com.elgassia.bridge.adapter.main.TeamAdapter;
 import com.elgassia.bridge.bot.Bot;
+import com.elgassia.bridge.exception.BridgeLogicException;
 import com.elgassia.bridge.view.tui.Commands;
 import com.elgassia.bridge.view.tui.Scene;
 import com.elgassia.bridge.view.tui.View;
@@ -95,6 +96,8 @@ public class TeamScene extends Scene implements Observer {
                 }
 
                 break;
+            case OVER:
+                break;
             default:
                 assert false;
         }
@@ -129,11 +132,31 @@ public class TeamScene extends Scene implements Observer {
             if (teamAdapter.getState() == TeamAdapter.State.GAME) {
                 final GameAdapter gameAdapter = teamAdapter.getGameAdapter();
 
-                Card[] actual_turn = gameAdapter.turnHistory();
+                try {
+                    Card[] actual_turn = gameAdapter.turnHistory();
 
-                if (!Arrays.equals(actual_turn, last_turn)) {
-                    last_turn = Arrays.copyOf(actual_turn, actual_turn.length);
-                    System.out.println("Actual turn by " + gameAdapter.whoStartedTurn() + ": " + Arrays.toString(gameAdapter.turnHistory()));
+                    if (!Arrays.equals(actual_turn, last_turn)) {
+                        last_turn = Arrays.copyOf(actual_turn, actual_turn.length);
+                        try {
+                            System.out.println("Previous turn by " + gameAdapter.whoStartedPreviousTurn() + ": " + Arrays.toString(gameAdapter.previousTurnHistory()));
+                        } catch (BridgeLogicException ignored) {
+                        }
+                        System.out.println("Actual turn by " + gameAdapter.whoStartedTurn() + ": " + Arrays.toString(gameAdapter.turnHistory()));
+                    }
+                } catch (ArrayIndexOutOfBoundsException ignored) {
+                }
+            }
+
+            if (teamAdapter.getState() == TeamAdapter.State.OVER && last_turn != null) {
+                final GameAdapter gameAdapter = teamAdapter.getGameAdapter();
+
+                last_turn = null;
+
+                last_turn = null;
+                try {
+                    System.out.println("Last turn by " + gameAdapter.whoStartedPreviousTurn() + ": " + Arrays.toString(gameAdapter.previousTurnHistory()));
+                } catch (BridgeLogicException e) {
+                    throw new Error(e.getCause());
                 }
             }
         }
