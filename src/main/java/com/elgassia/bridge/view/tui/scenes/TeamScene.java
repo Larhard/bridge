@@ -4,6 +4,7 @@ import com.elgassia.bridge.adapter.BiddingAdapter;
 import com.elgassia.bridge.adapter.GameAdapter;
 import com.elgassia.bridge.adapter.LobbyAdapter;
 import com.elgassia.bridge.adapter.UserTeamAdapter;
+import com.elgassia.bridge.bot.Bot;
 import com.elgassia.bridge.view.tui.Commands;
 import com.elgassia.bridge.view.tui.Scene;
 import com.elgassia.bridge.view.tui.View;
@@ -65,6 +66,7 @@ public class TeamScene extends Scene implements Observer {
                 commands.add("random_teams", new SetRandomTeams(lobbyAdapters));
                 commands.add("set_team", new SetTeam(currentLobbyAdapter));
                 commands.add("status", new LobbyStatus(getCurrentUserTeamAdapter()));
+                commands.add("set_bot", new SetBot(this, getCurrentUserTeamAdapter(), getCurrentPlayer()));
                 System.out.println("Player: " + getCurrentUserTeamAdapter().getName());
                 break;
             case BIDDING:
@@ -105,6 +107,22 @@ public class TeamScene extends Scene implements Observer {
 
     public void setCurrentPlayer(int currentPlayer) {
         this.currentPlayer = currentPlayer % getUserTeamAdapters().size();
+    }
+
+    public void nextPlayer() {
+        if (getUserTeamAdapters().size() > 0) {
+            setCurrentPlayer(getCurrentPlayer() + 1);
+        }
+        resetCommands();
+    }
+
+    public void setBot(int playerId, Bot bot) {
+        userTeamAdapters.remove(playerId);
+        nextPlayer();
+
+        Thread bot_thread = new Thread(bot);
+        bot_thread.setDaemon(true);
+        bot_thread.start();
     }
 
     public UserTeamAdapter getCurrentUserTeamAdapter() {
