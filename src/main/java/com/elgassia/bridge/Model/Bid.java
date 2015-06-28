@@ -45,12 +45,17 @@ public class Bid implements Comparable<Bid>{
                 return this.count.compareTo(o.getCount());
             else if(this.color!=o.getColor())
                 return this.color.compareTo(o.getColor());
+            return 0;
         }
-        return 0;
+        else if(this.getType().equals(o.getType()))
+            return 0;
+        return -1;
     }
 
     @Override
     public boolean equals(Object obj) {
+        if(obj==null)
+            return false;
         if(obj.getClass().equals(Bid.class))
         {
             Bid x=(Bid)obj;
