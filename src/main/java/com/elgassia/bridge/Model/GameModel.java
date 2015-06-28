@@ -115,6 +115,7 @@ public class GameModel extends Observable implements Serializable{
             changePlayer();
             setChanged();
             notifyObservers();
+            teamModel.somethingChanged();
             return true;
         }
 
@@ -127,6 +128,7 @@ public class GameModel extends Observable implements Serializable{
             changePlayer();
             setChanged();
             notifyObservers();
+            teamModel.somethingChanged();
             return true;
         }
 
@@ -139,6 +141,7 @@ public class GameModel extends Observable implements Serializable{
             changePlayer();
             setChanged();
             notifyObservers();
+            teamModel.somethingChanged();
             return true;
         }
 

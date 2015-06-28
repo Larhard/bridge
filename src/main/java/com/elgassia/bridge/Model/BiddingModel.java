@@ -48,7 +48,7 @@ public class BiddingModel extends Observable implements Serializable{
         currentPlayer++;
         if(currentPlayer==4)
             currentPlayer=0;
-        teamModel.newBidWasReceived();
+        teamModel.somethingChanged();
     }
     boolean bid(Bid bid,int user) throws BridgeLogicException {
         if(user!=playerOrder[currentPlayer])

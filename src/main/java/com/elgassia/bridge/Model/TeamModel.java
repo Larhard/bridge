@@ -263,7 +263,7 @@ public class TeamModel extends Observable implements Serializable{
     {
         return whoStartedTurn;
     }
-    void newBidWasReceived()
+    void somethingChanged()
     {
         setChanged();
         notifyObservers();
