@@ -1,10 +1,15 @@
 package com.elgassia.bridge.adapter.main;
 
+import com.elgassia.bridge.Model.Color;
 import com.elgassia.bridge.Model.TeamModel;
 import com.elgassia.bridge.Model.UserTeamModel;
+import com.elgassia.bridge.adapter.GameOverAdapter;
 import com.elgassia.bridge.adapter.UserTeamAdapter;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Observable;
+import java.util.Observer;
 
 public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter implements Observer {
     public enum State {
@@ -67,6 +72,21 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
     @Override
     public UserTeamAdapter getPlayerTeamAdapter(int playerId) {
         return playerTeamAdapters.get(playerId);
+    }
+
+    @Override
+    public GameOverAdapter getGameOverAdapter() {
+        return new com.elgassia.bridge.adapter.main.GameOverAdapter(team_model.getGameOverModel());
+    }
+
+    @Override
+    public Color getAtu() {
+        return team_model.getAtu();
+    }
+
+    @Override
+    public int getContract() {
+        return team_model.getContract();
     }
 
     @Override

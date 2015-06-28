@@ -1,7 +1,7 @@
 package com.elgassia.bridge.adapter;
 
+import com.elgassia.bridge.Model.Color;
 import com.elgassia.bridge.Model.TeamModel;
-import com.elgassia.bridge.Model.UserTeamModel;
 import com.elgassia.bridge.adapter.main.MainAdapter;
 
 import java.util.Observable;
@@ -18,4 +18,10 @@ abstract public class TeamAdapter extends Observable {
     public abstract int[] getPlayersOrder();
 
     public abstract UserTeamAdapter getPlayerTeamAdapter(int playerId);
+
+    public abstract GameOverAdapter getGameOverAdapter();
+
+    public abstract Color getAtu();
+
+    public abstract int getContract();
 }

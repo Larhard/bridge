@@ -17,6 +17,7 @@ import com.elgassia.bridge.view.tui.commands.team.bidding.BiddingStatus;
 import com.elgassia.bridge.view.tui.commands.team.game.GameStatus;
 import com.elgassia.bridge.view.tui.commands.team.game.PlayCard;
 import com.elgassia.bridge.view.tui.commands.team.lobby.*;
+import com.elgassia.bridge.view.tui.commands.team.over.OverStatus;
 
 import java.util.*;
 
@@ -96,6 +97,7 @@ public class TeamScene extends Scene implements Observer {
 
                 break;
             case OVER:
+                commands.add("status", new OverStatus(view.getAdapter().getTeamAdapter().getGameOverAdapter(), view.getAdapter().getTeamAdapter()));
                 break;
             default:
                 assert false;

@@ -8,19 +8,19 @@ public class GameOverModel implements Serializable{
     {
         this.teamModel=teamModel;
     }
-    int getGameWinner()
+    public int getGameWinner()
     {
         return teamModel.getGameWinner();
     }
-    int getTurnsWonByThePlayingTeam()
+    public int getTurnsWonByThePlayingTeam()
     {
         return teamModel.getTurnsWonByThePlayingTeam();
     }
-    Card[][] getPlayedCards()
+    public Card[][] getPlayedCards()
     {
         return teamModel.getPlayedCards();
     }
-    int[] getWhoStartedTurn()
+    public int[] getWhoStartedTurn()
     {
         return teamModel.getWhoStartedTurn();
     }

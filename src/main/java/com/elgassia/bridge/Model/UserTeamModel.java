@@ -27,6 +27,10 @@ public class UserTeamModel extends Observable implements Observer{
         return new UserGameModel(userID, teamModel.getGameModel());
     }
 
+    public GameOverModel getUserGameOverModel() {
+        return new GameOverModel(teamModel);
+    }
+
     public int getUserTeam() {
         return teamModel.getUserTeam(userID);
     }

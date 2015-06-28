@@ -49,7 +49,7 @@ public class TeamModel extends Observable implements Serializable{
     {
         return gameModel;
     }
-    GameOverModel getGameOverModel()
+    public GameOverModel getGameOverModel()
     {
         return gameOverModel;
     }
@@ -192,11 +192,11 @@ public class TeamModel extends Observable implements Serializable{
     {
         return biddingWinnerOrder;
     }
-    Color getAtu()
+    public Color getAtu()
     {
         return atu;
     }
-    int getContract()
+    public int getContract()
     {
         return contract;
     }

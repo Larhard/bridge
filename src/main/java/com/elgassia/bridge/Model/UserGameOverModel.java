@@ -5,19 +5,19 @@ public class UserGameOverModel {
     UserGameOverModel(int userID,GameOverModel gameOverModel) {
         this.gameOverModel=gameOverModel;
     }
-    int getGameWinner()
+    public int getGameWinner()
     {
         return gameOverModel.getGameWinner();
     }
-    int getTurnsWonByThePlayingTeam()
+    public int getTurnsWonByThePlayingTeam()
     {
         return gameOverModel.getTurnsWonByThePlayingTeam();
     }
-    Card[][] getPlayedCards()
+    public Card[][] getPlayedCards()
     {
         return gameOverModel.getPlayedCards();
     }
-    int[] getWhoStartedTurn()
+    public int[] getWhoStartedTurn()
     {
         return gameOverModel.getWhoStartedTurn();
     }

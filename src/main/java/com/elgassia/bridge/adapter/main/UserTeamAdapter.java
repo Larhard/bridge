@@ -54,6 +54,10 @@ public class UserTeamAdapter extends com.elgassia.bridge.adapter.UserTeamAdapter
         return new com.elgassia.bridge.adapter.main.BiddingAdapter(this, userTeamModel.getUserBiddingModel());
     }
 
+    public com.elgassia.bridge.adapter.GameOverAdapter getGameOverAdapter() {
+        return new GameOverAdapter(userTeamModel.getUserGameOverModel());
+    }
+
     @Override
     public GameAdapter getGameAdapter() {
         return new com.elgassia.bridge.adapter.main.GameAdapter(this, userTeamModel.getUserGameModel());
