@@ -54,34 +54,43 @@ public class TeamScene extends Scene implements Observer {
         super.prepareCommands(commands, view);
         switch (view.getAdapter().getTeamAdapter().getState()) {
             case LOBBY:
-                LobbyAdapter currentLobbyAdapter = getCurrentUserTeamAdapter().getLobbyAdapter();
+                if (getUserTeamAdapters().size() > 0) {
+                    LobbyAdapter currentLobbyAdapter = getCurrentUserTeamAdapter().getLobbyAdapter();
 
-                List<LobbyAdapter> lobbyAdapters = new ArrayList<>();
-                for (UserTeamAdapter adapter : userTeamAdapters) {
-                    lobbyAdapters.add(adapter.getLobbyAdapter());
+                    List<LobbyAdapter> lobbyAdapters = new ArrayList<>();
+                    for (UserTeamAdapter adapter : userTeamAdapters) {
+                        lobbyAdapters.add(adapter.getLobbyAdapter());
+                    }
+                    commands.add("next", new NextPlayer(this, view.getAdapter().getTeamAdapter()));
+                    commands.add("set_name", new SetName(currentLobbyAdapter));
+                    commands.add("start", new StartGame(lobbyAdapters));
+                    commands.add("random_teams", new SetRandomTeams(lobbyAdapters));
+                    commands.add("set_team", new SetTeam(currentLobbyAdapter));
+                    commands.add("status", new LobbyStatus(getCurrentUserTeamAdapter()));
+                    commands.add("set_bot", new SetBot(this, getCurrentUserTeamAdapter(), getCurrentPlayer()));
+                    System.out.println("Player: " + getCurrentUserTeamAdapter().getName());
                 }
-                commands.add("next", new NextPlayer(this, view.getAdapter().getTeamAdapter()));
-                commands.add("set_name", new SetName(currentLobbyAdapter));
-                commands.add("start", new StartGame(lobbyAdapters));
-                commands.add("random_teams", new SetRandomTeams(lobbyAdapters));
-                commands.add("set_team", new SetTeam(currentLobbyAdapter));
-                commands.add("status", new LobbyStatus(getCurrentUserTeamAdapter()));
-                commands.add("set_bot", new SetBot(this, getCurrentUserTeamAdapter(), getCurrentPlayer()));
-                System.out.println("Player: " + getCurrentUserTeamAdapter().getName());
+
                 break;
             case BIDDING:
-                BiddingAdapter currentBiddingAdapter = getCurrentUserTeamAdapter().getBiddingAdapter();
+                if (getUserTeamAdapters().size() > 0) {
+                    BiddingAdapter currentBiddingAdapter = getCurrentUserTeamAdapter().getBiddingAdapter();
 
-                commands.add("next", new NextPlayer(this, view.getAdapter().getTeamAdapter()));
-                commands.add("bid", new Bid(currentBiddingAdapter));
-                commands.add("status", new BiddingStatus(getCurrentUserTeamAdapter()));
+                    commands.add("next", new NextPlayer(this, view.getAdapter().getTeamAdapter()));
+                    commands.add("bid", new Bid(currentBiddingAdapter));
+                    commands.add("status", new BiddingStatus(getCurrentUserTeamAdapter()));
+                }
+
                 break;
             case GAME:
-                GameAdapter currentGameAdapter = getCurrentUserTeamAdapter().getGameAdapter();
+                if (getUserTeamAdapters().size() > 0) {
+                    GameAdapter currentGameAdapter = getCurrentUserTeamAdapter().getGameAdapter();
 
-                commands.add("next", new NextPlayer(this, view.getAdapter().getTeamAdapter()));
-                commands.add("play", new PlayCard(currentGameAdapter));
-                commands.add("status", new GameStatus(getCurrentUserTeamAdapter()));
+                    commands.add("next", new NextPlayer(this, view.getAdapter().getTeamAdapter()));
+                    commands.add("play", new PlayCard(currentGameAdapter));
+                    commands.add("status", new GameStatus(getCurrentUserTeamAdapter()));
+                }
+
                 break;
             default:
                 assert false;
