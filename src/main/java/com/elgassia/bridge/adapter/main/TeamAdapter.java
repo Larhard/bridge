@@ -11,6 +11,7 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
         LOBBY,
         BIDDING,
         GAME,
+        OVER,
     }
 
     private TeamModel team_model;
@@ -81,6 +82,11 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
                 case 'G':
                     setState(State.GAME);
                     break;
+                case 'O':
+                    setState(State.OVER);
+                    break;
+                default:
+                    assert false;
             }
         }
     }
