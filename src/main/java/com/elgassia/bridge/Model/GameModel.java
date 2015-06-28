@@ -132,7 +132,7 @@ public class GameModel extends Observable implements Serializable{
 
         //check if he has Cards with the first Card color
         //if not - play that card and changePlayer() and return true
-        if(!teamModel.checkForCardColor(playerOrder[currentPlayer],card.getSuit()))
+        if(!teamModel.checkForCardColor(playerOrder[currentPlayer],cardsInTurn[turnCount][0].getSuit()))
         {
             teamModel.deleteCard(playerOrder[currentPlayer],card);
             cardsInTurn[turnCount][playerCount]=card;
