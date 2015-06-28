@@ -39,6 +39,7 @@ public class UserGameModel extends Observable implements Observer{
     {
         return gameModel.whoStartedTurn();
     }
+    public String whoStartedPreviousTurn() throws BridgeLogicException { return gameModel.whoStartedPreviousTurn();}
     int getCurrentPlayerID(){ return  gameModel.getCurrentPlayerID();}
     int getCurrentTurnNumber() { return gameModel.getCurrentTurnNumber();}
     int getHowManyTurnsWereWonBy(int team) throws BridgeLogicException {
