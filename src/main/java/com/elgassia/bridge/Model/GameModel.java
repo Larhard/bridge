@@ -188,4 +188,12 @@ public class GameModel extends Observable implements Serializable{
     int getCurrentPlayerID(){
         return playerOrder[currentPlayer];
     }
+    int getCurrentTurnNumber() { return turnCount+1;}
+    int getHowManyTurnsWereWonBy(int team) throws BridgeLogicException {
+        if(team>1 || team<0)
+            throw new BridgeLogicException("Invalid team number");
+        if(team==playingTeam)
+            return winnerWins;
+        return turnCount-winnerWins;
+    }
 }

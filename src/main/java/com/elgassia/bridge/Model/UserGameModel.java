@@ -43,7 +43,10 @@ public class UserGameModel extends Observable implements Observer{
         return gameModel.whoStartedTurn();
     }
     int getCurrentPlayerID(){ return  gameModel.getCurrentPlayerID();}
-
+    int getCurrentTurnNumber() { return gameModel.getCurrentTurnNumber();}
+    int getHowManyTurnsWereWonBy(int team) throws BridgeLogicException {
+        return gameModel.getHowManyTurnsWereWonBy(team);
+    }
     @Override
     public void update(Observable o, Object arg) {
         setChanged();

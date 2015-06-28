@@ -63,6 +63,25 @@ public class UserGameModelWithMockGameModelTest {
         userGameModel.getCurrentPlayerID();
         verify(gameModel,times(1)).getCurrentPlayerID();
     }
+    @Test
+    public void testGetCurrentTurnNumber() {
+        userGameModel.getCurrentTurnNumber();
+        verify(gameModel,times(1)).getCurrentTurnNumber();
+    }
+    @Test
+    public void testGetHowManyTurnsWereWonBy() throws Exception
+    {
+        when(gameModel.getHowManyTurnsWereWonBy(1)).thenReturn(2);
+        when(gameModel.getHowManyTurnsWereWonBy(-1)).thenThrow(new BridgeLogicException());
+        assertEquals("getHowManyTurnsWereWonBy failed with ok team number",userGameModel.getHowManyTurnsWereWonBy(1),2);
+        boolean y=false;
+        try {
+            userGameModel.getHowManyTurnsWereWonBy(-1);
+        }catch (BridgeLogicException e){
+            y=true;
+        }
+        assertTrue("getHowManyTurnsWereWon didn't throw an exception when gameModel throws one",y);
+    }
 
     @Test
     public void testGetPreviousTurnHistory() throws Exception

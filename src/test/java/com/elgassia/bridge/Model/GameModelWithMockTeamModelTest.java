@@ -223,4 +223,30 @@ public class GameModelWithMockTeamModelTest {
         assertEquals("getPreviousTurnHistory failed",new Card(Card.Rank.ACE, Card.Suit.HEARTS),hist[2]);
         assertEquals("getPreviousTurnHistory failed",new Card(Card.Rank.NINE, Card.Suit.HEARTS),hist[3]);
     }
+    @Test
+    public void testGetCurrentTurnNumber() throws Exception
+    {
+        when(teamModel.checkForCard(anyInt(),any(Card.class))).thenReturn(true).thenReturn(true).thenReturn(true).thenReturn(true).thenReturn(true);
+        gameModel.playCard(1, new Card(Card.Rank.FIVE, Card.Suit.HEARTS));
+        gameModel.playCard(0, new Card(Card.Rank.TWO, Card.Suit.HEARTS));
+        assertEquals("GetCurrentTurnNumber failed", gameModel.getCurrentTurnNumber(), 1);
+        gameModel.playCard(3, new Card(Card.Rank.ACE, Card.Suit.HEARTS));
+        gameModel.playCard(0,new Card(Card.Rank.NINE, Card.Suit.HEARTS));
+        gameModel.playCard(3,new Card(Card.Rank.SEVEN, Card.Suit.CLUBS));
+        assertEquals("GetCurrentTurnNumber failed",gameModel.getCurrentTurnNumber(),2);
+    }
+    @Test
+    public void testGetHowManyTurnsWereWonBy() throws Exception
+    {
+        when(teamModel.checkForCard(anyInt(),any(Card.class))).thenReturn(true).thenReturn(true).thenReturn(true).thenReturn(true).thenReturn(true);
+        gameModel.playCard(1, new Card(Card.Rank.FIVE, Card.Suit.HEARTS));
+        gameModel.playCard(0, new Card(Card.Rank.TWO, Card.Suit.HEARTS));
+        assertEquals("GetHowManyTurnsWereWonBy failed", gameModel.getHowManyTurnsWereWonBy(0), 0);
+        assertEquals("GetHowManyTurnsWereWonBy failed", gameModel.getHowManyTurnsWereWonBy(1), 0);
+        gameModel.playCard(3, new Card(Card.Rank.ACE, Card.Suit.HEARTS));
+        gameModel.playCard(0,new Card(Card.Rank.NINE, Card.Suit.HEARTS));
+        gameModel.playCard(3,new Card(Card.Rank.SEVEN, Card.Suit.CLUBS));
+        assertEquals("GetHowManyTurnsWereWonBy failed", gameModel.getHowManyTurnsWereWonBy(0), 0);
+        assertEquals("GetHowManyTurnsWereWonBy failed", gameModel.getHowManyTurnsWereWonBy(1), 1);
+    }
 }
