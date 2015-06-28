@@ -199,4 +199,28 @@ public class GameModelWithMockTeamModelTest {
         gameModel.playCard(0, new Card(Card.Rank.SEVEN, Card.Suit.CLUBS));
         assertEquals("Who started turn for cards the same color failed", gameModel.whoStartedTurn(), "user3");
     }
+
+    @Test
+    public void testGetPreviousTurnHistory() throws Exception
+    {
+        when(teamModel.checkForCard(anyInt(),any(Card.class))).thenReturn(true).thenReturn(true).thenReturn(true).thenReturn(true).thenReturn(true);
+        gameModel.playCard(1, new Card(Card.Rank.FIVE, Card.Suit.HEARTS));
+        gameModel.playCard(0, new Card(Card.Rank.TWO, Card.Suit.HEARTS));
+        boolean y=false;
+        try {
+            gameModel.getPreviousTurnHistory();
+        }catch (BridgeLogicException e)
+        {
+            y=true;
+        }
+        assertTrue("getPreviousTurnHistory didn't fail when there were no previous turn",y);
+        gameModel.playCard(3, new Card(Card.Rank.ACE, Card.Suit.HEARTS));
+        gameModel.playCard(0,new Card(Card.Rank.NINE, Card.Suit.HEARTS));
+        gameModel.playCard(3,new Card(Card.Rank.SEVEN, Card.Suit.CLUBS));
+        Card[] hist=gameModel.getPreviousTurnHistory();
+        assertEquals("getPreviousTurnHistory failed",new Card(Card.Rank.FIVE, Card.Suit.HEARTS),hist[0]);
+        assertEquals("getPreviousTurnHistory failed",new Card(Card.Rank.TWO, Card.Suit.HEARTS),hist[1]);
+        assertEquals("getPreviousTurnHistory failed",new Card(Card.Rank.ACE, Card.Suit.HEARTS),hist[2]);
+        assertEquals("getPreviousTurnHistory failed",new Card(Card.Rank.NINE, Card.Suit.HEARTS),hist[3]);
+    }
 }

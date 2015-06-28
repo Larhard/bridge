@@ -4,6 +4,7 @@ import com.elgassia.bridge.exception.BridgeLogicException;
 import org.junit.Before;
 import org.junit.Test;
 
+import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyInt;
@@ -61,5 +62,20 @@ public class UserGameModelWithMockGameModelTest {
     public void testGetCurrentPlayerID(){
         userGameModel.getCurrentPlayerID();
         verify(gameModel,times(1)).getCurrentPlayerID();
+    }
+
+    @Test
+    public void testGetPreviousTurnHistory() throws Exception
+    {
+        Card []x=new Card[4];
+        when(gameModel.getPreviousTurnHistory()).thenThrow(new BridgeLogicException()).thenReturn(x);
+        boolean y=false;
+        try {
+            userGameModel.getPreviousTurnHistory();
+        }catch (BridgeLogicException e){
+            y=true;
+        }
+        assertTrue("getPreviousTurnHistory didn't throw an exception when in gameModel exception was thrown",y);
+        assertEquals("getPreviousTurnHistory failed",x,userGameModel.getPreviousTurnHistory());
     }
 }

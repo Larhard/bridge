@@ -176,6 +176,11 @@ public class GameModel extends Observable implements Serializable{
     {
         return cardsInTurn[turnCount];
     }
+    Card[] getPreviousTurnHistory() throws BridgeLogicException {
+        if(turnCount==0)
+            throw new BridgeLogicException("There was no previous turn");
+        return cardsInTurn[turnCount-1];
+    }
     String whoStartedTurn()
     {
         return teamModel.getPlayerName(playerOrder[whoStartedTurn[turnCount]]);
