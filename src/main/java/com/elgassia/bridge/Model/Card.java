@@ -29,6 +29,8 @@ public class Card implements Comparable<Card> {
     }
     @Override
     public int compareTo(Card o) {
+        if(o==null)
+            return -1;
         if(this.suit.compareTo(o.getSuit())!=0)
             return this.suit.compareTo(o.getSuit());
         return this.rank.compareTo(o.getRank());

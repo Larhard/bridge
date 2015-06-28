@@ -37,6 +37,8 @@ public class Bid implements Comparable<Bid>{
 
     @Override
     public int compareTo(Bid o) {
+        if(o==null)
+            return -1;
         if(this.type==BidType.CARD && o.getType()==BidType.CARD)
         {
             if(this.count!=o.getCount())
