@@ -16,4 +16,6 @@ public interface UserTeamAdapter {
     GameAdapter getGameAdapter();
 
     com.elgassia.bridge.adapter.main.TeamAdapter.State getState();
+
+    int getPlayerId();
 }

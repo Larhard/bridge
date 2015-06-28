@@ -64,4 +64,9 @@ public class UserTeamAdapter implements com.elgassia.bridge.adapter.UserTeamAdap
     public TeamAdapter.State getState() {
         return teamAdapter.getState();
     }
+
+    @Override
+    public int getPlayerId() {
+        return playerId;
+    }
 }

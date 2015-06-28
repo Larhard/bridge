@@ -13,6 +13,10 @@ public class LobbyStatus extends Command {
     @Override
     public void execute() {
         System.out.println("  === Lobby ===");
+
+        System.out.println();
+        System.out.println("Player: " + teamAdapter.getPlayerName(teamAdapter.getPlayerId()));
+
         System.out.println();
         System.out.println("Players / teams:");
         for (int player : teamAdapter.getPlayersOrder()) {

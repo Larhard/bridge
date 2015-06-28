@@ -20,6 +20,11 @@ public class GameStatus extends Command {
 
         {
             System.out.println();
+            System.out.println("Player: " + teamAdapter.getPlayerName(teamAdapter.getPlayerId()));
+        }
+
+        {
+            System.out.println();
             System.out.println("Players / teams:");
             for (int player : teamAdapter.getPlayersOrder()) {
                 System.out.println("  " + teamAdapter.getPlayerName(player) + " / " + teamAdapter.getPlayerTeam(player));
