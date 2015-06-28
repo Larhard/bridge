@@ -111,8 +111,7 @@ public class TeamScene extends Scene implements Observer {
                 List<com.elgassia.bridge.Model.Bid> actualBidding = biddingAdapter.getBiddingHistory();
 
                 if (!actualBidding.equals(lastBidding)) {
-                    lastBidding = new ArrayList<>(actualBidding.size());
-                    Collections.copy(lastBidding, actualBidding);
+                    lastBidding = new ArrayList<>(actualBidding);
 
                     StringBuilder str = new StringBuilder();
                     System.out.println("Bidding History: " + actualBidding);
