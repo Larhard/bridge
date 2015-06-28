@@ -16,12 +16,13 @@ public class StartGame extends Command{
 
     @Override
     public void execute() {
-        try {
-            for (LobbyAdapter adapter : lobbyAdapters) {
+        for (LobbyAdapter adapter : lobbyAdapters) {
+            try {
                 adapter.startGame();
+            } catch (BridgeLogicException e) {
+                System.out.println(adapter.getName() + ": " + e.getMessage());
+                return;
             }
-        } catch (BridgeLogicException e) {
-            System.out.println(e.getMessage());
         }
     }
 }

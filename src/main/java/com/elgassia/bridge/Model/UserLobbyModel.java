@@ -60,4 +60,8 @@ public class UserLobbyModel extends Observable implements Observer{
         setChanged();
         notifyObservers();
     }
+
+    public String getName() {
+        return lobbyModel.getName(userID);
+    }
 }

@@ -79,4 +79,8 @@ public class LobbyModel extends Observable implements Serializable{
         setChanged();
         notifyObservers();
     }
+
+    public String getName(int userID) {
+        return teamModel.getPlayerName(userID);
+    }
 }

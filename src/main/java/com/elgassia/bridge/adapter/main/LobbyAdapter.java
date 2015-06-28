@@ -32,4 +32,9 @@ public class LobbyAdapter implements com.elgassia.bridge.adapter.LobbyAdapter {
     public void setTeam(int team) throws BridgeLogicException {
         userLobbyModel.setTeam(team);
     }
+
+    @Override
+    public String getName() {
+        return userLobbyModel.getName();
+    }
 }
