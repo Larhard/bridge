@@ -17,12 +17,6 @@ public class UserTeamAdapter implements com.elgassia.bridge.adapter.UserTeamAdap
         this.playerId = playerId;
         this.teamAdapter = teamAdapter;
         this.userTeamModel = userTeamModel;
-
-        game_adapter = new com.elgassia.bridge.adapter.main.GameAdapter(this, userTeamModel.getUserGameModel());
-
-        lobby_adapter = new com.elgassia.bridge.adapter.main.LobbyAdapter(this, userTeamModel.getUserLobbyModel());
-
-        bidding_adapter = new com.elgassia.bridge.adapter.main.BiddingAdapter(this, userTeamModel.getUserBiddingModel());
     }
 
     @Override
@@ -47,17 +41,17 @@ public class UserTeamAdapter implements com.elgassia.bridge.adapter.UserTeamAdap
 
     @Override
     public LobbyAdapter getLobbyAdapter() {
-        return lobby_adapter;
+        return new com.elgassia.bridge.adapter.main.LobbyAdapter(this, userTeamModel.getUserLobbyModel());
     }
 
     @Override
     public BiddingAdapter getBiddingAdapter() {
-        return bidding_adapter;
+        return new com.elgassia.bridge.adapter.main.BiddingAdapter(this, userTeamModel.getUserBiddingModel());
     }
 
     @Override
     public GameAdapter getGameAdapter() {
-        return game_adapter;
+        return new com.elgassia.bridge.adapter.main.GameAdapter(this, userTeamModel.getUserGameModel());
     }
 
     @Override
