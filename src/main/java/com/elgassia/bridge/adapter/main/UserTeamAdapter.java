@@ -21,6 +21,7 @@ public class UserTeamAdapter extends com.elgassia.bridge.adapter.UserTeamAdapter
         this.userTeamModel = userTeamModel;
 
         teamAdapter.addObserver(this);
+        userTeamModel.addObserver(this);
     }
 
     @Override
