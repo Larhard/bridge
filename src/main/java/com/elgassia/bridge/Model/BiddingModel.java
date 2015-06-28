@@ -44,6 +44,7 @@ public class BiddingModel extends Observable implements Serializable{
     }
     private void addBid(Bid bid)
     {
+        teamModel.newBidWasReceived();
         biddingHistory.add(bid);
         currentPlayer++;
         if(currentPlayer==4)

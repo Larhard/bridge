@@ -263,6 +263,11 @@ public class TeamModel extends Observable implements Serializable{
     {
         return whoStartedTurn;
     }
+    void newBidWasReceived()
+    {
+        setChanged();
+        notifyObservers();
+    }
     Memento saveToMemento() throws IOException {
         return new Memento(this);
     }
