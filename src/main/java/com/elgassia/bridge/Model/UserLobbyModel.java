@@ -64,4 +64,8 @@ public class UserLobbyModel extends Observable implements Observer{
     public String getName() {
         return lobbyModel.getName(userID);
     }
+
+    public void setDeckStrategy(Strategy strategy) {
+        lobbyModel.chooseDeckStrategy(strategy);
+    }
 }

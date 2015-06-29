@@ -6,6 +6,8 @@ import com.elgassia.bridge.Model.UserTeamModel;
 import com.elgassia.bridge.adapter.GameOverAdapter;
 import com.elgassia.bridge.adapter.UserTeamAdapter;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Observable;
@@ -87,6 +89,17 @@ public class TeamAdapter extends com.elgassia.bridge.adapter.TeamAdapter impleme
     @Override
     public int getContract() {
         return team_model.getContract();
+    }
+
+    @Override
+    public void saveGame(FileOutputStream out)
+    {
+        try {
+            TeamModel.Memento memento=team_model.saveToMemento();
+            out.write(memento.getBytes());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

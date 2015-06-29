@@ -12,6 +12,7 @@ import com.elgassia.bridge.view.tui.Commands;
 import com.elgassia.bridge.view.tui.Scene;
 import com.elgassia.bridge.view.tui.View;
 import com.elgassia.bridge.view.tui.commands.team.NextPlayer;
+import com.elgassia.bridge.view.tui.commands.team.SaveGame;
 import com.elgassia.bridge.view.tui.commands.team.bidding.Bid;
 import com.elgassia.bridge.view.tui.commands.team.bidding.BiddingStatus;
 import com.elgassia.bridge.view.tui.commands.team.game.GameStatus;
@@ -57,6 +58,7 @@ public class TeamScene extends Scene implements Observer {
         commands.clear();
 
         super.prepareCommands(commands, view);
+        commands.add("save_game",new SaveGame(view.getAdapter().getTeamAdapter()));
         switch (view.getAdapter().getTeamAdapter().getState()) {
             case LOBBY:
                 if (getUserTeamAdapters().size() > 0) {
@@ -73,6 +75,7 @@ public class TeamScene extends Scene implements Observer {
                     commands.add("set_team", new SetTeam(currentLobbyAdapter));
                     commands.add("status", new LobbyStatus(getCurrentUserTeamAdapter()));
                     commands.add("set_bot", new SetBot(this, getCurrentUserTeamAdapter(), getCurrentPlayer()));
+                    commands.add("set_deck", new SetDeck(currentLobbyAdapter));
                 }
 
                 break;
