@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.elgassia.bridge.Model</OriginalElement>
+  <nodes>
+    <node x="442.0" y="592.0">com.elgassia.bridge.Model.UserBiddingModel</node>
+    <node x="2512.277777777778" y="818.0">com.elgassia.bridge.Model.UserGameOverModelWithMockGameOverModelTest</node>
+    <node x="2204.8916666666664" y="434.0">com.elgassia.bridge.Model.DeckBuilderTest</node>
+    <node x="2050.034195906432" y="720.0">com.elgassia.bridge.Model.GameOverModelWithMockTeamModelTest</node>
+    <node x="1814.8454866332495" y="434.0">com.elgassia.bridge.Model.TeamModel</node>
+    <node x="1001.2500000000001" y="592.0">com.elgassia.bridge.Model.LobbyModelWithMockTeamModelTest</node>
+    <node x="1536.4567836257313" y="216.0">com.elgassia.bridge.Model.LobbyModel</node>
+    <node x="2140.2387280701755" y="592.0">com.elgassia.bridge.Model.GameOverModel</node>
+    <node x="911.7500000000001" y="216.0">com.elgassia.bridge.Model.RandomStrategy</node>
+    <node x="1235.75" y="818.0">com.elgassia.bridge.Model.StartNewGameTest</node>
+    <node x="107.99843149540538" y="78.0">com.elgassia.bridge.Model.Bid</node>
+    <node x="1898.0341959064322" y="720.0">com.elgassia.bridge.Model.UserTeamModel</node>
+    <node x="609.173264411027" y="434.0">com.elgassia.bridge.Model.ChooseStrategyTest</node>
+    <node x="582.923264411027" y="216.0">com.elgassia.bridge.Model.ChooseStrategy</node>
+    <node x="788.173264411027" y="434.0">com.elgassia.bridge.Model.RandomStrategyTest</node>
+    <node x="2074.449653299916" y="818.0">com.elgassia.bridge.Model.UserTeamModelWithMockTeamModelTest</node>
+    <node x="2757.099653299916" y="592.0">com.elgassia.bridge.Model.UserGameModel</node>
+    <node x="362.99947368421" y="216.0">com.elgassia.bridge.Model.BiddingModel</node>
+    <node x="40.0" y="216.0">com.elgassia.bridge.Model.BidTest</node>
+    <node x="1447.959741019215" y="592.0">com.elgassia.bridge.Model.UserLobbyModel</node>
+    <node x="2602.6916854636593" y="434.0">com.elgassia.bridge.Model.CreditsModel</node>
+    <node x="150.0" y="592.0">com.elgassia.bridge.Model.BiddingModelWithMockTeamModelTest</node>
+    <node x="1827.8592147034249" y="0.0">com.elgassia.bridge.Model.Color</node>
+    <node x="80.74843149540538" y="0.0">com.elgassia.bridge.Model.BidType</node>
+    <node x="104.73004803675826" y="720.0">com.elgassia.bridge.Model.UserBiddingModelWithMockBiddingModelTest</node>
+    <node x="2585.6916854636593" y="592.0">com.elgassia.bridge.Model.MainModel</node>
+    <node x="1768.297061403509" y="78.0">com.elgassia.bridge.Model.Card</node>
+    <node x="1810.3439369256473" y="818.0">com.elgassia.bridge.Model.LobbyTest</node>
+    <node x="2293.2387280701755" y="592.0">com.elgassia.bridge.Model.TeamModelMementoTest</node>
+    <node x="2911.099653299916" y="592.0">com.elgassia.bridge.Model.GameModelWithMockTeamModelTest</node>
+    <node x="903.2500000000001" y="78.0">com.elgassia.bridge.Model.Strategy</node>
+    <node x="1672.02447368421" y="592.0">com.elgassia.bridge.Model.TeamModelTest</node>
+    <node x="2771.599653299916" y="216.0">com.elgassia.bridge.Model.GameModel</node>
+    <node x="2649.7541854636593" y="720.0">com.elgassia.bridge.Model.UserGameOverModel</node>
+    <node x="1284.25" y="720.0">com.elgassia.bridge.Model.UserLobbyModelWithMockLobbyModelTest</node>
+    <node x="1909.4246532999161" y="216.0">com.elgassia.bridge.Model.DeckBuilder</node>
+    <node x="2831.7541854636593" y="720.0">com.elgassia.bridge.Model.UserGameModelWithMockGameModelTest</node>
+    <node x="1597.25" y="720.0">com.elgassia.bridge.Model.LobbyModelTest</node>
+    <node x="1733.14947368421" y="216.0">com.elgassia.bridge.Model.CardTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.elgassia.bridge.Model.TeamModelMementoTest" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="0.0" y="-14.0" />
+      <point x="2387.2387280701755" y="522.0" />
+      <point x="1897.8177088554717" y="522.0" />
+      <point x="31.47222222222217" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.Bid" target="com.elgassia.bridge.Model.Color">
+      <point x="12.75" y="-14.0" />
+      <point x="146.24843149540538" y="53.0" />
+      <point x="1838.5258813700914" y="53.0" />
+      <point x="-21.333333333333485" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserGameOverModel" target="com.elgassia.bridge.Model.GameOverModel">
+      <point x="0.0" y="-14.0" />
+      <point x="2730.7541854636593" y="670.0" />
+      <point x="2259.9387280701753" y="670.0" />
+      <point x="53.19999999999982" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModel" target="com.elgassia.bridge.Model.DeckBuilder">
+      <point x="27.466666666666697" y="-14.0" />
+      <point x="1893.8121532999162" y="384.0" />
+      <point x="1935.9246532999161" y="384.0" />
+      <point x="-26.5" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModel" target="com.elgassia.bridge.Model.GameModel">
+      <point x="41.19999999999982" y="-14.0" />
+      <point x="1907.5454866332493" y="404.0" />
+      <point x="2794.099653299916" y="404.0" />
+      <point x="-30.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModel" target="com.elgassia.bridge.Model.Strategy">
+      <point x="0.0" y="-14.0" />
+      <point x="1866.3454866332495" y="294.0" />
+      <point x="1651.9567836257313" y="294.0" />
+      <point x="1651.9567836257313" y="146.0" />
+      <point x="974.0833333333334" y="146.0" />
+      <point x="28.333333333333258" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserTeamModel" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="0.0" y="-14.0" />
+      <point x="1964.0341959064322" y="572.0" />
+      <point x="1869.2065977443608" y="572.0" />
+      <point x="2.861111111111313" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.LobbyModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.LobbyModel">
+      <point x="-32.75" y="-14.0" />
+      <point x="1099.5" y="482.0" />
+      <point x="1109.5399310776938" y="482.0" />
+      <point x="1109.5399310776938" y="394.0" />
+      <point x="1553.9567836257313" y="394.0" />
+      <point x="-35.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.MainModel" target="com.elgassia.bridge.Model.CreditsModel">
+      <point x="24.5" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserBiddingModel" target="com.elgassia.bridge.Model.BiddingModel">
+      <point x="0.0" y="-14.0" />
+      <point x="514.0" y="414.0" />
+      <point x="420.49947368421" y="414.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.GameOverModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="-96.66666666666652" y="-14.0" />
+      <point x="2098.3675292397656" y="680.0" />
+      <point x="2082.1111111111113" y="680.0" />
+      <point x="2082.1111111111113" y="562.0" />
+      <point x="1874.928819966583" y="562.0" />
+      <point x="8.583333333333485" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.LobbyModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.RandomStrategy">
+      <point x="-98.25" y="-14.0" />
+      <point x="1034.0" y="482.0" />
+      <point x="972.673264411027" y="482.0" />
+      <point x="972.673264411027" y="414.0" />
+      <point x="979.7500000000001" y="414.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModel" target="com.elgassia.bridge.Model.Card">
+      <point x="13.733333333333121" y="-14.0" />
+      <point x="1880.0788199665826" y="274.0" />
+      <point x="1842.3633813700915" y="274.0" />
+      <point x="1842.3633813700915" y="186.0" />
+      <point x="1801.3387280701754" y="186.0" />
+      <point x="2.541666666666515" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.RandomStrategyTest" target="com.elgassia.bridge.Model.RandomStrategy">
+      <point x="0.0" y="-14.0" />
+      <point x="869.673264411027" y="414.0" />
+      <point x="925.35" y="414.0" />
+      <point x="-54.40000000000009" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.ChooseStrategy" target="com.elgassia.bridge.Model.Strategy">
+      <point x="-33.0" y="-14.0" />
+      <point x="615.923264411027" y="146.0" />
+      <point x="917.4166666666669" y="146.0" />
+      <point x="-28.333333333333258" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.GameModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="-98.25" y="-14.0" />
+      <point x="2943.849653299916" y="492.0" />
+      <point x="1914.9843755221382" y="492.0" />
+      <point x="48.63888888888869" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.GameModel" target="com.elgassia.bridge.Model.Color">
+      <point x="35.0" y="-14.0" />
+      <point x="2859.099653299916" y="146.0" />
+      <point x="2340.7347410192147" y="146.0" />
+      <point x="2340.7347410192147" y="53.0" />
+      <point x="1881.1925480367584" y="53.0" />
+      <point x="21.333333333333485" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.GameOverModel" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="-44.333333333333485" y="-14.0" />
+      <point x="2162.405394736842" y="552.0" />
+      <point x="1880.6510421888051" y="552.0" />
+      <point x="14.305555555555657" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.BidTest" target="com.elgassia.bridge.Model.Bid">
+      <point x="0.0" y="-14.0" />
+      <point x="79.0" y="186.0" />
+      <point x="127.12343149540538" y="186.0" />
+      <point x="-6.375" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.DeckBuilderTest" target="com.elgassia.bridge.Model.DeckBuilder">
+      <point x="-33.25" y="-14.0" />
+      <point x="2238.1416666666664" y="384.0" />
+      <point x="1988.9246532999161" y="384.0" />
+      <point x="26.5" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.LobbyTest" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="-35.625" y="-14.0" />
+      <point x="1822.2189369256473" y="768.0" />
+      <point x="1829.2466959064323" y="768.0" />
+      <point x="1829.2466959064323" y="562.0" />
+      <point x="1857.762153299916" y="562.0" />
+      <point x="-8.583333333333485" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserTeamModel" target="com.elgassia.bridge.Model.UserGameModel">
+      <point x="52.80000000000018" y="-14.0" />
+      <point x="2016.8341959064323" y="700.0" />
+      <point x="2779.432986633249" y="700.0" />
+      <point x="-44.66666666666697" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.BiddingModel" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="49.28571428571422" y="14.0" />
+      <point x="469.7851879699242" y="344.0" />
+      <point x="1832.012153299916" y="344.0" />
+      <point x="-34.333333333333485" y="-14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.BiddingModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.Bid">
+      <point x="-102.0" y="-14.0" />
+      <point x="184.0" y="572.0" />
+      <point x="128.5" y="572.0" />
+      <point x="128.5" y="196.0" />
+      <point x="139.87343149540538" y="196.0" />
+      <point x="6.375" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModelTest" target="com.elgassia.bridge.Model.RandomStrategy">
+      <point x="-48.75" y="-14.0" />
+      <point x="1688.27447368421" y="482.0" />
+      <point x="1661.8472410192153" y="482.0" />
+      <point x="1661.8472410192153" y="374.0" />
+      <point x="1006.9500000000002" y="374.0" />
+      <point x="27.200000000000045" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.ChooseStrategyTest" target="com.elgassia.bridge.Model.ChooseStrategy">
+      <point x="-39.75" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.GameModel" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="-15.0" y="14.0" />
+      <point x="2809.099653299916" y="414.0" />
+      <point x="1914.412153299916" y="414.0" />
+      <point x="48.066666666666606" y="-14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.RandomStrategy" target="com.elgassia.bridge.Model.Strategy">
+      <point x="-34.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.BiddingModel" target="com.elgassia.bridge.Model.Bid">
+      <point x="0.0" y="-14.0" />
+      <point x="420.49947368421" y="196.0" />
+      <point x="152.62343149540538" y="196.0" />
+      <point x="19.125" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.GameModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.Card">
+      <point x="98.25" y="-14.0" />
+      <point x="3140.349653299916" y="562.0" />
+      <point x="3069.045852130326" y="562.0" />
+      <point x="3069.045852130326" y="136.0" />
+      <point x="1821.672061403509" y="136.0" />
+      <point x="22.875" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserLobbyModelWithMockLobbyModelTest" target="com.elgassia.bridge.Model.RandomStrategy">
+      <point x="-109.875" y="-14.0" />
+      <point x="1320.875" y="700.0" />
+      <point x="961.673264411027" y="700.0" />
+      <point x="961.673264411027" y="414.0" />
+      <point x="952.5500000000001" y="414.0" />
+      <point x="-27.200000000000045" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserGameModelWithMockGameModelTest" target="com.elgassia.bridge.Model.UserGameModel">
+      <point x="-36.625" y="-14.0" />
+      <point x="2941.6291854636593" y="690.0" />
+      <point x="2868.766319966583" y="690.0" />
+      <point x="44.66666666666697" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModel" target="com.elgassia.bridge.Model.BiddingModel">
+      <point x="-41.19999999999982" y="-14.0" />
+      <point x="1825.1454866332497" y="354.0" />
+      <point x="453.3566165413529" y="354.0" />
+      <point x="32.85714285714289" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.StartNewGameTest" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="-38.0" y="-14.0" />
+      <point x="1273.75" y="512.0" />
+      <point x="1829.1510421888051" y="512.0" />
+      <point x="-37.19444444444434" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModelTest" target="com.elgassia.bridge.Model.Card">
+      <point x="-16.25" y="-14.0" />
+      <point x="1720.77447368421" y="482.0" />
+      <point x="1722.64947368421" y="482.0" />
+      <point x="1722.64947368421" y="186.0" />
+      <point x="1786.0887280701754" y="186.0" />
+      <point x="-12.708333333333485" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.GameModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.GameModel">
+      <point x="32.75" y="-14.0" />
+      <point x="3074.849653299916" y="572.0" />
+      <point x="3058.045852130326" y="572.0" />
+      <point x="3058.045852130326" y="404.0" />
+      <point x="2854.099653299916" y="404.0" />
+      <point x="30.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModel" target="com.elgassia.bridge.Model.RandomStrategy">
+      <point x="-27.466666666666697" y="-14.0" />
+      <point x="1838.8788199665828" y="334.0" />
+      <point x="1034.15" y="334.0" />
+      <point x="54.40000000000009" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserBiddingModelWithMockBiddingModelTest" target="com.elgassia.bridge.Model.BiddingModel">
+      <point x="-39.125" y="-14.0" />
+      <point x="222.10504803675826" y="690.0" />
+      <point x="139.5" y="690.0" />
+      <point x="139.5" y="394.0" />
+      <point x="371.21375939849577" y="394.0" />
+      <point x="-49.28571428571422" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.CardTest" target="com.elgassia.bridge.Model.Card">
+      <point x="0.0" y="-14.0" />
+      <point x="1777.14947368421" y="196.0" />
+      <point x="1791.172061403509" y="196.0" />
+      <point x="-7.625" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserTeamModel" target="com.elgassia.bridge.Model.UserBiddingModel">
+      <point x="-52.80000000000018" y="-14.0" />
+      <point x="1911.234195906432" y="650.0" />
+      <point x="562.0" y="650.0" />
+      <point x="48.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.GameOverModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.GameOverModel">
+      <point x="0.0" y="-14.0" />
+      <point x="2195.034195906432" y="690.0" />
+      <point x="2180.1387280701756" y="690.0" />
+      <point x="-26.59999999999991" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserGameModelWithMockGameModelTest" target="com.elgassia.bridge.Model.Card">
+      <point x="109.875" y="-14.0" />
+      <point x="3088.1291854636593" y="700.0" />
+      <point x="3194.599653299916" y="700.0" />
+      <point x="3194.599653299916" y="126.0" />
+      <point x="1826.7553947368424" y="126.0" />
+      <point x="27.958333333333485" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserLobbyModel" target="com.elgassia.bridge.Model.LobbyModel">
+      <point x="0.0" y="-14.0" />
+      <point x="1514.959741019215" y="414.0" />
+      <point x="1577.2901169590648" y="414.0" />
+      <point x="-11.666666666666515" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserTeamModel" target="com.elgassia.bridge.Model.GameOverModel">
+      <point x="26.40000000000009" y="-14.0" />
+      <point x="1990.4341959064323" y="690.0" />
+      <point x="2153.5387280701757" y="690.0" />
+      <point x="-53.19999999999982" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.RandomStrategy" target="com.elgassia.bridge.Model.Card">
+      <point x="34.0" y="-14.0" />
+      <point x="1013.7500000000001" y="176.0" />
+      <point x="1781.0053947368424" y="176.0" />
+      <point x="-17.791666666666515" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.Bid" target="com.elgassia.bridge.Model.BidType">
+      <point x="-12.75" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.LobbyModel" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="46.666666666666515" y="14.0" />
+      <point x="1635.6234502923978" y="304.0" />
+      <point x="1859.4788199665827" y="304.0" />
+      <point x="-6.866666666666788" y="-14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserLobbyModelWithMockLobbyModelTest" target="com.elgassia.bridge.Model.UserLobbyModel">
+      <point x="36.625" y="-14.0" />
+      <point x="1467.375" y="700.0" />
+      <point x="1461.359741019215" y="700.0" />
+      <point x="-53.59999999999991" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.BiddingModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.BiddingModel">
+      <point x="-34.0" y="-14.0" />
+      <point x="252.0" y="572.0" />
+      <point x="280.5" y="572.0" />
+      <point x="280.5" y="404.0" />
+      <point x="387.6423308270671" y="404.0" />
+      <point x="-32.85714285714289" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserGameModel" target="com.elgassia.bridge.Model.GameModel">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserBiddingModelWithMockBiddingModelTest" target="com.elgassia.bridge.Model.UserBiddingModel">
+      <point x="117.375" y="-14.0" />
+      <point x="378.60504803675826" y="700.0" />
+      <point x="514.0" y="700.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.ChooseStrategyTest" target="com.elgassia.bridge.Model.Card">
+      <point x="39.75" y="-14.0" />
+      <point x="728.423264411027" y="414.0" />
+      <point x="725.423264411027" y="414.0" />
+      <point x="725.423264411027" y="166.0" />
+      <point x="1775.922061403509" y="166.0" />
+      <point x="-22.875" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModel" target="com.elgassia.bridge.Model.GameOverModel">
+      <point x="25.75" y="14.0" />
+      <point x="1892.0954866332495" y="532.0" />
+      <point x="2251.072061403509" y="532.0" />
+      <point x="44.333333333333485" y="-14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.LobbyModelTest" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="33.0" y="-14.0" />
+      <point x="1696.25" y="690.0" />
+      <point x="1812.52447368421" y="690.0" />
+      <point x="1812.52447368421" y="542.0" />
+      <point x="1846.3177088554717" y="542.0" />
+      <point x="-20.02777777777783" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.MainModel" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="-24.5" y="-14.0" />
+      <point x="2610.1916854636593" y="502.0" />
+      <point x="1909.262153299916" y="502.0" />
+      <point x="42.916666666666515" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.StartNewGameTest" target="com.elgassia.bridge.Model.UserTeamModel">
+      <point x="38.0" y="-14.0" />
+      <point x="1349.75" y="778.0" />
+      <point x="1911.234195906432" y="778.0" />
+      <point x="-52.80000000000018" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserTeamModel" target="com.elgassia.bridge.Model.UserLobbyModel">
+      <point x="-26.40000000000009" y="-14.0" />
+      <point x="1937.634195906432" y="640.0" />
+      <point x="1568.559741019215" y="640.0" />
+      <point x="53.59999999999991" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.LobbyModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="98.25" y="-14.0" />
+      <point x="1230.5" y="502.0" />
+      <point x="1823.428819966583" y="502.0" />
+      <point x="-42.916666666666515" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModelTest" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="16.25" y="-14.0" />
+      <point x="1753.27447368421" y="522.0" />
+      <point x="1834.8732644110273" y="522.0" />
+      <point x="-31.47222222222217" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserBiddingModelWithMockBiddingModelTest" target="com.elgassia.bridge.Model.Bid">
+      <point x="-117.375" y="-14.0" />
+      <point x="143.85504803675826" y="700.0" />
+      <point x="29.5" y="700.0" />
+      <point x="29.5" y="176.0" />
+      <point x="114.37343149540538" y="176.0" />
+      <point x="-19.125" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.ChooseStrategy" target="com.elgassia.bridge.Model.Card">
+      <point x="33.0" y="-14.0" />
+      <point x="681.923264411027" y="156.0" />
+      <point x="1770.8387280701754" y="156.0" />
+      <point x="-27.958333333333485" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserGameModelWithMockGameModelTest" target="com.elgassia.bridge.Model.GameModel">
+      <point x="36.625" y="-14.0" />
+      <point x="3014.8791854636593" y="690.0" />
+      <point x="3183.599653299916" y="690.0" />
+      <point x="3183.599653299916" y="394.0" />
+      <point x="2869.099653299916" y="394.0" />
+      <point x="45.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserTeamModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="96.33333333333348" y="-14.0" />
+      <point x="2315.2829866332495" y="798.0" />
+      <point x="2491.7387280701755" y="798.0" />
+      <point x="2491.7387280701755" y="512.0" />
+      <point x="1903.5399310776938" y="512.0" />
+      <point x="37.19444444444434" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserGameOverModelWithMockGameOverModelTest" target="com.elgassia.bridge.Model.GameOverModel">
+      <point x="-116.33333333333303" y="-14.0" />
+      <point x="2570.444444444445" y="798.0" />
+      <point x="2639.2541854636593" y="798.0" />
+      <point x="2639.2541854636593" y="680.0" />
+      <point x="2233.3387280701754" y="680.0" />
+      <point x="26.59999999999991" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserTeamModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.UserTeamModel">
+      <point x="-96.33333333333348" y="-14.0" />
+      <point x="2122.6163199665825" y="798.0" />
+      <point x="1990.4341959064323" y="798.0" />
+      <point x="26.40000000000009" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserLobbyModelWithMockLobbyModelTest" target="com.elgassia.bridge.Model.LobbyModel">
+      <point x="-36.625" y="-14.0" />
+      <point x="1394.125" y="690.0" />
+      <point x="990.7500000000001" y="690.0" />
+      <point x="990.7500000000001" y="384.0" />
+      <point x="1542.2901169590648" y="384.0" />
+      <point x="-46.666666666666515" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModel" target="com.elgassia.bridge.Model.LobbyModel">
+      <point x="-13.733333333333121" y="-14.0" />
+      <point x="1852.6121532999164" y="314.0" />
+      <point x="1623.9567836257313" y="314.0" />
+      <point x="35.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.DeckBuilderTest" target="com.elgassia.bridge.Model.Card">
+      <point x="33.25" y="-14.0" />
+      <point x="2304.6416666666664" y="384.0" />
+      <point x="2289.8916666666664" y="384.0" />
+      <point x="2289.8916666666664" y="176.0" />
+      <point x="1806.422061403509" y="176.0" />
+      <point x="7.625" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.LobbyModelTest" target="com.elgassia.bridge.Model.LobbyModel">
+      <point x="11.0" y="-14.0" />
+      <point x="1674.25" y="660.0" />
+      <point x="1626.5" y="660.0" />
+      <point x="1626.5" y="404.0" />
+      <point x="1600.6234502923978" y="404.0" />
+      <point x="11.666666666666515" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.UserGameOverModelWithMockGameOverModelTest" target="com.elgassia.bridge.Model.UserGameOverModel">
+      <point x="116.33333333333303" y="-14.0" />
+      <point x="2803.111111111111" y="798.0" />
+      <point x="2771.2541854636593" y="798.0" />
+      <point x="40.5" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.BiddingModelWithMockTeamModelTest" target="com.elgassia.bridge.Model.TeamModel">
+      <point x="102.0" y="-14.0" />
+      <point x="388.0" y="492.0" />
+      <point x="1817.7065977443608" y="492.0" />
+      <point x="-48.63888888888869" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.GameModel" target="com.elgassia.bridge.Model.Card">
+      <point x="-35.0" y="-14.0" />
+      <point x="2789.099653299916" y="166.0" />
+      <point x="1811.5053947368424" y="166.0" />
+      <point x="12.708333333333485" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.LobbyTest" target="com.elgassia.bridge.Model.UserTeamModel">
+      <point x="11.875" y="-14.0" />
+      <point x="1869.7189369256473" y="788.0" />
+      <point x="1937.634195906432" y="788.0" />
+      <point x="-26.40000000000009" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.LobbyModelTest" target="com.elgassia.bridge.Model.UserLobbyModel">
+      <point x="-33.0" y="-14.0" />
+      <point x="1630.25" y="680.0" />
+      <point x="1541.7597410192152" y="680.0" />
+      <point x="26.800000000000182" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.TeamModel" target="com.elgassia.bridge.Model.Color">
+      <point x="20.59999999999991" y="-14.0" />
+      <point x="1886.9454866332494" y="264.0" />
+      <point x="1865.0258813700916" y="264.0" />
+      <point x="1865.0258813700916" y="53.0" />
+      <point x="1859.8592147034249" y="53.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.14382583868665239" x="2723.950372208437" y="1351.0" />
+  <SelectedNodes>
+    <node>com.elgassia.bridge.Model.UserBiddingModel</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
