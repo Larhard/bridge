@@ -52,6 +52,11 @@ public class Card implements Comparable<Card>, Serializable {
     }
 
     @Override
+    public int hashCode() {
+        return suit.hashCode()+rank.hashCode();
+    }
+
+    @Override
     public String toString() {
         String rank_str = null;
         String color_str = null;
