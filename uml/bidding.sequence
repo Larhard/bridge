@@ -1,0 +1,19 @@
+User->+View.ReaderThread: bid
+View.ReaderThread->+Commands: .parse(bid)
+Commands-->-View.ReaderThread: command.team.bidding.Bid
+View.ReaderThread->+command.team.bidding.Bid: .execute()
+deactivate View.ReaderThread
+
+alt bid_type: pass/contra/recontra
+    command.team.bidding.Bid->BiddingAdapter: .bid(new Bid(<bid_type>))
+    activate BiddingAdapter
+else: bid_type: card
+    command.team.bidding.Bid->BiddingAdapter: .bid(new Bid(<bid_type>, <count>, <atu>))
+end
+
+deactivate command.team.bidding.Bid
+BiddingAdapter->+UserBiddingModel: .bid(bid)
+UserBiddingModel->+BiddingModel: .bid(bid,userID)
+BiddingModel->BiddingModel: .addBid(bid)
+BiddingModel-->-UserBiddingModel: true
+UserBiddingModel-->-BiddingAdapter: true
