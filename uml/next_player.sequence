@@ -1,0 +1,11 @@
+User->+View.ReaderThread: next
+View.ReaderThread->+Commands: .parse(next)
+Commands-->-View.ReaderThread: command.team.NextPlayer
+View.ReaderThread->+command.team.NextPlayer: .execute()
+deactivate View.ReaderThread
+command.team.NextPlayer->+TeamScene: getCurrentPlayer()
+
+TeamScene-->-command.team.NextPlayer: currentPlayer
+command.team.NextPlayer->+TeamScene: setCurrentPlayer(currentPlayer+1)
+TeamScene-->-command.team.NextPlayer:
+command.team.NextPlayer->TeamScene: resetCommands()
