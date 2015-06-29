@@ -1,8 +1,9 @@
 package com.elgassia.bridge.Model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Bid implements Comparable<Bid>{
+public class Bid implements Comparable<Bid>, Serializable{
     private BidType type;
     private Integer count;
     private Color color;

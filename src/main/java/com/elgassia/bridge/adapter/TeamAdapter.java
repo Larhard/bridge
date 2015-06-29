@@ -4,6 +4,7 @@ import com.elgassia.bridge.Model.Color;
 import com.elgassia.bridge.Model.TeamModel;
 import com.elgassia.bridge.adapter.main.MainAdapter;
 
+import java.io.FileOutputStream;
 import java.util.Observable;
 
 abstract public class TeamAdapter extends Observable {
@@ -24,4 +25,6 @@ abstract public class TeamAdapter extends Observable {
     public abstract Color getAtu();
 
     public abstract int getContract();
+
+    public abstract void saveGame(FileOutputStream out);
 }

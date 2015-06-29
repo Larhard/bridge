@@ -268,11 +268,15 @@ public class TeamModel extends Observable implements Serializable{
         setChanged();
         notifyObservers();
     }
-    Memento saveToMemento() throws IOException {
+    public Memento saveToMemento() throws IOException {
         return new Memento(this);
     }
     public static class Memento {
         byte [] teamModel;
+        public Memento(byte[] teamModel)
+        {
+            this.teamModel=teamModel;
+        }
         Memento(TeamModel teamModel)throws IOException
         {
                 ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
@@ -297,7 +301,11 @@ public class TeamModel extends Observable implements Serializable{
                 }
             }
         }
-        TeamModel restore() throws IOException,ClassNotFoundException{
+        public byte [] getBytes()
+        {
+            return teamModel;
+        }
+        public TeamModel restore() throws IOException,ClassNotFoundException{
             ByteArrayInputStream byteArrayInputStream=new ByteArrayInputStream(this.teamModel);
             ObjectInput objectInput=null;
             TeamModel teamModel1=null;
