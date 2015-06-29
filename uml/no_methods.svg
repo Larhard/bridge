@@ -292,34 +292,34 @@
         <path d="M0 0 L0 19 L95 19 L95 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath13">
-        <path d="M-666 -757 L1125 -757 L1125 194 L-666 194 L-666 -757 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
-        <path d="M0 0 L0 28 L105 28 L105 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
-        <path d="M0 0 L0 26 L103 26 L103 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
-        <path d="M0 0 L0 25 L103 25 L103 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17">
-        <path d="M0 0 L0 19 L97 19 L97 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
         <path d="M-567 -684 L1224 -684 L1224 267 L-567 267 L-567 -684 Z"/>
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
         <path d="M0 0 L0 28 L133 28 L133 0 Z"/>
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath20">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
         <path d="M0 0 L0 26 L131 26 L131 0 Z"/>
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath21">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
         <path d="M0 0 L0 25 L131 25 L131 0 Z"/>
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath22">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17">
         <path d="M0 0 L0 19 L125 19 L125 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
+        <path d="M-666 -757 L1125 -757 L1125 194 L-666 194 L-666 -757 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19">
+        <path d="M0 0 L0 28 L105 28 L105 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath20">
+        <path d="M0 0 L0 26 L103 26 L103 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath21">
+        <path d="M0 0 L0 25 L103 25 L103 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath22">
+        <path d="M0 0 L0 19 L97 19 L97 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
         <path d="M-172 -309 L1619 -309 L1619 642 L-172 642 L-172 -309 Z"/>
@@ -541,40 +541,40 @@
         <path d="M0 0 L0 19 L120 19 L120 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath96">
-        <path d="M-383 -382 L1408 -382 L1408 569 L-383 569 L-383 -382 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath97">
-        <path d="M0 0 L0 28 L118 28 L118 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath98">
-        <path d="M0 0 L0 26 L116 26 L116 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath99">
-        <path d="M0 0 L0 25 L116 25 L116 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath100">
-        <path d="M0 0 L0 19 L110 19 L110 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath101">
-        <path d="M-623 -231 L1168 -231 L1168 720 L-623 720 L-623 -231 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath102">
-        <path d="M0 0 L0 28 L146 28 L146 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath103">
-        <path d="M0 0 L0 26 L144 26 L144 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath104">
-        <path d="M0 0 L0 25 L144 25 L144 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath105">
-        <path d="M0 0 L0 19 L138 19 L138 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath106">
         <path d="M-210 -460 L1581 -460 L1581 491 L-210 491 L-210 -460 Z"/>
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath107">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath97">
+        <path d="M-383 -382 L1408 -382 L1408 569 L-383 569 L-383 -382 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath98">
+        <path d="M0 0 L0 28 L118 28 L118 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath99">
+        <path d="M0 0 L0 26 L116 26 L116 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath100">
+        <path d="M0 0 L0 25 L116 25 L116 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath101">
+        <path d="M0 0 L0 19 L110 19 L110 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath102">
         <path d="M-383 -460 L1408 -460 L1408 491 L-383 491 L-383 -460 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath103">
+        <path d="M-623 -231 L1168 -231 L1168 720 L-623 720 L-623 -231 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath104">
+        <path d="M0 0 L0 28 L146 28 L146 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath105">
+        <path d="M0 0 L0 26 L144 26 L144 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath106">
+        <path d="M0 0 L0 25 L144 25 L144 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath107">
+        <path d="M0 0 L0 19 L138 19 L138 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath108">
         <path d="M-623 -309 L1168 -309 L1168 642 L-623 642 L-623 -309 Z"/>
@@ -652,22 +652,22 @@
         <path d="M-20 -460 L1771 -460 L1771 491 L-20 491 L-20 -460 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath133">
-        <path d="M-205 -533 L1586 -533 L1586 418 L-205 418 L-205 -533 Z"/>
+        <path d="M-176 -611 L1615 -611 L1615 340 L-176 340 L-176 -611 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath134">
-        <path d="M0 0 L0 28 L53 28 L53 0 Z"/>
+        <path d="M-205 -533 L1586 -533 L1586 418 L-205 418 L-205 -533 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath135">
-        <path d="M0 0 L0 26 L51 26 L51 0 Z"/>
+        <path d="M0 0 L0 28 L53 28 L53 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath136">
-        <path d="M0 0 L0 25 L51 25 L51 0 Z"/>
+        <path d="M0 0 L0 26 L51 26 L51 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath137">
-        <path d="M0 0 L0 19 L45 19 L45 0 Z"/>
+        <path d="M0 0 L0 25 L51 25 L51 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath138">
-        <path d="M-176 -611 L1615 -611 L1615 340 L-176 340 L-176 -611 Z"/>
+        <path d="M0 0 L0 19 L45 19 L45 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath139">
         <path d="M-437 -533 L1354 -533 L1354 418 L-437 418 L-437 -533 Z"/>
@@ -685,85 +685,85 @@
         <path d="M0 0 L0 19 L157 19 L157 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath144">
-        <path d="M-136 -903 L1655 -903 L1655 48 L-136 48 L-136 -903 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath145">
-        <path d="M0 0 L0 28 L68 28 L68 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath146">
-        <path d="M0 0 L0 26 L66 26 L66 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath147">
-        <path d="M0 0 L0 25 L66 25 L66 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath148">
-        <path d="M0 0 L0 19 L60 19 L60 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath149">
-        <path d="M-20 -903 L1771 -903 L1771 48 L-20 48 L-20 -903 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath150">
-        <path d="M0 0 L0 28 L71 28 L71 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath151">
-        <path d="M0 0 L0 26 L69 26 L69 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath152">
-        <path d="M0 0 L0 25 L69 25 L69 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath153">
-        <path d="M0 0 L0 19 L63 19 L63 0 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath154">
         <path d="M-20 -158 L1771 -158 L1771 793 L-20 793 L-20 -158 Z"/>
       </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath145">
+        <path d="M-136 -903 L1655 -903 L1655 48 L-136 48 L-136 -903 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath146">
+        <path d="M0 0 L0 28 L68 28 L68 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath147">
+        <path d="M0 0 L0 26 L66 26 L66 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath148">
+        <path d="M0 0 L0 25 L66 25 L66 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath149">
+        <path d="M0 0 L0 19 L60 19 L60 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath150">
+        <path d="M-20 -903 L1771 -903 L1771 48 L-20 48 L-20 -903 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath151">
+        <path d="M0 0 L0 28 L71 28 L71 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath152">
+        <path d="M0 0 L0 26 L69 26 L69 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath153">
+        <path d="M0 0 L0 25 L69 25 L69 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath154">
+        <path d="M0 0 L0 19 L63 19 L63 0 Z"/>
+      </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath155">
-        <path d="M0 0 L0 28 L76 28 L76 0 Z"/>
+        <path d="M-819 -158 L972 -158 L972 793 L-819 793 L-819 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath156">
-        <path d="M0 0 L0 26 L74 26 L74 0 Z"/>
+        <path d="M0 0 L0 28 L76 28 L76 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath157">
-        <path d="M0 0 L0 25 L74 25 L74 0 Z"/>
+        <path d="M0 0 L0 26 L74 26 L74 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath158">
-        <path d="M0 0 L0 19 L68 19 L68 0 Z"/>
+        <path d="M0 0 L0 25 L74 25 L74 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath159">
-        <path d="M-970 -158 L821 -158 L821 793 L-970 793 L-970 -158 Z"/>
+        <path d="M0 0 L0 19 L68 19 L68 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath160">
-        <path d="M0 0 L0 28 L94 28 L94 0 Z"/>
+        <path d="M-91 -158 L1700 -158 L1700 793 L-91 793 L-91 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath161">
-        <path d="M0 0 L0 26 L92 26 L92 0 Z"/>
+        <path d="M0 0 L0 28 L94 28 L94 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath162">
-        <path d="M0 0 L0 25 L92 25 L92 0 Z"/>
+        <path d="M0 0 L0 26 L92 26 L92 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath163">
-        <path d="M0 0 L0 19 L86 19 L86 0 Z"/>
+        <path d="M0 0 L0 25 L92 25 L92 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath164">
-        <path d="M-1473 -158 L318 -158 L318 793 L-1473 793 L-1473 -158 Z"/>
+        <path d="M0 0 L0 19 L86 19 L86 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath165">
-        <path d="M-710 -158 L1081 -158 L1081 793 L-710 793 L-710 -158 Z"/>
+        <path d="M-455 -158 L1336 -158 L1336 793 L-455 793 L-455 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath166">
-        <path d="M0 0 L0 28 L119 28 L119 0 Z"/>
+        <path d="M-0 0 L-0 28 L119 28 L119 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath167">
-        <path d="M0 0 L0 26 L117 26 L117 0 Z"/>
+        <path d="M-0 0 L-0 26 L117 26 L117 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath168">
-        <path d="M0 0 L0 25 L117 25 L117 0 Z"/>
+        <path d="M-0 0 L-0 25 L117 25 L117 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath169">
-        <path d="M0 0 L0 19 L111 19 L111 0 Z"/>
+        <path d="M-0 0 L-0 19 L111 19 L111 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath170">
-        <path d="M-1662 -158 L129 -158 L129 793 L-1662 793 L-1662 -158 Z"/>
+        <path d="M-1107 -158 L684 -158 L684 793 L-1107 793 L-1107 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath171">
         <path d="M0 0 L0 28 L109 28 L109 0 Z"/>
@@ -778,7 +778,7 @@
         <path d="M0 0 L0 19 L101 19 L101 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath175">
-        <path d="M-1273 -158 L518 -158 L518 793 L-1273 793 L-1273 -158 Z"/>
+        <path d="M-594 -158 L1197 -158 L1197 793 L-594 793 L-594 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath176">
         <path d="M0 0 L0 28 L86 28 L86 0 Z"/>
@@ -793,10 +793,10 @@
         <path d="M0 0 L0 19 L78 19 L78 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath180">
-        <path d="M-116 -158 L1675 -158 L1675 793 L-116 793 L-116 -158 Z"/>
+        <path d="M-326 -158 L1465 -158 L1465 793 L-326 793 L-326 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath181">
-        <path d="M-1379 -158 L412 -158 L412 793 L-1379 793 L-1379 -158 Z"/>
+        <path d="M-1401 -158 L390 -158 L390 793 L-1401 793 L-1401 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath182">
         <path d="M0 0 L0 28 L74 28 L74 0 Z"/>
@@ -811,7 +811,7 @@
         <path d="M0 0 L0 19 L66 19 L66 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath186">
-        <path d="M-1084 -158 L707 -158 L707 793 L-1084 793 L-1084 -158 Z"/>
+        <path d="M-1602 -158 L189 -158 L189 793 L-1602 793 L-1602 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath187">
         <path d="M0 0 L0 28 L89 28 L89 0 Z"/>
@@ -826,10 +826,10 @@
         <path d="M0 0 L0 19 L81 19 L81 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath191">
-        <path d="M-245 -158 L1546 -158 L1546 793 L-245 793 L-245 -158 Z"/>
+        <path d="M-1236 -158 L555 -158 L555 793 L-1236 793 L-1236 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath192">
-        <path d="M-410 -158 L1381 -158 L1381 793 L-410 793 L-410 -158 Z"/>
+        <path d="M-1495 -158 L296 -158 L296 793 L-1495 793 L-1495 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath193">
         <path d="M0 0 L0 28 L87 28 L87 0 Z"/>
@@ -844,7 +844,7 @@
         <path d="M0 0 L0 19 L79 19 L79 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath197">
-        <path d="M-591 -158 L1200 -158 L1200 793 L-591 793 L-591 -158 Z"/>
+        <path d="M-700 -158 L1091 -158 L1091 793 L-700 793 L-700 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath198">
         <path d="M0 0 L0 28 L99 28 L99 0 Z"/>
@@ -859,7 +859,7 @@
         <path d="M0 0 L0 19 L91 19 L91 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath202">
-        <path d="M-849 -158 L942 -158 L942 793 L-849 793 L-849 -158 Z"/>
+        <path d="M-205 -158 L1586 -158 L1586 793 L-205 793 L-205 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath203">
         <path d="M0 0 L0 28 L101 28 L101 0 Z"/>
@@ -874,10 +874,10 @@
         <path d="M0 0 L0 19 L93 19 L93 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath207">
-        <path d="M-1544 -158 L247 -158 L247 793 L-1544 793 L-1544 -158 Z"/>
+        <path d="M-915 -158 L876 -158 L876 793 L-915 793 L-915 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath208">
-        <path d="M-517 -158 L1274 -158 L1274 793 L-517 793 L-517 -158 Z"/>
+        <path d="M-1033 -158 L758 -158 L758 793 L-1033 793 L-1033 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath209">
         <path d="M0 0 L0 28 L54 28 L54 0 Z"/>
@@ -892,7 +892,7 @@
         <path d="M0 0 L0 19 L46 19 L46 0 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath213">
-        <path d="M-1193 -158 L598 -158 L598 793 L-1193 793 L-1193 -158 Z"/>
+        <path d="M-1711 -158 L80 -158 L80 793 L-1711 793 L-1711 -158 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath214">
         <path d="M0 0 L0 28 L60 28 L60 0 Z"/>
@@ -925,7 +925,7 @@
         <path d="M-473 -309 L1318 -309 L1318 642 L-473 642 L-473 -309 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath224">
-        <path d="M-911.25 -20 L879.75 -20 L879.75 931 L-911.25 931 L-911.25 -20 Z"/>
+        <path d="M-863.5 -20 L927.5 -20 L927.5 931 L-863.5 931 L-863.5 -20 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath225">
         <path d="M-318 -830 L1473 -830 L1473 121 L-318 121 L-318 -830 Z"/>
@@ -934,10 +934,10 @@
         <path d="M-428.75 -231 L1362.25 -231 L1362.25 720 L-428.75 720 L-428.75 -231 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath227">
-        <path d="M-332 -533 L1459 -533 L1459 418 L-332 418 L-332 -533 Z"/>
+        <path d="M-332 -611 L1459 -611 L1459 340 L-332 340 L-332 -611 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath228">
-        <path d="M-332 -611 L1459 -611 L1459 340 L-332 340 L-332 -611 Z"/>
+        <path d="M-332 -533 L1459 -533 L1459 418 L-332 418 L-332 -533 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath229">
         <path d="M-607 -830 L1184 -830 L1184 121 L-607 121 L-607 -830 Z"/>
@@ -999,43 +999,43 @@
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(154,814)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath12)" stroke="none">TeamModel</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(646,737)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L105 0 L105 28 L0 28 L0 0 ZM1 1 L104 1 L104 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath14)" stroke="none"/>
-    </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(647,738)" stroke="rgb(60,63,65)">
-      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath15)" stroke="none"/>
-    </g>
-    <g fill="url(#linearGradient3)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(647,738)" stroke="url(#linearGradient3)">
-      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath15)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath15)" fill="rgb(90,90,90)" width="103" height="26" stroke="none"/>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(650,741)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath17)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
-    </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(650,741)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath17)" stroke="none">LobbyModel</text>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(650,741)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath17)" stroke="none">LobbyModel</text>
-    </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(547,664)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L133 0 L133 28 L0 28 L0 0 ZM1 1 L132 1 L132 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath19)" stroke="none"/>
+      <path d="M0 0 L133 0 L133 28 L0 28 L0 0 ZM1 1 L132 1 L132 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath14)" stroke="none"/>
     </g>
     <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(548,665)" stroke="rgb(60,63,65)">
-      <rect x="0" width="131" height="26" y="0" clip-path="url(#clipPath20)" stroke="none"/>
+      <rect x="0" width="131" height="26" y="0" clip-path="url(#clipPath15)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient4)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(548,665)" stroke="url(#linearGradient4)">
-      <rect x="0" width="131" height="26" y="0" clip-path="url(#clipPath20)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath20)" fill="rgb(90,90,90)" width="131" height="26" stroke="none"/>
+    <g fill="url(#linearGradient3)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(548,665)" stroke="url(#linearGradient3)">
+      <rect x="0" width="131" height="26" y="0" clip-path="url(#clipPath15)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath15)" fill="rgb(90,90,90)" width="131" height="26" stroke="none"/>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(551,668)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath22)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
+      <image x="2" y="1" clip-path="url(#clipPath17)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
     <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(551,668)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath22)" stroke="none">GameOverModel</text>
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath17)" stroke="none">GameOverModel</text>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(551,668)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath22)" stroke="none">GameOverModel</text>
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath17)" stroke="none">GameOverModel</text>
+    </g>
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(646,737)" stroke="rgb(120,120,120)">
+      <path d="M0 0 L105 0 L105 28 L0 28 L0 0 ZM1 1 L104 1 L104 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath19)" stroke="none"/>
+    </g>
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(647,738)" stroke="rgb(60,63,65)">
+      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath20)" stroke="none"/>
+    </g>
+    <g fill="url(#linearGradient4)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(647,738)" stroke="url(#linearGradient4)">
+      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath20)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath20)" fill="rgb(90,90,90)" width="103" height="26" stroke="none"/>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(650,741)" stroke="rgb(187,187,187)">
+      <image x="2" y="1" clip-path="url(#clipPath22)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
+    </g>
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(650,741)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath22)" stroke="none">LobbyModel</text>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(650,741)" stroke="rgb(187,187,187)">
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath22)" stroke="none">LobbyModel</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(152,289)" stroke="rgb(120,120,120)">
       <path d="M0 0 L136 0 L136 28 L0 28 L0 0 ZM1 1 L135 1 L135 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath24)" stroke="none"/>
@@ -1285,23 +1285,23 @@
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath79)" stroke="none">Strategy</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(0,810)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L105 0 L105 28 L0 28 L0 0 ZM1 1 L104 1 L104 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath14)" stroke="none"/>
+      <path d="M0 0 L105 0 L105 28 L0 28 L0 0 ZM1 1 L104 1 L104 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath19)" stroke="none"/>
     </g>
     <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1,811)" stroke="rgb(60,63,65)">
-      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath15)" stroke="none"/>
+      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath20)" stroke="none"/>
     </g>
     <g fill="url(#linearGradient18)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1,811)" stroke="url(#linearGradient18)">
-      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath15)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath15)" fill="rgb(90,90,90)" width="103" height="26" stroke="none"/>
+      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath20)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath20)" fill="rgb(90,90,90)" width="103" height="26" stroke="none"/>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,814)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath17)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
+      <image x="2" y="1" clip-path="url(#clipPath22)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
     <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,814)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath17)" stroke="none">GameModel</text>
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath22)" stroke="none">GameModel</text>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,814)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath17)" stroke="none">GameModel</text>
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath22)" stroke="none">GameModel</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(627,513)" stroke="rgb(120,120,120)">
       <path d="M0 0 L162 0 L162 28 L0 28 L0 0 ZM1 1 L161 1 L161 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath82)" stroke="none"/>
@@ -1360,51 +1360,13 @@
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(194,366)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath95)" stroke="none">BiddingAdapter</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(363,362)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L118 0 L118 28 L0 28 L0 0 ZM1 1 L117 1 L117 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath97)" stroke="none"/>
-    </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(364,363)" stroke="rgb(60,63,65)">
-      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath98)" stroke="none"/>
-    </g>
-    <g fill="url(#linearGradient22)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(364,363)" stroke="url(#linearGradient22)">
-      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath98)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath98)" fill="rgb(90,90,90)" width="116" height="26" stroke="none"/>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(367,366)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath100)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEElEQVR42mNgoBAw&#10;ogtMuTdH/tevH72///22YWZkEgaJ/f3/7zUbM9shVlb28hyllIc4DZhwa1rpr7+/&#10;msT5xDj4OfkZmBiZwOL//v9j+Pj9I8PLT69+Ag2qLVDL6obpYUZonlIKtKlTSUSR&#10;lZONEyz2HwpBgIOVg0GAS4Dl/bf3Ll553t92TN52DCQOtmLyjcmKP/78apYTlmVk&#10;ZGJk+IcDguRAakBq+29NUwLpZQER3xn+tovwCrMzMoKc+xds49HFRxmuH7jOICQt&#10;xKBgrMBg5G8E8TNQDUjtu69vu4DcELALfv39acfNyc3wF2gLDFvEWjIISAswaLpq&#10;Mej7G6DIgdT++vvHBu4CoLmiIL/+hdqODEABiE0cCETgBoA0g/yIDmCBiE0OGH9/&#10;4Qb8+f/3NTDeJWHRhmQCWDO6C0Cu+vPvzzt4LLAwMR/69P0TWCEMn1xykuH90/cM&#10;51afZbi48SKKHEgt0LKjcBewsLBVvfv8PoCDnZOdiQniCsNoIzCGgb9Qb/z7948B&#10;qPYnBxtXGTwh7Z28871LnuvPz9++uHCyczCC0ud/LBBk+8t3r/4zMzNWVauXbkVJ&#10;ifun7D1mn+38/eO3T3bABMPCzMLC8B9qEMjPX358ZXj94e1PZmamqjqNym6cmanl&#10;Wov8z/8MvX///rVhYmYUAVn879//N0CNR4ApraxGq+YhAzUBAEHmDq/adgxrAAAA&#10;AElFTkSuQmCC" height="16" preserveAspectRatio="none"/>
-    </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(367,366)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath100)" stroke="none">GameAdapter</text>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(367,366)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath100)" stroke="none">GameAdapter</text>
-    </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(603,211)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L146 0 L146 28 L0 28 L0 0 ZM1 1 L145 1 L145 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath102)" stroke="none"/>
-    </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(604,212)" stroke="rgb(60,63,65)">
-      <rect x="0" width="144" height="26" y="0" clip-path="url(#clipPath103)" stroke="none"/>
-    </g>
-    <g fill="url(#linearGradient23)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(604,212)" stroke="url(#linearGradient23)">
-      <rect x="0" width="144" height="26" y="0" clip-path="url(#clipPath103)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath103)" fill="rgb(90,90,90)" width="144" height="26" stroke="none"/>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(607,215)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath105)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEElEQVR42mNgoBAw&#10;ogtMuTdH/tevH72///22YWZkEgaJ/f3/7zUbM9shVlb28hyllIc4DZhwa1rpr7+/&#10;msT5xDj4OfkZmBiZwOL//v9j+Pj9I8PLT69+Ag2qLVDL6obpYUZonlIKtKlTSUSR&#10;lZONEyz2HwpBgIOVg0GAS4Dl/bf3Ll553t92TN52DCQOtmLyjcmKP/78apYTlmVk&#10;ZGJk+IcDguRAakBq+29NUwLpZQER3xn+tovwCrMzMoKc+xds49HFRxmuH7jOICQt&#10;xKBgrMBg5G8E8TNQDUjtu69vu4DcELALfv39acfNyc3wF2gLDFvEWjIISAswaLpq&#10;Mej7G6DIgdT++vvHBu4CoLmiIL/+hdqODEABiE0cCETgBoA0g/yIDmCBiE0OGH9/&#10;4Qb8+f/3NTDeJWHRhmQCWDO6C0Cu+vPvzzt4LLAwMR/69P0TWCEMn1xykuH90/cM&#10;51afZbi48SKKHEgt0LKjcBewsLBVvfv8PoCDnZOdiQniCsNoIzCGgb9Qb/z7948B&#10;qPYnBxtXGTwh7Z28871LnuvPz9++uHCyczCC0ud/LBBk+8t3r/4zMzNWVauXbkVJ&#10;ifun7D1mn+38/eO3T3bABMPCzMLC8B9qEMjPX358ZXj94e1PZmamqjqNym6cmanl&#10;Wov8z/8MvX///rVhYmYUAVn879//N0CNR4ApraxGq+YhAzUBAEHmDq/adgxrAAAA&#10;AElFTkSuQmCC" height="16" preserveAspectRatio="none"/>
-    </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(607,215)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath105)" stroke="none">GameOverAdapter</text>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(607,215)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath105)" stroke="none">GameOverAdapter</text>
-    </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(190,440)" stroke="rgb(120,120,120)">
       <path d="M0 0 L128 0 L128 28 L0 28 L0 0 ZM1 1 L127 1 L127 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath92)" stroke="none"/>
     </g>
     <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(191,441)" stroke="rgb(60,63,65)">
       <rect x="0" width="126" height="26" y="0" clip-path="url(#clipPath93)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient24)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(191,441)" stroke="url(#linearGradient24)">
+    <g fill="url(#linearGradient22)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(191,441)" stroke="url(#linearGradient22)">
       <rect x="0" width="126" height="26" y="0" clip-path="url(#clipPath93)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath93)" fill="rgb(90,90,90)" width="126" height="26" stroke="none"/>
     </g>
@@ -1417,81 +1379,119 @@
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(194,444)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath95)" stroke="none">BiddingAdapter</text>
     </g>
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(363,362)" stroke="rgb(120,120,120)">
+      <path d="M0 0 L118 0 L118 28 L0 28 L0 0 ZM1 1 L117 1 L117 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath98)" stroke="none"/>
+    </g>
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(364,363)" stroke="rgb(60,63,65)">
+      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath99)" stroke="none"/>
+    </g>
+    <g fill="url(#linearGradient23)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(364,363)" stroke="url(#linearGradient23)">
+      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath99)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath99)" fill="rgb(90,90,90)" width="116" height="26" stroke="none"/>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(367,366)" stroke="rgb(187,187,187)">
+      <image x="2" y="1" clip-path="url(#clipPath101)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEElEQVR42mNgoBAw&#10;ogtMuTdH/tevH72///22YWZkEgaJ/f3/7zUbM9shVlb28hyllIc4DZhwa1rpr7+/&#10;msT5xDj4OfkZmBiZwOL//v9j+Pj9I8PLT69+Ag2qLVDL6obpYUZonlIKtKlTSUSR&#10;lZONEyz2HwpBgIOVg0GAS4Dl/bf3Ll553t92TN52DCQOtmLyjcmKP/78apYTlmVk&#10;ZGJk+IcDguRAakBq+29NUwLpZQER3xn+tovwCrMzMoKc+xds49HFRxmuH7jOICQt&#10;xKBgrMBg5G8E8TNQDUjtu69vu4DcELALfv39acfNyc3wF2gLDFvEWjIISAswaLpq&#10;Mej7G6DIgdT++vvHBu4CoLmiIL/+hdqODEABiE0cCETgBoA0g/yIDmCBiE0OGH9/&#10;4Qb8+f/3NTDeJWHRhmQCWDO6C0Cu+vPvzzt4LLAwMR/69P0TWCEMn1xykuH90/cM&#10;51afZbi48SKKHEgt0LKjcBewsLBVvfv8PoCDnZOdiQniCsNoIzCGgb9Qb/z7948B&#10;qPYnBxtXGTwh7Z28871LnuvPz9++uHCyczCC0ud/LBBk+8t3r/4zMzNWVauXbkVJ&#10;ifun7D1mn+38/eO3T3bABMPCzMLC8B9qEMjPX358ZXj94e1PZmamqjqNym6cmanl&#10;Wov8z/8MvX///rVhYmYUAVn879//N0CNR4ApraxGq+YhAzUBAEHmDq/adgxrAAAA&#10;AElFTkSuQmCC" height="16" preserveAspectRatio="none"/>
+    </g>
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(367,366)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath101)" stroke="none">GameAdapter</text>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(367,366)" stroke="rgb(187,187,187)">
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath101)" stroke="none">GameAdapter</text>
+    </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(363,440)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L118 0 L118 28 L0 28 L0 0 ZM1 1 L117 1 L117 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath97)" stroke="none"/>
+      <path d="M0 0 L118 0 L118 28 L0 28 L0 0 ZM1 1 L117 1 L117 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath98)" stroke="none"/>
     </g>
     <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(364,441)" stroke="rgb(60,63,65)">
-      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath98)" stroke="none"/>
+      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath99)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient25)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(364,441)" stroke="url(#linearGradient25)">
-      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath98)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath98)" fill="rgb(90,90,90)" width="116" height="26" stroke="none"/>
+    <g fill="url(#linearGradient24)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(364,441)" stroke="url(#linearGradient24)">
+      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath99)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath99)" fill="rgb(90,90,90)" width="116" height="26" stroke="none"/>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(367,444)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath100)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
+      <image x="2" y="1" clip-path="url(#clipPath101)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
     <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(367,444)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath100)" stroke="none">GameAdapter</text>
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath101)" stroke="none">GameAdapter</text>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(367,444)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath100)" stroke="none">GameAdapter</text>
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath101)" stroke="none">GameAdapter</text>
+    </g>
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(603,211)" stroke="rgb(120,120,120)">
+      <path d="M0 0 L146 0 L146 28 L0 28 L0 0 ZM1 1 L145 1 L145 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath104)" stroke="none"/>
+    </g>
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(604,212)" stroke="rgb(60,63,65)">
+      <rect x="0" width="144" height="26" y="0" clip-path="url(#clipPath105)" stroke="none"/>
+    </g>
+    <g fill="url(#linearGradient25)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(604,212)" stroke="url(#linearGradient25)">
+      <rect x="0" width="144" height="26" y="0" clip-path="url(#clipPath105)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath105)" fill="rgb(90,90,90)" width="144" height="26" stroke="none"/>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(607,215)" stroke="rgb(187,187,187)">
+      <image x="2" y="1" clip-path="url(#clipPath107)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEElEQVR42mNgoBAw&#10;ogtMuTdH/tevH72///22YWZkEgaJ/f3/7zUbM9shVlb28hyllIc4DZhwa1rpr7+/&#10;msT5xDj4OfkZmBiZwOL//v9j+Pj9I8PLT69+Ag2qLVDL6obpYUZonlIKtKlTSUSR&#10;lZONEyz2HwpBgIOVg0GAS4Dl/bf3Ll553t92TN52DCQOtmLyjcmKP/78apYTlmVk&#10;ZGJk+IcDguRAakBq+29NUwLpZQER3xn+tovwCrMzMoKc+xds49HFRxmuH7jOICQt&#10;xKBgrMBg5G8E8TNQDUjtu69vu4DcELALfv39acfNyc3wF2gLDFvEWjIISAswaLpq&#10;Mej7G6DIgdT++vvHBu4CoLmiIL/+hdqODEABiE0cCETgBoA0g/yIDmCBiE0OGH9/&#10;4Qb8+f/3NTDeJWHRhmQCWDO6C0Cu+vPvzzt4LLAwMR/69P0TWCEMn1xykuH90/cM&#10;51afZbi48SKKHEgt0LKjcBewsLBVvfv8PoCDnZOdiQniCsNoIzCGgb9Qb/z7948B&#10;qPYnBxtXGTwh7Z28871LnuvPz9++uHCyczCC0ud/LBBk+8t3r/4zMzNWVauXbkVJ&#10;ifun7D1mn+38/eO3T3bABMPCzMLC8B9qEMjPX358ZXj94e1PZmamqjqNym6cmanl&#10;Wov8z/8MvX///rVhYmYUAVn879//N0CNR4ApraxGq+YhAzUBAEHmDq/adgxrAAAA&#10;AElFTkSuQmCC" height="16" preserveAspectRatio="none"/>
+    </g>
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(607,215)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath107)" stroke="none">GameOverAdapter</text>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(607,215)" stroke="rgb(187,187,187)">
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath107)" stroke="none">GameOverAdapter</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(603,289)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L146 0 L146 28 L0 28 L0 0 ZM1 1 L145 1 L145 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath102)" stroke="none"/>
+      <path d="M0 0 L146 0 L146 28 L0 28 L0 0 ZM1 1 L145 1 L145 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath104)" stroke="none"/>
     </g>
     <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(604,290)" stroke="rgb(60,63,65)">
-      <rect x="0" width="144" height="26" y="0" clip-path="url(#clipPath103)" stroke="none"/>
+      <rect x="0" width="144" height="26" y="0" clip-path="url(#clipPath105)" stroke="none"/>
     </g>
     <g fill="url(#linearGradient26)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(604,290)" stroke="url(#linearGradient26)">
-      <rect x="0" width="144" height="26" y="0" clip-path="url(#clipPath103)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath103)" fill="rgb(90,90,90)" width="144" height="26" stroke="none"/>
+      <rect x="0" width="144" height="26" y="0" clip-path="url(#clipPath105)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath105)" fill="rgb(90,90,90)" width="144" height="26" stroke="none"/>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(607,293)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath105)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
+      <image x="2" y="1" clip-path="url(#clipPath107)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
     <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(607,293)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath105)" stroke="none">GameOverAdapter</text>
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath107)" stroke="none">GameOverAdapter</text>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(607,293)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath105)" stroke="none">GameOverAdapter</text>
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath107)" stroke="none">GameOverAdapter</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(526,362)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L118 0 L118 28 L0 28 L0 0 ZM1 1 L117 1 L117 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath97)" stroke="none"/>
+      <path d="M0 0 L118 0 L118 28 L0 28 L0 0 ZM1 1 L117 1 L117 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath98)" stroke="none"/>
     </g>
     <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(527,363)" stroke="rgb(60,63,65)">
-      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath98)" stroke="none"/>
+      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath99)" stroke="none"/>
     </g>
     <g fill="url(#linearGradient27)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(527,363)" stroke="url(#linearGradient27)">
-      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath98)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath98)" fill="rgb(90,90,90)" width="116" height="26" stroke="none"/>
+      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath99)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath99)" fill="rgb(90,90,90)" width="116" height="26" stroke="none"/>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(530,366)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath100)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEElEQVR42mNgoBAw&#10;ogtMuTdH/tevH72///22YWZkEgaJ/f3/7zUbM9shVlb28hyllIc4DZhwa1rpr7+/&#10;msT5xDj4OfkZmBiZwOL//v9j+Pj9I8PLT69+Ag2qLVDL6obpYUZonlIKtKlTSUSR&#10;lZONEyz2HwpBgIOVg0GAS4Dl/bf3Ll553t92TN52DCQOtmLyjcmKP/78apYTlmVk&#10;ZGJk+IcDguRAakBq+29NUwLpZQER3xn+tovwCrMzMoKc+xds49HFRxmuH7jOICQt&#10;xKBgrMBg5G8E8TNQDUjtu69vu4DcELALfv39acfNyc3wF2gLDFvEWjIISAswaLpq&#10;Mej7G6DIgdT++vvHBu4CoLmiIL/+hdqODEABiE0cCETgBoA0g/yIDmCBiE0OGH9/&#10;4Qb8+f/3NTDeJWHRhmQCWDO6C0Cu+vPvzzt4LLAwMR/69P0TWCEMn1xykuH90/cM&#10;51afZbi48SKKHEgt0LKjcBewsLBVvfv8PoCDnZOdiQniCsNoIzCGgb9Qb/z7948B&#10;qPYnBxtXGTwh7Z28871LnuvPz9++uHCyczCC0ud/LBBk+8t3r/4zMzNWVauXbkVJ&#10;ifun7D1mn+38/eO3T3bABMPCzMLC8B9qEMjPX358ZXj94e1PZmamqjqNym6cmanl&#10;Wov8z/8MvX///rVhYmYUAVn879//N0CNR4ApraxGq+YhAzUBAEHmDq/adgxrAAAA&#10;AElFTkSuQmCC" height="16" preserveAspectRatio="none"/>
+      <image x="2" y="1" clip-path="url(#clipPath101)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEElEQVR42mNgoBAw&#10;ogtMuTdH/tevH72///22YWZkEgaJ/f3/7zUbM9shVlb28hyllIc4DZhwa1rpr7+/&#10;msT5xDj4OfkZmBiZwOL//v9j+Pj9I8PLT69+Ag2qLVDL6obpYUZonlIKtKlTSUSR&#10;lZONEyz2HwpBgIOVg0GAS4Dl/bf3Ll553t92TN52DCQOtmLyjcmKP/78apYTlmVk&#10;ZGJk+IcDguRAakBq+29NUwLpZQER3xn+tovwCrMzMoKc+xds49HFRxmuH7jOICQt&#10;xKBgrMBg5G8E8TNQDUjtu69vu4DcELALfv39acfNyc3wF2gLDFvEWjIISAswaLpq&#10;Mej7G6DIgdT++vvHBu4CoLmiIL/+hdqODEABiE0cCETgBoA0g/yIDmCBiE0OGH9/&#10;4Qb8+f/3NTDeJWHRhmQCWDO6C0Cu+vPvzzt4LLAwMR/69P0TWCEMn1xykuH90/cM&#10;51afZbi48SKKHEgt0LKjcBewsLBVvfv8PoCDnZOdiQniCsNoIzCGgb9Qb/z7948B&#10;qPYnBxtXGTwh7Z28871LnuvPz9++uHCyczCC0ud/LBBk+8t3r/4zMzNWVauXbkVJ&#10;ifun7D1mn+38/eO3T3bABMPCzMLC8B9qEMjPX358ZXj94e1PZmamqjqNym6cmanl&#10;Wov8z/8MvX///rVhYmYUAVn879//N0CNR4ApraxGq+YhAzUBAEHmDq/adgxrAAAA&#10;AElFTkSuQmCC" height="16" preserveAspectRatio="none"/>
     </g>
     <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(530,366)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath100)" stroke="none">LobbyAdapter</text>
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath101)" stroke="none">LobbyAdapter</text>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(530,366)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath100)" stroke="none">LobbyAdapter</text>
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath101)" stroke="none">LobbyAdapter</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(526,440)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L118 0 L118 28 L0 28 L0 0 ZM1 1 L117 1 L117 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath97)" stroke="none"/>
+      <path d="M0 0 L118 0 L118 28 L0 28 L0 0 ZM1 1 L117 1 L117 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath98)" stroke="none"/>
     </g>
     <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(527,441)" stroke="rgb(60,63,65)">
-      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath98)" stroke="none"/>
+      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath99)" stroke="none"/>
     </g>
     <g fill="url(#linearGradient28)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(527,441)" stroke="url(#linearGradient28)">
-      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath98)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath98)" fill="rgb(90,90,90)" width="116" height="26" stroke="none"/>
+      <rect x="0" width="116" height="26" y="0" clip-path="url(#clipPath99)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath99)" fill="rgb(90,90,90)" width="116" height="26" stroke="none"/>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(530,444)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath100)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
+      <image x="2" y="1" clip-path="url(#clipPath101)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
     <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(530,444)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath100)" stroke="none">LobbyAdapter</text>
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath101)" stroke="none">LobbyAdapter</text>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(530,444)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath100)" stroke="none">LobbyAdapter</text>
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath101)" stroke="none">LobbyAdapter</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(0,591)" stroke="rgb(120,120,120)">
       <path d="M0 0 L111 0 L111 28 L0 28 L0 0 ZM1 1 L110 1 L110 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath112)" stroke="none"/>
@@ -1607,32 +1607,13 @@
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,444)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath131)" stroke="none">UserTeamAdapter</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(185,513)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L53 0 L53 28 L0 28 L0 0 ZM1 1 L52 1 L52 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath134)" stroke="none"/>
-    </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(186,514)" stroke="rgb(60,63,65)">
-      <rect x="0" width="51" height="26" y="0" clip-path="url(#clipPath135)" stroke="none"/>
-    </g>
-    <g fill="url(#linearGradient35)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(186,514)" stroke="url(#linearGradient35)">
-      <rect x="0" width="51" height="26" y="0" clip-path="url(#clipPath135)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath135)" fill="rgb(90,90,90)" width="51" height="26" stroke="none"/>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(189,517)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath137)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACiUlEQVR42qVTXUgU&#10;URQ+c2d2d2Z3dnZ2ptX+VpFtpYgCSUoJocJ+hKAg8aFe8iFUJKQe0vZFKQiMggSR&#10;SCgoiHyNopd8CDFU3HoxwlLzJ83U3Rlnd8Z1dmemmRWnXaknD9z/8333nO+eC7BN&#10;w7ZuXBysCQmK1CPJ4tGMrpINoejdhV9CJMAQwyzlaKwvK/ie64/nLs59qO6YXp7q&#10;I2i91BegjQC3RwlD3QjPUGcdGJRM/pabLre0UW97H/RvYlAu+Kfwo72wiHXQPkqm&#10;kD9FAi9ZZ2kDYBfrhvLQDmJeUG93jyzeyyO4NHQ+PBebjhQG/YDjhEoCp7rAL5kE&#10;iU1H3QoXR1BWwsFsLHXr2ejKfmufsLp4QnjEcJQDIbTmBGadUBhZfCkwS18Wi2fg&#10;wmHLp6X3zYZoGIIgR+PLivrYXJ7IEoiyWMkHafNmn+o0/AnhueiliwviB68dHymF&#10;K4Om1Hd0w7C1CvhI+DyVPGKnkNbWaRfyphzAJkjES6kJ2V10pmKSggJlE6QZf5sZ&#10;BqxnDI+dQuO+Tx2YgdkvMpWqiYSNuo8EkFouQa4ZWFaWDYKJ2XgkHOQ8FrNlew8d&#10;g5noQHuo8jT8i0DTDcAxbM0m4L3EsCSnTu30u7MOJ6/egIEXXTD6qtsG1fe8tueL&#10;ogKsl4jaBCxNNn+dk8Y4msQJ86lcNAvVTe15Iev6xpjRdJhbSmoHgkyjXYnvntxf&#10;qb3eSn5bSFZxDGlmgoEV8daWNsFj03EoDrg6b1YU9uWV8vunD/trm1up8fnVSgxh&#10;yOUkspJYwIyZ8/KqAhPzolbEk51tVbsj//1MXUNL4RVZ7Y0l1fJ0xnAjhOkOHGTO&#10;44zyHmdDS0X+Z9q2/QEL5fN5W/9RTwAAAABJRU5ErkJggg==" height="16" preserveAspectRatio="none"/>
-    </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(189,517)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath137)" stroke="none">Bot</text>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(189,517)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath137)" stroke="none">Bot</text>
-    </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(156,591)" stroke="rgb(120,120,120)">
       <path d="M0 0 L111 0 L111 28 L0 28 L0 0 ZM1 1 L110 1 L110 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath112)" stroke="none"/>
     </g>
     <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(157,592)" stroke="rgb(60,63,65)">
       <rect x="0" width="109" height="26" y="0" clip-path="url(#clipPath113)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient36)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(157,592)" stroke="url(#linearGradient36)">
+    <g fill="url(#linearGradient35)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(157,592)" stroke="url(#linearGradient35)">
       <rect x="0" width="109" height="26" y="0" clip-path="url(#clipPath113)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath113)" fill="rgb(90,90,90)" width="109" height="26" stroke="none"/>
     </g>
@@ -1644,6 +1625,25 @@
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(160,595)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath115)" stroke="none">CrazyMonkey</text>
+    </g>
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(185,513)" stroke="rgb(120,120,120)">
+      <path d="M0 0 L53 0 L53 28 L0 28 L0 0 ZM1 1 L52 1 L52 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath135)" stroke="none"/>
+    </g>
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(186,514)" stroke="rgb(60,63,65)">
+      <rect x="0" width="51" height="26" y="0" clip-path="url(#clipPath136)" stroke="none"/>
+    </g>
+    <g fill="url(#linearGradient36)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(186,514)" stroke="url(#linearGradient36)">
+      <rect x="0" width="51" height="26" y="0" clip-path="url(#clipPath136)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath136)" fill="rgb(90,90,90)" width="51" height="26" stroke="none"/>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(189,517)" stroke="rgb(187,187,187)">
+      <image x="2" y="1" clip-path="url(#clipPath138)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACiUlEQVR42qVTXUgU&#10;URQ+c2d2d2Z3dnZ2ptX+VpFtpYgCSUoJocJ+hKAg8aFe8iFUJKQe0vZFKQiMggSR&#10;SCgoiHyNopd8CDFU3HoxwlLzJ83U3Rlnd8Z1dmemmRWnXaknD9z/8333nO+eC7BN&#10;w7ZuXBysCQmK1CPJ4tGMrpINoejdhV9CJMAQwyzlaKwvK/ie64/nLs59qO6YXp7q&#10;I2i91BegjQC3RwlD3QjPUGcdGJRM/pabLre0UW97H/RvYlAu+Kfwo72wiHXQPkqm&#10;kD9FAi9ZZ2kDYBfrhvLQDmJeUG93jyzeyyO4NHQ+PBebjhQG/YDjhEoCp7rAL5kE&#10;iU1H3QoXR1BWwsFsLHXr2ejKfmufsLp4QnjEcJQDIbTmBGadUBhZfCkwS18Wi2fg&#10;wmHLp6X3zYZoGIIgR+PLivrYXJ7IEoiyWMkHafNmn+o0/AnhueiliwviB68dHymF&#10;K4Om1Hd0w7C1CvhI+DyVPGKnkNbWaRfyphzAJkjES6kJ2V10pmKSggJlE6QZf5sZ&#10;BqxnDI+dQuO+Tx2YgdkvMpWqiYSNuo8EkFouQa4ZWFaWDYKJ2XgkHOQ8FrNlew8d&#10;g5noQHuo8jT8i0DTDcAxbM0m4L3EsCSnTu30u7MOJ6/egIEXXTD6qtsG1fe8tueL&#10;ogKsl4jaBCxNNn+dk8Y4msQJ86lcNAvVTe15Iev6xpjRdJhbSmoHgkyjXYnvntxf&#10;qb3eSn5bSFZxDGlmgoEV8daWNsFj03EoDrg6b1YU9uWV8vunD/trm1up8fnVSgxh&#10;yOUkspJYwIyZ8/KqAhPzolbEk51tVbsj//1MXUNL4RVZ7Y0l1fJ0xnAjhOkOHGTO&#10;44zyHmdDS0X+Z9q2/QEL5fN5W/9RTwAAAABJRU5ErkJggg==" height="16" preserveAspectRatio="none"/>
+    </g>
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(189,517)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath138)" stroke="none">Bot</text>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(189,517)" stroke="rgb(187,187,187)">
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath138)" stroke="none">Bot</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(417,513)" stroke="rgb(120,120,120)">
       <path d="M0 0 L165 0 L165 28 L0 28 L0 0 ZM1 1 L164 1 L164 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath140)" stroke="none"/>
@@ -1664,346 +1664,352 @@
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(421,517)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath143)" stroke="none">BridgeLogicException</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(116,883)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L68 0 L68 28 L0 28 L0 0 ZM1 1 L67 1 L67 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath145)" stroke="none"/>
-    </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(117,884)" stroke="rgb(60,63,65)">
-      <rect x="0" width="66" height="26" y="0" clip-path="url(#clipPath146)" stroke="none"/>
-    </g>
-    <g fill="url(#linearGradient38)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(117,884)" stroke="url(#linearGradient38)">
-      <rect x="0" width="66" height="26" y="0" clip-path="url(#clipPath146)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath146)" fill="rgb(90,90,90)" width="66" height="26" stroke="none"/>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(120,887)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath148)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
-    </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(120,887)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath148)" stroke="none">Cards</text>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(120,887)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath148)" stroke="none">Cards</text>
-    </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(0,883)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L71 0 L71 28 L0 28 L0 0 ZM1 1 L70 1 L70 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath150)" stroke="none"/>
-    </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1,884)" stroke="rgb(60,63,65)">
-      <rect x="0" width="69" height="26" y="0" clip-path="url(#clipPath151)" stroke="none"/>
-    </g>
-    <g fill="url(#linearGradient39)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1,884)" stroke="url(#linearGradient39)">
-      <rect x="0" width="69" height="26" y="0" clip-path="url(#clipPath151)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath151)" fill="rgb(90,90,90)" width="69" height="26" stroke="none"/>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,887)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath153)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
-    </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,887)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath153)" stroke="none">Colors</text>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,887)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath153)" stroke="none">Colors</text>
-    </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(0,138)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L76 0 L76 28 L0 28 L0 0 ZM1 1 L75 1 L75 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath155)" stroke="none"/>
-    </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1,139)" stroke="rgb(60,63,65)">
-      <rect x="0" width="74" height="26" y="0" clip-path="url(#clipPath156)" stroke="none"/>
-    </g>
-    <g fill="url(#linearGradient40)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1,139)" stroke="url(#linearGradient40)">
-      <rect x="0" width="74" height="26" y="0" clip-path="url(#clipPath156)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath156)" fill="rgb(90,90,90)" width="74" height="26" stroke="none"/>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,142)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath158)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
-    </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath158)" stroke="none">Credits</text>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,142)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath158)" stroke="none">Credits</text>
-    </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(950,138)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L94 0 L94 28 L0 28 L0 0 ZM1 1 L93 1 L93 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath160)" stroke="none"/>
-    </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(951,139)" stroke="rgb(60,63,65)">
-      <rect x="0" width="92" height="26" y="0" clip-path="url(#clipPath161)" stroke="none"/>
-    </g>
-    <g fill="url(#linearGradient41)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(951,139)" stroke="url(#linearGradient41)">
-      <rect x="0" width="92" height="26" y="0" clip-path="url(#clipPath161)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath161)" fill="rgb(90,90,90)" width="92" height="26" stroke="none"/>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(954,142)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath163)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
-    </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(954,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath163)" stroke="none">NewGame</text>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(954,142)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath163)" stroke="none">NewGame</text>
-    </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1453,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L51 0 L51 28 L0 28 L0 0 ZM1 1 L50 1 L50 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath29)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1454,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="49" height="26" y="0" clip-path="url(#clipPath30)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient42)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1454,139)" stroke="url(#linearGradient42)">
+    <g fill="url(#linearGradient38)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1,139)" stroke="url(#linearGradient38)">
       <rect x="0" width="49" height="26" y="0" clip-path="url(#clipPath30)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath30)" fill="rgb(90,90,90)" width="49" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1457,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath32)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1457,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath32)" stroke="none">Bid</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1457,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath32)" stroke="none">Bid</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(690,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(116,883)" stroke="rgb(120,120,120)">
+      <path d="M0 0 L68 0 L68 28 L0 28 L0 0 ZM1 1 L67 1 L67 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath146)" stroke="none"/>
+    </g>
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(117,884)" stroke="rgb(60,63,65)">
+      <rect x="0" width="66" height="26" y="0" clip-path="url(#clipPath147)" stroke="none"/>
+    </g>
+    <g fill="url(#linearGradient39)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(117,884)" stroke="url(#linearGradient39)">
+      <rect x="0" width="66" height="26" y="0" clip-path="url(#clipPath147)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath147)" fill="rgb(90,90,90)" width="66" height="26" stroke="none"/>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(120,887)" stroke="rgb(187,187,187)">
+      <image x="2" y="1" clip-path="url(#clipPath149)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
+    </g>
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(120,887)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath149)" stroke="none">Cards</text>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(120,887)" stroke="rgb(187,187,187)">
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath149)" stroke="none">Cards</text>
+    </g>
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(0,883)" stroke="rgb(120,120,120)">
+      <path d="M0 0 L71 0 L71 28 L0 28 L0 0 ZM1 1 L70 1 L70 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath151)" stroke="none"/>
+    </g>
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1,884)" stroke="rgb(60,63,65)">
+      <rect x="0" width="69" height="26" y="0" clip-path="url(#clipPath152)" stroke="none"/>
+    </g>
+    <g fill="url(#linearGradient40)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1,884)" stroke="url(#linearGradient40)">
+      <rect x="0" width="69" height="26" y="0" clip-path="url(#clipPath152)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath152)" fill="rgb(90,90,90)" width="69" height="26" stroke="none"/>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,887)" stroke="rgb(187,187,187)">
+      <image x="2" y="1" clip-path="url(#clipPath154)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
+    </g>
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,887)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath154)" stroke="none">Colors</text>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(4,887)" stroke="rgb(187,187,187)">
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath154)" stroke="none">Colors</text>
+    </g>
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(799,138)" stroke="rgb(120,120,120)">
+      <path d="M0 0 L76 0 L76 28 L0 28 L0 0 ZM1 1 L75 1 L75 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath156)" stroke="none"/>
+    </g>
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(800,139)" stroke="rgb(60,63,65)">
+      <rect x="0" width="74" height="26" y="0" clip-path="url(#clipPath157)" stroke="none"/>
+    </g>
+    <g fill="url(#linearGradient41)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(800,139)" stroke="url(#linearGradient41)">
+      <rect x="0" width="74" height="26" y="0" clip-path="url(#clipPath157)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath157)" fill="rgb(90,90,90)" width="74" height="26" stroke="none"/>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(803,142)" stroke="rgb(187,187,187)">
+      <image x="2" y="1" clip-path="url(#clipPath159)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
+    </g>
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(803,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath159)" stroke="none">Credits</text>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(803,142)" stroke="rgb(187,187,187)">
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath159)" stroke="none">Credits</text>
+    </g>
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(71,138)" stroke="rgb(120,120,120)">
+      <path d="M0 0 L94 0 L94 28 L0 28 L0 0 ZM1 1 L93 1 L93 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath161)" stroke="none"/>
+    </g>
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(72,139)" stroke="rgb(60,63,65)">
+      <rect x="0" width="92" height="26" y="0" clip-path="url(#clipPath162)" stroke="none"/>
+    </g>
+    <g fill="url(#linearGradient42)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(72,139)" stroke="url(#linearGradient42)">
+      <rect x="0" width="92" height="26" y="0" clip-path="url(#clipPath162)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath162)" fill="rgb(90,90,90)" width="92" height="26" stroke="none"/>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(75,142)" stroke="rgb(187,187,187)">
+      <image x="2" y="1" clip-path="url(#clipPath164)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
+    </g>
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(75,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath164)" stroke="none">NewGame</text>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(75,142)" stroke="rgb(187,187,187)">
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath164)" stroke="none">NewGame</text>
+    </g>
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(435,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L119 0 L119 28 L0 28 L0 0 ZM1 1 L118 1 L118 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath166)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(691,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(436,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="117" height="26" y="0" clip-path="url(#clipPath167)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient43)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(691,139)" stroke="url(#linearGradient43)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(436,139)" stroke="rgb(60,63,65)">
+      <rect x="0" width="117" height="26" y="0" clip-path="url(#clipPath167)" stroke="none"/>
+    </g>
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(436,139)" stroke="rgb(60,63,65)">
+      <rect x="0" width="117" height="26" y="0" clip-path="url(#clipPath167)" stroke="none"/>
+    </g>
+    <g fill="url(#linearGradient43)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(436,139)" stroke="url(#linearGradient43)">
       <rect x="0" width="117" height="26" y="0" clip-path="url(#clipPath167)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath167)" fill="rgb(90,90,90)" width="117" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(694,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(439,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath169)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(694,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(439,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath169)" stroke="none">BiddingStatus</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(694,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(439,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath169)" stroke="none">BiddingStatus</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1642,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1087,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L109 0 L109 28 L0 28 L0 0 ZM1 1 L108 1 L108 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath171)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1643,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1088,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="107" height="26" y="0" clip-path="url(#clipPath172)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient44)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1643,139)" stroke="url(#linearGradient44)">
+    <g fill="url(#linearGradient44)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1088,139)" stroke="url(#linearGradient44)">
       <rect x="0" width="107" height="26" y="0" clip-path="url(#clipPath172)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath172)" fill="rgb(90,90,90)" width="107" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1646,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1091,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath174)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1646,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1091,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath174)" stroke="none">GameStatus</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1646,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1091,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath174)" stroke="none">GameStatus</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1253,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(574,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L86 0 L86 28 L0 28 L0 0 ZM1 1 L85 1 L85 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath176)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1254,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(575,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="84" height="26" y="0" clip-path="url(#clipPath177)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient45)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1254,139)" stroke="url(#linearGradient45)">
+    <g fill="url(#linearGradient45)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(575,139)" stroke="url(#linearGradient45)">
       <rect x="0" width="84" height="26" y="0" clip-path="url(#clipPath177)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath177)" fill="rgb(90,90,90)" width="84" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1257,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(578,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath179)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1257,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(578,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath179)" stroke="none">PlayCard</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1257,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(578,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath179)" stroke="none">PlayCard</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(96,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(306,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L109 0 L109 28 L0 28 L0 0 ZM1 1 L108 1 L108 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath171)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(97,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(307,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="107" height="26" y="0" clip-path="url(#clipPath172)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient46)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(97,139)" stroke="url(#linearGradient46)">
+    <g fill="url(#linearGradient46)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(307,139)" stroke="url(#linearGradient46)">
       <rect x="0" width="107" height="26" y="0" clip-path="url(#clipPath172)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath172)" fill="rgb(90,90,90)" width="107" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(100,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(310,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath174)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(100,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(310,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath174)" stroke="none">LobbyStatus</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(100,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(310,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath174)" stroke="none">LobbyStatus</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1359,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1381,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L74 0 L74 28 L0 28 L0 0 ZM1 1 L73 1 L73 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath182)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1360,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1382,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="72" height="26" y="0" clip-path="url(#clipPath183)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient47)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1360,139)" stroke="url(#linearGradient47)">
+    <g fill="url(#linearGradient47)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1382,139)" stroke="url(#linearGradient47)">
       <rect x="0" width="72" height="26" y="0" clip-path="url(#clipPath183)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath183)" fill="rgb(90,90,90)" width="72" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1363,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1385,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath185)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1363,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1385,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath185)" stroke="none">SetBot</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1363,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1385,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath185)" stroke="none">SetBot</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1064,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1582,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L89 0 L89 28 L0 28 L0 0 ZM1 1 L88 1 L88 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath187)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1065,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1583,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="87" height="26" y="0" clip-path="url(#clipPath188)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient48)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1065,139)" stroke="url(#linearGradient48)">
+    <g fill="url(#linearGradient48)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1583,139)" stroke="url(#linearGradient48)">
       <rect x="0" width="87" height="26" y="0" clip-path="url(#clipPath188)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath188)" fill="rgb(90,90,90)" width="87" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1068,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1586,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath190)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1068,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1586,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath190)" stroke="none">SetName</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1068,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1586,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath190)" stroke="none">SetName</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(225,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1216,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L145 0 L145 28 L0 28 L0 0 ZM1 1 L144 1 L144 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath128)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(226,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1217,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="143" height="26" y="0" clip-path="url(#clipPath129)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient49)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(226,139)" stroke="url(#linearGradient49)">
+    <g fill="url(#linearGradient49)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1217,139)" stroke="url(#linearGradient49)">
       <rect x="0" width="143" height="26" y="0" clip-path="url(#clipPath129)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath129)" fill="rgb(90,90,90)" width="143" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(229,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1220,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath131)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(229,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1220,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath131)" stroke="none">SetRandomTeams</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(229,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1220,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath131)" stroke="none">SetRandomTeams</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(390,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1475,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L87 0 L87 28 L0 28 L0 0 ZM1 1 L86 1 L86 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath193)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(391,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1476,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="85" height="26" y="0" clip-path="url(#clipPath194)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient50)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(391,139)" stroke="url(#linearGradient50)">
+    <g fill="url(#linearGradient50)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1476,139)" stroke="url(#linearGradient50)">
       <rect x="0" width="85" height="26" y="0" clip-path="url(#clipPath194)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath194)" fill="rgb(90,90,90)" width="85" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(394,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1479,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath196)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(394,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1479,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath196)" stroke="none">SetTeam</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(394,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1479,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath196)" stroke="none">SetTeam</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(571,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(680,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L99 0 L99 28 L0 28 L0 0 ZM1 1 L98 1 L98 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath198)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(572,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(681,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="97" height="26" y="0" clip-path="url(#clipPath199)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient51)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(572,139)" stroke="url(#linearGradient51)">
+    <g fill="url(#linearGradient51)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(681,139)" stroke="url(#linearGradient51)">
       <rect x="0" width="97" height="26" y="0" clip-path="url(#clipPath199)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath199)" fill="rgb(90,90,90)" width="97" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(575,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(684,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath201)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(575,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(684,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath201)" stroke="none">StartGame</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(575,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(684,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath201)" stroke="none">StartGame</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(829,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(185,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L101 0 L101 28 L0 28 L0 0 ZM1 1 L100 1 L100 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath203)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(830,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(186,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="99" height="26" y="0" clip-path="url(#clipPath204)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient52)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(830,139)" stroke="url(#linearGradient52)">
+    <g fill="url(#linearGradient52)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(186,139)" stroke="url(#linearGradient52)">
       <rect x="0" width="99" height="26" y="0" clip-path="url(#clipPath204)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath204)" fill="rgb(90,90,90)" width="99" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(833,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(189,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath206)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(833,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(189,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath206)" stroke="none">OverStatus</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(833,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(189,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath206)" stroke="none">OverStatus</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1524,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(895,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L98 0 L98 28 L0 28 L0 0 ZM1 1 L97 1 L97 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath66)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1525,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(896,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="96" height="26" y="0" clip-path="url(#clipPath67)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient53)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1525,139)" stroke="url(#linearGradient53)">
+    <g fill="url(#linearGradient53)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(896,139)" stroke="url(#linearGradient53)">
       <rect x="0" width="96" height="26" y="0" clip-path="url(#clipPath67)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath67)" fill="rgb(90,90,90)" width="96" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1528,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(899,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath69)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1528,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(899,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath69)" stroke="none">NextPlayer</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1528,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(899,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath69)" stroke="none">NextPlayer</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(497,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1013,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L54 0 L54 28 L0 28 L0 0 ZM1 1 L53 1 L53 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath209)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(498,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1014,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="52" height="26" y="0" clip-path="url(#clipPath210)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient54)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(498,139)" stroke="url(#linearGradient54)">
+    <g fill="url(#linearGradient54)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1014,139)" stroke="url(#linearGradient54)">
       <rect x="0" width="52" height="26" y="0" clip-path="url(#clipPath210)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath210)" fill="rgb(90,90,90)" width="52" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(501,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1017,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath212)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(501,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1017,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath212)" stroke="none">Exit</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(501,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1017,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath212)" stroke="none">Exit</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1173,138)" stroke="rgb(120,120,120)">
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1691,138)" stroke="rgb(120,120,120)">
       <path d="M0 0 L60 0 L60 28 L0 28 L0 0 ZM1 1 L59 1 L59 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath214)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1174,139)" stroke="rgb(60,63,65)">
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1692,139)" stroke="rgb(60,63,65)">
       <rect x="0" width="58" height="26" y="0" clip-path="url(#clipPath215)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient55)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1174,139)" stroke="url(#linearGradient55)">
+    <g fill="url(#linearGradient55)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1692,139)" stroke="url(#linearGradient55)">
       <rect x="0" width="58" height="26" y="0" clip-path="url(#clipPath215)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath215)" fill="rgb(90,90,90)" width="58" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1177,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1695,142)" stroke="rgb(187,187,187)">
       <image x="2" y="1" clip-path="url(#clipPath217)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1177,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1695,142)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath217)" stroke="none">Help</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1177,142)" stroke="rgb(187,187,187)">
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(1695,142)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath217)" stroke="none">Help</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(333,289)" stroke="rgb(120,120,120)">
@@ -2026,42 +2032,42 @@
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath222)" stroke="none">MainScene</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(453,289)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L105 0 L105 28 L0 28 L0 0 ZM1 1 L104 1 L104 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath14)" stroke="none"/>
+      <path d="M0 0 L105 0 L105 28 L0 28 L0 0 ZM1 1 L104 1 L104 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath19)" stroke="none"/>
     </g>
     <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(454,290)" stroke="rgb(60,63,65)">
-      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath15)" stroke="none"/>
+      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath20)" stroke="none"/>
     </g>
     <g fill="url(#linearGradient57)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(454,290)" stroke="url(#linearGradient57)">
-      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath15)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath15)" fill="rgb(90,90,90)" width="103" height="26" stroke="none"/>
+      <rect x="0" width="103" height="26" y="0" clip-path="url(#clipPath20)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath20)" fill="rgb(90,90,90)" width="103" height="26" stroke="none"/>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(457,293)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath17)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
+      <image x="2" y="1" clip-path="url(#clipPath22)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKklEQVR42mNgoBAw&#10;ogssuvhB8cvPX5M+//hj8f8/oyBYEeP/dzycrEd52ViL4vQF7uM0YO7ZV1WvPv+p&#10;lxTkZBPkZmNgZoJI//33n+H9118Mz99//yXGy9KYbCzWBtPDDGPMBmp+8/Vvq4YU&#10;PzM3OwvQVkaG/0Dx/2AXMDJwsrEwCPOyMz9698M5PKf89+ZZ3YdB+phAxILLL5Vf&#10;fP5dryrJx8AItPUfUAwbBsmB1IDULr7ySgWklwVEfPrK0CPGx8kG8tFfoMqf378y&#10;7FsyjeHWqYNw7+XP3gL3NUjt28+/+oEcX7ABH77/sVYX4Gb49/8/WMmu+RMYpFS1&#10;GdxTSuAGwORAQICLjeHFh+8WcC/8/vNf6D/Qn3+BakD40bXzDDoO3nA+Ogap/f33&#10;vxDcCzAJGPj98wdE4X+8KeAv3AVMzIzvgCbCDZLRMmS4cXwfThf8htj2Ee4CHg7m&#10;o2+//AgQ4uUAm20bV8hwePFEhsNLJsPtS5y2Cc5+9+UHAzcX0wm4AbwcTKUPX333&#10;4uVkZwMlHnYeAQaXzHoUB//7xwBPVC/fff8lL8ZeCE9I22Z1vwvMKf/3+O0PZz5u&#10;dlDKgSciZPwHqPnei08MYvwsdQVm4htRUuKuuT2H/TPL/j5+/dUGmGCY2ViYwAn9&#10;Pzwp/2R48vrzLwkB1roSS4k2nJlp8skXiu+//5306fs/yz///wsyMTL+ZWZkeM/L&#10;yXxckIOpMNdc4j4DNQEAbyj/ikXNHnwAAAAASUVORK5CYII=" height="16" preserveAspectRatio="none"/>
     </g>
     <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(457,293)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath17)" stroke="none">TeamScene</text>
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath22)" stroke="none">TeamScene</text>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(457,293)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath17)" stroke="none">TeamScene</text>
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath22)" stroke="none">TeamScene</text>
     </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(891.25,0)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L94 0 L94 28 L0 28 L0 0 ZM1 1 L93 1 L93 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath160)" stroke="none"/>
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(843.5,0)" stroke="rgb(120,120,120)">
+      <path d="M0 0 L94 0 L94 28 L0 28 L0 0 ZM1 1 L93 1 L93 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath161)" stroke="none"/>
     </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(892.25,1)" stroke="rgb(60,63,65)">
-      <rect x="0" width="92" height="26" y="0" clip-path="url(#clipPath161)" stroke="none"/>
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(844.5,1)" stroke="rgb(60,63,65)">
+      <rect x="0" width="92" height="26" y="0" clip-path="url(#clipPath162)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient58)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(892.25,1)" stroke="url(#linearGradient58)">
-      <rect x="0" width="92" height="26" y="0" clip-path="url(#clipPath161)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath161)" fill="rgb(90,90,90)" width="92" height="26" stroke="none"/>
+    <g fill="url(#linearGradient58)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(844.5,1)" stroke="url(#linearGradient58)">
+      <rect x="0" width="92" height="26" y="0" clip-path="url(#clipPath162)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath162)" fill="rgb(90,90,90)" width="92" height="26" stroke="none"/>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(895.25,4)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath163)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACiUlEQVR42qVTXUgU&#10;URQ+c2d2d2Z3dnZ2ptX+VpFtpYgCSUoJocJ+hKAg8aFe8iFUJKQe0vZFKQiMggSR&#10;SCgoiHyNopd8CDFU3HoxwlLzJ83U3Rlnd8Z1dmemmRWnXaknD9z/8333nO+eC7BN&#10;w7ZuXBysCQmK1CPJ4tGMrpINoejdhV9CJMAQwyzlaKwvK/ie64/nLs59qO6YXp7q&#10;I2i91BegjQC3RwlD3QjPUGcdGJRM/pabLre0UW97H/RvYlAu+Kfwo72wiHXQPkqm&#10;kD9FAi9ZZ2kDYBfrhvLQDmJeUG93jyzeyyO4NHQ+PBebjhQG/YDjhEoCp7rAL5kE&#10;iU1H3QoXR1BWwsFsLHXr2ejKfmufsLp4QnjEcJQDIbTmBGadUBhZfCkwS18Wi2fg&#10;wmHLp6X3zYZoGIIgR+PLivrYXJ7IEoiyWMkHafNmn+o0/AnhueiliwviB68dHymF&#10;K4Om1Hd0w7C1CvhI+DyVPGKnkNbWaRfyphzAJkjES6kJ2V10pmKSggJlE6QZf5sZ&#10;BqxnDI+dQuO+Tx2YgdkvMpWqiYSNuo8EkFouQa4ZWFaWDYKJ2XgkHOQ8FrNlew8d&#10;g5noQHuo8jT8i0DTDcAxbM0m4L3EsCSnTu30u7MOJ6/egIEXXTD6qtsG1fe8tueL&#10;ogKsl4jaBCxNNn+dk8Y4msQJ86lcNAvVTe15Iev6xpjRdJhbSmoHgkyjXYnvntxf&#10;qb3eSn5bSFZxDGlmgoEV8daWNsFj03EoDrg6b1YU9uWV8vunD/trm1up8fnVSgxh&#10;yOUkspJYwIyZ8/KqAhPzolbEk51tVbsj//1MXUNL4RVZ7Y0l1fJ0xnAjhOkOHGTO&#10;44zyHmdDS0X+Z9q2/QEL5fN5W/9RTwAAAABJRU5ErkJggg==" height="16" preserveAspectRatio="none"/>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(847.5,4)" stroke="rgb(187,187,187)">
+      <image x="2" y="1" clip-path="url(#clipPath164)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACiUlEQVR42qVTXUgU&#10;URQ+c2d2d2Z3dnZ2ptX+VpFtpYgCSUoJocJ+hKAg8aFe8iFUJKQe0vZFKQiMggSR&#10;SCgoiHyNopd8CDFU3HoxwlLzJ83U3Rlnd8Z1dmemmRWnXaknD9z/8333nO+eC7BN&#10;w7ZuXBysCQmK1CPJ4tGMrpINoejdhV9CJMAQwyzlaKwvK/ie64/nLs59qO6YXp7q&#10;I2i91BegjQC3RwlD3QjPUGcdGJRM/pabLre0UW97H/RvYlAu+Kfwo72wiHXQPkqm&#10;kD9FAi9ZZ2kDYBfrhvLQDmJeUG93jyzeyyO4NHQ+PBebjhQG/YDjhEoCp7rAL5kE&#10;iU1H3QoXR1BWwsFsLHXr2ejKfmufsLp4QnjEcJQDIbTmBGadUBhZfCkwS18Wi2fg&#10;wmHLp6X3zYZoGIIgR+PLivrYXJ7IEoiyWMkHafNmn+o0/AnhueiliwviB68dHymF&#10;K4Om1Hd0w7C1CvhI+DyVPGKnkNbWaRfyphzAJkjES6kJ2V10pmKSggJlE6QZf5sZ&#10;BqxnDI+dQuO+Tx2YgdkvMpWqiYSNuo8EkFouQa4ZWFaWDYKJ2XgkHOQ8FrNlew8d&#10;g5noQHuo8jT8i0DTDcAxbM0m4L3EsCSnTu30u7MOJ6/egIEXXTD6qtsG1fe8tueL&#10;ogKsl4jaBCxNNn+dk8Y4msQJ86lcNAvVTe15Iev6xpjRdJhbSmoHgkyjXYnvntxf&#10;qb3eSn5bSFZxDGlmgoEV8daWNsFj03EoDrg6b1YU9uWV8vunD/trm1up8fnVSgxh&#10;yOUkspJYwIyZ8/KqAhPzolbEk51tVbsj//1MXUNL4RVZ7Y0l1fJ0xnAjhOkOHGTO&#10;44zyHmdDS0X+Z9q2/QEL5fN5W/9RTwAAAABJRU5ErkJggg==" height="16" preserveAspectRatio="none"/>
     </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(895.25,4)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath163)" stroke="none">Command</text>
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(847.5,4)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath164)" stroke="none">Command</text>
     </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(895.25,4)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath163)" stroke="none">Command</text>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(847.5,4)" stroke="rgb(187,187,187)">
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath164)" stroke="none">Command</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(298,810)" stroke="rgb(120,120,120)">
       <path d="M0 0 L101 0 L101 28 L0 28 L0 0 ZM1 1 L100 1 L100 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath203)" stroke="none"/>
@@ -2083,42 +2089,23 @@
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath206)" stroke="none">Commands</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(408.75,211)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L71 0 L71 28 L0 28 L0 0 ZM1 1 L70 1 L70 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath150)" stroke="none"/>
+      <path d="M0 0 L71 0 L71 28 L0 28 L0 0 ZM1 1 L70 1 L70 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath151)" stroke="none"/>
     </g>
     <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(409.75,212)" stroke="rgb(60,63,65)">
-      <rect x="0" width="69" height="26" y="0" clip-path="url(#clipPath151)" stroke="none"/>
+      <rect x="0" width="69" height="26" y="0" clip-path="url(#clipPath152)" stroke="none"/>
     </g>
     <g fill="url(#linearGradient60)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(409.75,212)" stroke="url(#linearGradient60)">
-      <rect x="0" width="69" height="26" y="0" clip-path="url(#clipPath151)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath151)" fill="rgb(90,90,90)" width="69" height="26" stroke="none"/>
+      <rect x="0" width="69" height="26" y="0" clip-path="url(#clipPath152)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath152)" fill="rgb(90,90,90)" width="69" height="26" stroke="none"/>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(412.75,215)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath153)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACiUlEQVR42qVTXUgU&#10;URQ+c2d2d2Z3dnZ2ptX+VpFtpYgCSUoJocJ+hKAg8aFe8iFUJKQe0vZFKQiMggSR&#10;SCgoiHyNopd8CDFU3HoxwlLzJ83U3Rlnd8Z1dmemmRWnXaknD9z/8333nO+eC7BN&#10;w7ZuXBysCQmK1CPJ4tGMrpINoejdhV9CJMAQwyzlaKwvK/ie64/nLs59qO6YXp7q&#10;I2i91BegjQC3RwlD3QjPUGcdGJRM/pabLre0UW97H/RvYlAu+Kfwo72wiHXQPkqm&#10;kD9FAi9ZZ2kDYBfrhvLQDmJeUG93jyzeyyO4NHQ+PBebjhQG/YDjhEoCp7rAL5kE&#10;iU1H3QoXR1BWwsFsLHXr2ejKfmufsLp4QnjEcJQDIbTmBGadUBhZfCkwS18Wi2fg&#10;wmHLp6X3zYZoGIIgR+PLivrYXJ7IEoiyWMkHafNmn+o0/AnhueiliwviB68dHymF&#10;K4Om1Hd0w7C1CvhI+DyVPGKnkNbWaRfyphzAJkjES6kJ2V10pmKSggJlE6QZf5sZ&#10;BqxnDI+dQuO+Tx2YgdkvMpWqiYSNuo8EkFouQa4ZWFaWDYKJ2XgkHOQ8FrNlew8d&#10;g5noQHuo8jT8i0DTDcAxbM0m4L3EsCSnTu30u7MOJ6/egIEXXTD6qtsG1fe8tueL&#10;ogKsl4jaBCxNNn+dk8Y4msQJ86lcNAvVTe15Iev6xpjRdJhbSmoHgkyjXYnvntxf&#10;qb3eSn5bSFZxDGlmgoEV8daWNsFj03EoDrg6b1YU9uWV8vunD/trm1up8fnVSgxh&#10;yOUkspJYwIyZ8/KqAhPzolbEk51tVbsj//1MXUNL4RVZ7Y0l1fJ0xnAjhOkOHGTO&#10;44zyHmdDS0X+Z9q2/QEL5fN5W/9RTwAAAABJRU5ErkJggg==" height="16" preserveAspectRatio="none"/>
+      <image x="2" y="1" clip-path="url(#clipPath154)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACiUlEQVR42qVTXUgU&#10;URQ+c2d2d2Z3dnZ2ptX+VpFtpYgCSUoJocJ+hKAg8aFe8iFUJKQe0vZFKQiMggSR&#10;SCgoiHyNopd8CDFU3HoxwlLzJ83U3Rlnd8Z1dmemmRWnXaknD9z/8333nO+eC7BN&#10;w7ZuXBysCQmK1CPJ4tGMrpINoejdhV9CJMAQwyzlaKwvK/ie64/nLs59qO6YXp7q&#10;I2i91BegjQC3RwlD3QjPUGcdGJRM/pabLre0UW97H/RvYlAu+Kfwo72wiHXQPkqm&#10;kD9FAi9ZZ2kDYBfrhvLQDmJeUG93jyzeyyO4NHQ+PBebjhQG/YDjhEoCp7rAL5kE&#10;iU1H3QoXR1BWwsFsLHXr2ejKfmufsLp4QnjEcJQDIbTmBGadUBhZfCkwS18Wi2fg&#10;wmHLp6X3zYZoGIIgR+PLivrYXJ7IEoiyWMkHafNmn+o0/AnhueiliwviB68dHymF&#10;K4Om1Hd0w7C1CvhI+DyVPGKnkNbWaRfyphzAJkjES6kJ2V10pmKSggJlE6QZf5sZ&#10;BqxnDI+dQuO+Tx2YgdkvMpWqiYSNuo8EkFouQa4ZWFaWDYKJ2XgkHOQ8FrNlew8d&#10;g5noQHuo8jT8i0DTDcAxbM0m4L3EsCSnTu30u7MOJ6/egIEXXTD6qtsG1fe8tueL&#10;ogKsl4jaBCxNNn+dk8Y4msQJ86lcNAvVTe15Iev6xpjRdJhbSmoHgkyjXYnvntxf&#10;qb3eSn5bSFZxDGlmgoEV8daWNsFj03EoDrg6b1YU9uWV8vunD/trm1up8fnVSgxh&#10;yOUkspJYwIyZ8/KqAhPzolbEk51tVbsj//1MXUNL4RVZ7Y0l1fJ0xnAjhOkOHGTO&#10;44zyHmdDS0X+Z9q2/QEL5fN5W/9RTwAAAABJRU5ErkJggg==" height="16" preserveAspectRatio="none"/>
     </g>
     <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(412.75,215)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath153)" stroke="none">Scene</text>
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath154)" stroke="none">Scene</text>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(412.75,215)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath153)" stroke="none">Scene</text>
-    </g>
-    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(312,513)" stroke="rgb(120,120,120)">
-      <path d="M0 0 L60 0 L60 28 L0 28 L0 0 ZM1 1 L59 1 L59 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath214)" stroke="none"/>
-    </g>
-    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(313,514)" stroke="rgb(60,63,65)">
-      <rect x="0" width="58" height="26" y="0" clip-path="url(#clipPath215)" stroke="none"/>
-    </g>
-    <g fill="url(#linearGradient61)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(313,514)" stroke="url(#linearGradient61)">
-      <rect x="0" width="58" height="26" y="0" clip-path="url(#clipPath215)" stroke="none"/>
-      <rect x="0" y="25" clip-path="url(#clipPath215)" fill="rgb(90,90,90)" width="58" height="26" stroke="none"/>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(316,517)" stroke="rgb(187,187,187)">
-      <image x="2" y="1" clip-path="url(#clipPath217)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEElEQVR42mNgoBAw&#10;ogtMuTdH/tevH72///22YWZkEgaJ/f3/7zUbM9shVlb28hyllIc4DZhwa1rpr7+/&#10;msT5xDj4OfkZmBiZwOL//v9j+Pj9I8PLT69+Ag2qLVDL6obpYUZonlIKtKlTSUSR&#10;lZONEyz2HwpBgIOVg0GAS4Dl/bf3Ll553t92TN52DCQOtmLyjcmKP/78apYTlmVk&#10;ZGJk+IcDguRAakBq+29NUwLpZQER3xn+tovwCrMzMoKc+xds49HFRxmuH7jOICQt&#10;xKBgrMBg5G8E8TNQDUjtu69vu4DcELALfv39acfNyc3wF2gLDFvEWjIISAswaLpq&#10;Mej7G6DIgdT++vvHBu4CoLmiIL/+hdqODEABiE0cCETgBoA0g/yIDmCBiE0OGH9/&#10;4Qb8+f/3NTDeJWHRhmQCWDO6C0Cu+vPvzzt4LLAwMR/69P0TWCEMn1xykuH90/cM&#10;51afZbi48SKKHEgt0LKjcBewsLBVvfv8PoCDnZOdiQniCsNoIzCGgb9Qb/z7948B&#10;qPYnBxtXGTwh7Z28871LnuvPz9++uHCyczCC0ud/LBBk+8t3r/4zMzNWVauXbkVJ&#10;ifun7D1mn+38/eO3T3bABMPCzMLC8B9qEMjPX358ZXj94e1PZmamqjqNym6cmanl&#10;Wov8z/8MvX///rVhYmYUAVn879//N0CNR4ApraxGq+YhAzUBAEHmDq/adgxrAAAA&#10;AElFTkSuQmCC" height="16" preserveAspectRatio="none"/>
-    </g>
-    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(316,517)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
-      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath217)" stroke="none">View</text>
-    </g>
-    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(316,517)" stroke="rgb(187,187,187)">
-      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath217)" stroke="none">View</text>
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath154)" stroke="none">Scene</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(312,591)" stroke="rgb(120,120,120)">
       <path d="M0 0 L60 0 L60 28 L0 28 L0 0 ZM1 1 L59 1 L59 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath214)" stroke="none"/>
@@ -2126,7 +2113,7 @@
     <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(313,592)" stroke="rgb(60,63,65)">
       <rect x="0" width="58" height="26" y="0" clip-path="url(#clipPath215)" stroke="none"/>
     </g>
-    <g fill="url(#linearGradient62)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(313,592)" stroke="url(#linearGradient62)">
+    <g fill="url(#linearGradient61)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(313,592)" stroke="url(#linearGradient61)">
       <rect x="0" width="58" height="26" y="0" clip-path="url(#clipPath215)" stroke="none"/>
       <rect x="0" y="25" clip-path="url(#clipPath215)" fill="rgb(90,90,90)" width="58" height="26" stroke="none"/>
     </g>
@@ -2137,6 +2124,25 @@
       <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath217)" stroke="none">View</text>
     </g>
     <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(316,595)" stroke="rgb(187,187,187)">
+      <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath217)" stroke="none">View</text>
+    </g>
+    <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(312,513)" stroke="rgb(120,120,120)">
+      <path d="M0 0 L60 0 L60 28 L0 28 L0 0 ZM1 1 L59 1 L59 27 L1 27 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath214)" stroke="none"/>
+    </g>
+    <g fill="rgb(60,63,65)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(313,514)" stroke="rgb(60,63,65)">
+      <rect x="0" width="58" height="26" y="0" clip-path="url(#clipPath215)" stroke="none"/>
+    </g>
+    <g fill="url(#linearGradient62)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(313,514)" stroke="url(#linearGradient62)">
+      <rect x="0" width="58" height="26" y="0" clip-path="url(#clipPath215)" stroke="none"/>
+      <rect x="0" y="25" clip-path="url(#clipPath215)" fill="rgb(90,90,90)" width="58" height="26" stroke="none"/>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(316,517)" stroke="rgb(187,187,187)">
+      <image x="2" y="1" clip-path="url(#clipPath217)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEElEQVR42mNgoBAw&#10;ogtMuTdH/tevH72///22YWZkEgaJ/f3/7zUbM9shVlb28hyllIc4DZhwa1rpr7+/&#10;msT5xDj4OfkZmBiZwOL//v9j+Pj9I8PLT69+Ag2qLVDL6obpYUZonlIKtKlTSUSR&#10;lZONEyz2HwpBgIOVg0GAS4Dl/bf3Ll553t92TN52DCQOtmLyjcmKP/78apYTlmVk&#10;ZGJk+IcDguRAakBq+29NUwLpZQER3xn+tovwCrMzMoKc+xds49HFRxmuH7jOICQt&#10;xKBgrMBg5G8E8TNQDUjtu69vu4DcELALfv39acfNyc3wF2gLDFvEWjIISAswaLpq&#10;Mej7G6DIgdT++vvHBu4CoLmiIL/+hdqODEABiE0cCETgBoA0g/yIDmCBiE0OGH9/&#10;4Qb8+f/3NTDeJWHRhmQCWDO6C0Cu+vPvzzt4LLAwMR/69P0TWCEMn1xykuH90/cM&#10;51afZbi48SKKHEgt0LKjcBewsLBVvfv8PoCDnZOdiQniCsNoIzCGgb9Qb/z7948B&#10;qPYnBxtXGTwh7Z28871LnuvPz9++uHCyczCC0ud/LBBk+8t3r/4zMzNWVauXbkVJ&#10;ifun7D1mn+38/eO3T3bABMPCzMLC8B9qEMjPX358ZXj94e1PZmamqjqNym6cmanl&#10;Wov8z/8MvX///rVhYmYUAVn879//N0CNR4ApraxGq+YhAzUBAEHmDq/adgxrAAAA&#10;AElFTkSuQmCC" height="16" preserveAspectRatio="none"/>
+    </g>
+    <g fill="rgb(0,0,0)" fill-opacity="0.1961" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(316,517)" stroke-opacity="0.1961" stroke="rgb(0,0,0)">
+      <text x="21" xml:space="preserve" y="15" clip-path="url(#clipPath217)" stroke="none">View</text>
+    </g>
+    <g fill="rgb(187,187,187)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(316,517)" stroke="rgb(187,187,187)">
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath217)" stroke="none">View</text>
     </g>
     <g fill="rgb(120,120,120)" font-family="sans-serif" transform="matrix(1,0,0,1,20,20) translate(587,810)" stroke="rgb(120,120,120)">
@@ -2160,12 +2166,12 @@
       <text x="21" xml:space="preserve" y="14" clip-path="url(#clipPath233)" stroke="none">Launcher</text>
     </g>
     <g fill="rgb(96,147,80)" stroke-miterlimit="1.45" stroke-dasharray="6,2" transform="matrix(1,0,0,1,20,20)" stroke-linecap="butt" stroke="rgb(96,147,80)">
-      <path fill="none" d="M66 288.9512 L66 264 L121.75 264 L121.75 250.0488" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M220 288.9512 L220 264 L164.25 264 L164.25 250.0488" clip-path="url(#clipPath2)"/>
     </g>
     <g fill="rgb(96,147,80)" stroke-miterlimit="1.45" stroke-dasharray="6,2" transform="matrix(1,0,0,1,20,20)" stroke-linecap="butt" stroke="rgb(96,147,80)">
-      <path d="M121.75 239.0488 L115.75 251.0488 L127.75 251.0488 Z" stroke="none" clip-path="url(#clipPath2)"/>
-      <path fill="none" d="M220 288.9512 L220 264 L164.25 264 L164.25 250.0488" clip-path="url(#clipPath2)"/>
-      <path d="M164.25 239.0488 L158.25 251.0488 L170.25 251.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path d="M164.25 239.0488 L158.25 251.0488 L170.25 251.0488 Z" stroke="none" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M66 288.9512 L66 264 L121.75 264 L121.75 250.0488" clip-path="url(#clipPath2)"/>
+      <path d="M121.75 239.0488 L115.75 251.0488 L127.75 251.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M254 439.9512 L254 401.0488" clip-path="url(#clipPath2)"/>
       <path d="M254 390.0488 L248 402.0488 L260 402.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M422 439.9512 L422 401.0488" clip-path="url(#clipPath2)"/>
@@ -2182,38 +2188,38 @@
       <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M72.5 390.0488 L66.5 402.0488 L78.5 402.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" stroke-dasharray="none" d="M211.5 590.9512 L211.5 552.0488" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
       <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M211.5 541.0488 L205.5 553.0488 L217.5 553.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M150.5 137.9609 L150.5 58 L900.0625 58 L900.0625 39.0293" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M900.0625 28.0293 L894.0625 40.0293 L906.0625 40.0293 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M297.5 137.9658 L297.5 68 L905.9375 68 L905.9375 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M905.9375 28.0391 L899.9375 40.0391 L911.9375 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M433.5 137.9707 L433.5 78 L911.8125 78 L911.8125 39.0488" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M911.8125 28.0488 L905.8125 40.0488 L917.8125 40.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M524 137.9512 L524 88 L917.6875 88 L917.6875 39.0293" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M917.6875 28.0293 L911.6875 40.0293 L923.6875 40.0293 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M620.5 137.9609 L620.5 98 L923.5625 98 L923.5625 39.0342" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M923.5625 28.0342 L917.5625 40.0342 L929.5625 40.0342 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M38 137.9561 L38 48 L894.1875 48 L894.1875 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M894.1875 28.0391 L888.1875 40.0391 L900.1875 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M749.5 137.9707 L749.5 108 L929.4375 108 L929.4375 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M929.4375 28.0391 L923.4375 40.0391 L935.4375 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M879.5 137.9609 L879.5 118 L935.3125 118 L935.3125 39.0439" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M935.3125 28.0439 L929.3125 40.0439 L941.3125 40.0439 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M997 137.9609 L997 118 L941.1875 118 L941.1875 39.0439" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M941.1875 28.0439 L935.1875 40.0439 L947.1875 40.0439 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M1108.5 137.9707 L1108.5 108 L947.0625 108 L947.0625 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M947.0625 28.0391 L941.0625 40.0391 L953.0625 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M1203 137.9609 L1203 98 L952.9375 98 L952.9375 39.0342" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M952.9375 28.0342 L946.9375 40.0342 L958.9375 40.0342 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M1296 137.9512 L1296 88 L958.8125 88 L958.8125 39.0293" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M958.8125 28.0293 L952.8125 40.0293 L964.8125 40.0293 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M1396 137.9707 L1396 78 L964.6875 78 L964.6875 39.0488" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M964.6875 28.0488 L958.6875 40.0488 L970.6875 40.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M1478.5 137.9658 L1478.5 68 L970.5625 68 L970.5625 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M970.5625 28.0391 L964.5625 40.0391 L976.5625 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M1573 137.9609 L1573 58 L976.4375 58 L976.4375 39.0293" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M976.4375 28.0293 L970.4375 40.0293 L982.4375 40.0293 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M1696.5 137.9561 L1696.5 48 L982.3125 48 L982.3125 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
-      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M982.3125 28.0391 L976.3125 40.0391 L988.3125 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M118 137.9609 L118 58 L852.3125 58 L852.3125 39.0293" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M852.3125 28.0293 L846.3125 40.0293 L858.3125 40.0293 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M235.5 137.9658 L235.5 68 L858.1875 68 L858.1875 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M858.1875 28.0391 L852.1875 40.0391 L864.1875 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M360.5 137.9707 L360.5 78 L864.0625 78 L864.0625 39.0488" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M864.0625 28.0488 L858.0625 40.0488 L870.0625 40.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M494.5 137.9512 L494.5 88 L869.9375 88 L869.9375 39.0293" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M869.9375 28.0293 L863.9375 40.0293 L875.9375 40.0293 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M617 137.9609 L617 98 L875.8125 98 L875.8125 39.0342" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M875.8125 28.0342 L869.8125 40.0342 L881.8125 40.0342 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M729.5 137.9707 L729.5 108 L881.6875 108 L881.6875 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M881.6875 28.0391 L875.6875 40.0391 L887.6875 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M837 137.9609 L837 118 L887.5625 118 L887.5625 39.0439" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M887.5625 28.0439 L881.5625 40.0439 L893.5625 40.0439 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M944 137.9609 L944 118 L893.4375 118 L893.4375 39.0439" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M893.4375 28.0439 L887.4375 40.0439 L899.4375 40.0439 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M1040 137.9707 L1040 108 L899.3125 108 L899.3125 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M899.3125 28.0391 L893.3125 40.0391 L905.3125 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M1141.5 137.9609 L1141.5 98 L905.1875 98 L905.1875 39.0342" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M905.1875 28.0342 L899.1875 40.0342 L911.1875 40.0342 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M1288.5 137.9512 L1288.5 88 L911.0625 88 L911.0625 39.0293" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M911.0625 28.0293 L905.0625 40.0293 L917.0625 40.0293 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M1418 137.9707 L1418 78 L916.9375 78 L916.9375 39.0488" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M916.9375 28.0488 L910.9375 40.0488 L922.9375 40.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M1518.5 137.9658 L1518.5 68 L922.8125 68 L922.8125 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M922.8125 28.0391 L916.8125 40.0391 L928.8125 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M25.5 137.9561 L25.5 48 L846.4375 48 L846.4375 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M846.4375 28.0391 L840.4375 40.0391 L852.4375 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M1626.5 137.9609 L1626.5 58 L928.6875 58 L928.6875 39.0293" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M928.6875 28.0293 L922.6875 40.0293 L934.6875 40.0293 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M1721 137.9561 L1721 48 L934.5625 48 L934.5625 39.0391" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
+      <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M934.5625 28.0391 L928.5625 40.0391 L940.5625 40.0391 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" stroke-dasharray="none" d="M383 288.9512 L383 264 L426.5 264 L426.5 250.0488" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
       <path fill="rgb(88,157,246)" stroke-dasharray="none" d="M426.5 239.0488 L420.5 251.0488 L432.5 251.0488 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" stroke-dasharray="none" d="M505.5 288.9512 L505.5 264 L462 264 L462 250.0488" clip-path="url(#clipPath2)" stroke="rgb(88,157,246)"/>
