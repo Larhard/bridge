@@ -1,5 +1,6 @@
 package com.elgassia.bridge.adapter;
 
+import com.elgassia.bridge.Model.Strategy;
 import com.elgassia.bridge.exception.BridgeLogicException;
 
 public interface LobbyAdapter {
@@ -12,4 +13,6 @@ public interface LobbyAdapter {
     void setTeam(int team) throws BridgeLogicException;
 
     String getName();
+
+    void setDeckStrategy(Strategy strategy);
 }

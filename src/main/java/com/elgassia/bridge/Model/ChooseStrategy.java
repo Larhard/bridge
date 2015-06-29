@@ -5,7 +5,7 @@ import java.util.List;
 public class ChooseStrategy implements Strategy{
     @SuppressWarnings("unchecked")
     List<Card> [] cardList=new List[4];
-    ChooseStrategy(List<Card> [] cardList) throws IllegalArgumentException
+    public ChooseStrategy(List<Card>[] cardList) throws IllegalArgumentException
     {
         if(cardList.length!=4)
             throw new IllegalArgumentException();
