@@ -26,6 +26,8 @@ public class TeamModel extends Observable implements Serializable{
     private BiddingModel biddingModel;
     private GameModel gameModel;
     private GameOverModel gameOverModel;
+    private Character previousState;
+
     TeamModel()
     {
         players[0]="user1";
@@ -55,24 +57,35 @@ public class TeamModel extends Observable implements Serializable{
     }
     void changeGameState(char state)
     {
+        if (previousState != null) {
+            state = previousState;
+        }
         if (this.state != state) {
             this.state = state;
 
             switch (state) {
                 case 'L':
-                    lobbyModel = new LobbyModel(this);
+                    if (lobbyModel == null) {
+                        lobbyModel = new LobbyModel(this);
+                    }
                     break;
 
                 case 'B':
-                    biddingModel = new BiddingModel(this);
+                    if (biddingModel == null) {
+                        biddingModel = new BiddingModel(this);
+                    }
                     break;
 
                 case 'G':
-                    gameModel = new GameModel(this);
+                    if (gameModel == null) {
+                        gameModel = new GameModel(this);
+                    }
                     break;
 
                 case 'O':
-                    gameOverModel = new GameOverModel(this);
+                    if (gameOverModel == null) {
+                        gameOverModel = new GameOverModel(this);
+                    }
                     break;
             }
 
@@ -327,7 +340,17 @@ public class TeamModel extends Observable implements Serializable{
                     e.printStackTrace();
                 }
             }
+            teamModel1.returnToLobby();
             return teamModel1;
         }
+    }
+
+    private void returnToLobby() {
+        char previousState = getState();
+        changeGameState('L');
+        if (this.previousState == null) {
+            this.previousState = previousState;
+        }
+        lobbyModel.resetPlayerStates();
     }
 }

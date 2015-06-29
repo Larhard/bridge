@@ -83,4 +83,10 @@ public class LobbyModel extends Observable implements Serializable{
     public String getName(int userID) {
         return teamModel.getPlayerName(userID);
     }
+
+    public void resetPlayerStates() {
+        for (int i = 0; i < readyUsers.length; ++i) {
+            readyUsers[i] = false;
+        }
+    }
 }
