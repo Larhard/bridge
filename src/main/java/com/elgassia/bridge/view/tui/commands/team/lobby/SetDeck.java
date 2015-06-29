@@ -4,6 +4,7 @@ import com.elgassia.bridge.Model.Card;
 import com.elgassia.bridge.Model.ChooseStrategy;
 import com.elgassia.bridge.Model.RandomStrategy;
 import com.elgassia.bridge.adapter.LobbyAdapter;
+import com.elgassia.bridge.exception.BridgeLogicException;
 import com.elgassia.bridge.utils.Cards;
 import com.elgassia.bridge.view.tui.Command;
 
@@ -31,8 +32,6 @@ public class SetDeck extends Command {
                 return;
             }
         }
-        System.out.println(args.length);
-        System.out.println(13*4*2+1);
         if (args.length == 13*4*2 + 1) {
             Card[] cards = new Card[13*4];
             for (int i = 1; i < 13*4*2 + 1; i += 2) {
@@ -50,7 +49,12 @@ public class SetDeck extends Command {
                 }
                 decks[i/13].add(cards[i]);
             }
-            currentLobbyAdapter.setDeckStrategy(new ChooseStrategy(decks));
+            try {
+                currentLobbyAdapter.setDeckStrategy(new ChooseStrategy(decks));
+            } catch (BridgeLogicException e) {
+                System.out.println("Invalid deck");
+                return;
+            }
             return;
         }
         usage();
