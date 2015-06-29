@@ -1,5 +1,6 @@
 package com.elgassia.bridge.adapter.main;
 
+import com.elgassia.bridge.Model.Strategy;
 import com.elgassia.bridge.Model.UserLobbyModel;
 import com.elgassia.bridge.exception.BridgeLogicException;
 
@@ -36,5 +37,10 @@ public class LobbyAdapter implements com.elgassia.bridge.adapter.LobbyAdapter {
     @Override
     public String getName() {
         return userLobbyModel.getName();
+    }
+
+    @Override
+    public void setDeckStrategy(Strategy strategy) {
+        userLobbyModel.setDeckStrategy(strategy);
     }
 }

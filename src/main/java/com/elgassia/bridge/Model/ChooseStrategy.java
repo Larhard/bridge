@@ -8,7 +8,7 @@ import java.util.List;
 public class ChooseStrategy implements Strategy{
     @SuppressWarnings("unchecked")
     List<Card> [] cardList=new List[4];
-    ChooseStrategy(List<Card> [] cardList) throws IllegalArgumentException, BridgeLogicException {
+    public ChooseStrategy(List<Card> [] cardList) throws IllegalArgumentException, BridgeLogicException {
         if(cardList.length!=4)
             throw new BridgeLogicException("You should choose all four decks");
         for(int i=0;i<4;i++)

@@ -1,0 +1,17 @@
+User->+View.ReaderThread: new_game
+View.ReaderThread->+Commands: parse(new_game)
+Commands-->-View.ReaderThread: command.main.NewGame
+View.ReaderThread->+command.main.NewGame: execute()
+deactivate View.ReaderThread
+
+command.main.NewGame->+MainAdapter: new_game()
+deactivate command.main.NewGame
+
+MainAdapter->+MainModel: new_game()
+MainModel->-MainAdapter: new TeamModel()
+
+MainAdapter->+TeamAdapter: init(teamModel)
+TeamAdapter->TeamAdapter: setState(LOBBY)
+deactivate TeamAdapter
+
+MainAdapter->MainAdapter: setState(TEAM)
