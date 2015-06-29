@@ -3,157 +3,143 @@
   <ID>JAVA</ID>
   <OriginalElement>com.elgassia.bridge.Model</OriginalElement>
   <nodes>
-    <node x="408.75" y="211.0">com.elgassia.bridge.view.tui.Scene</node>
-    <node x="1216.0" y="138.0">com.elgassia.bridge.view.tui.commands.team.lobby.SetRandomTeams</node>
-    <node x="526.0" y="440.0">com.elgassia.bridge.adapter.main.LobbyAdapter</node>
-    <node x="0.0" y="664.0">com.elgassia.bridge.Model.UserBiddingModel</node>
-    <node x="185.0" y="138.0">com.elgassia.bridge.view.tui.commands.team.over.OverStatus</node>
-    <node x="190.0" y="440.0">com.elgassia.bridge.adapter.main.BiddingAdapter</node>
-    <node x="547.0" y="664.0">com.elgassia.bridge.Model.GameOverModel</node>
-    <node x="646.0" y="737.0">com.elgassia.bridge.Model.LobbyModel</node>
-    <node x="152.0" y="289.0">com.elgassia.bridge.Model.RandomStrategy</node>
-    <node x="363.0" y="440.0">com.elgassia.bridge.adapter.main.GameAdapter</node>
-    <node x="444.0" y="883.0">com.elgassia.bridge.Model.Bid</node>
-    <node x="0.0" y="362.0">com.elgassia.bridge.adapter.UserTeamAdapter</node>
-    <node x="1475.0" y="138.0">com.elgassia.bridge.view.tui.commands.team.lobby.SetTeam</node>
-    <node x="689.0" y="440.0">com.elgassia.bridge.adapter.main.TeamAdapter</node>
-    <node x="0.0" y="591.0">com.elgassia.bridge.adapter.main.MainAdapter</node>
-    <node x="368.0" y="664.0">com.elgassia.bridge.Model.UserLobbyModel</node>
-    <node x="526.0" y="362.0">com.elgassia.bridge.adapter.LobbyAdapter</node>
-    <node x="337.0" y="737.0">com.elgassia.bridge.Model.CreditsModel</node>
-    <node x="71.0" y="138.0">com.elgassia.bridge.view.tui.commands.main.NewGame</node>
-    <node x="895.0" y="138.0">com.elgassia.bridge.view.tui.commands.team.NextPlayer</node>
-    <node x="603.0" y="289.0">com.elgassia.bridge.adapter.main.GameOverAdapter</node>
-    <node x="0.0" y="883.0">com.elgassia.bridge.utils.Colors</node>
-    <node x="363.0" y="362.0">com.elgassia.bridge.adapter.GameAdapter</node>
-    <node x="312.0" y="513.0">com.elgassia.bridge.view.View</node>
-    <node x="680.0" y="138.0">com.elgassia.bridge.view.tui.commands.team.lobby.StartGame</node>
-    <node x="0.0" y="440.0">com.elgassia.bridge.adapter.main.UserTeamAdapter</node>
-    <node x="185.0" y="513.0">com.elgassia.bridge.bot.Bot</node>
-    <node x="100.5" y="211.0">com.elgassia.bridge.Model.Strategy</node>
-    <node x="190.0" y="362.0">com.elgassia.bridge.adapter.BiddingAdapter</node>
-    <node x="627.0" y="513.0">com.elgassia.bridge.Model.UserGameOverModel</node>
-    <node x="417.0" y="513.0">com.elgassia.bridge.exception.BridgeLogicException</node>
-    <node x="495.0" y="737.0">com.elgassia.bridge.Model.DeckBuilder</node>
-    <node x="150.0" y="810.0">com.elgassia.bridge.Model.TeamModel</node>
-    <node x="298.0" y="810.0">com.elgassia.bridge.view.tui.Commands</node>
-    <node x="156.0" y="591.0">com.elgassia.bridge.bot.crazy_monkey.CrazyMonkey</node>
-    <node x="333.0" y="289.0">com.elgassia.bridge.view.tui.scenes.MainScene</node>
-    <node x="587.0" y="810.0">com.elgassia.bridge.Launcher</node>
-    <node x="0.0" y="737.0">com.elgassia.bridge.Model.UserTeamModel</node>
-    <node x="1691.0" y="138.0">com.elgassia.bridge.view.tui.commands.Help</node>
-    <node x="0.0" y="289.0">com.elgassia.bridge.Model.ChooseStrategy</node>
-    <node x="843.5" y="0.0">com.elgassia.bridge.view.tui.Command</node>
-    <node x="189.0" y="664.0">com.elgassia.bridge.Model.UserGameModel</node>
-    <node x="177.0" y="737.0">com.elgassia.bridge.Model.BiddingModel</node>
-    <node x="574.0" y="138.0">com.elgassia.bridge.view.tui.commands.team.game.PlayCard</node>
-    <node x="603.0" y="211.0">com.elgassia.bridge.adapter.GameOverAdapter</node>
-    <node x="312.0" y="591.0">com.elgassia.bridge.view.tui.View</node>
-    <node x="0.0" y="138.0">com.elgassia.bridge.view.tui.commands.team.bidding.Bid</node>
-    <node x="229.0" y="883.0">com.elgassia.bridge.Model.Color</node>
-    <node x="722.0" y="810.0">com.elgassia.bridge.Model.BidType</node>
-    <node x="444.0" y="810.0">com.elgassia.bridge.Model.MainModel</node>
-    <node x="338.0" y="883.0">com.elgassia.bridge.Model.Card</node>
-    <node x="14.5" y="513.0">com.elgassia.bridge.adapter.Adapter</node>
-    <node x="689.0" y="362.0">com.elgassia.bridge.adapter.TeamAdapter</node>
-    <node x="0.0" y="810.0">com.elgassia.bridge.Model.GameModel</node>
-    <node x="453.0" y="289.0">com.elgassia.bridge.view.tui.scenes.TeamScene</node>
-    <node x="1381.0" y="138.0">com.elgassia.bridge.view.tui.commands.team.lobby.SetBot</node>
-    <node x="799.0" y="138.0">com.elgassia.bridge.view.tui.commands.main.Credits</node>
-    <node x="1582.0" y="138.0">com.elgassia.bridge.view.tui.commands.team.lobby.SetName</node>
-    <node x="306.0" y="138.0">com.elgassia.bridge.view.tui.commands.team.lobby.LobbyStatus</node>
-    <node x="435.00000000000006" y="138.0">com.elgassia.bridge.view.tui.commands.team.bidding.BiddingStatus</node>
-    <node x="1013.0" y="138.0">com.elgassia.bridge.view.tui.commands.Exit</node>
-    <node x="1087.0" y="138.0">com.elgassia.bridge.view.tui.commands.team.game.GameStatus</node>
-    <node x="116.0" y="883.0">com.elgassia.bridge.utils.Cards</node>
+    <node x="411.25" y="221.0">com.elgassia.bridge.view.tui.Scene</node>
+    <node x="590.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.lobby.SetRandomTeams</node>
+    <node x="363.0" y="450.0">com.elgassia.bridge.adapter.main.LobbyAdapter</node>
+    <node x="0.0" y="674.0">com.elgassia.bridge.Model.UserBiddingModel</node>
+    <node x="1536.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.over.OverStatus</node>
+    <node x="190.0" y="450.0">com.elgassia.bridge.adapter.main.BiddingAdapter</node>
+    <node x="547.0" y="674.0">com.elgassia.bridge.Model.GameOverModel</node>
+    <node x="469.0" y="747.0">com.elgassia.bridge.Model.LobbyModel</node>
+    <node x="152.0" y="299.0">com.elgassia.bridge.Model.RandomStrategy</node>
+    <node x="526.0" y="450.0">com.elgassia.bridge.adapter.main.GameAdapter</node>
+    <node x="444.0" y="893.0">com.elgassia.bridge.Model.Bid</node>
+    <node x="0.0" y="372.0">com.elgassia.bridge.adapter.UserTeamAdapter</node>
+    <node x="689.0" y="450.0">com.elgassia.bridge.adapter.main.TeamAdapter</node>
+    <node x="389.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.lobby.SetTeam</node>
+    <node x="0.0" y="601.0">com.elgassia.bridge.adapter.main.MainAdapter</node>
+    <node x="189.0" y="674.0">com.elgassia.bridge.Model.UserLobbyModel</node>
+    <node x="363.0" y="372.0">com.elgassia.bridge.adapter.LobbyAdapter</node>
+    <node x="160.0" y="747.0">com.elgassia.bridge.Model.CreditsModel</node>
+    <node x="1657.0" y="148.0">com.elgassia.bridge.view.tui.commands.main.NewGame</node>
+    <node x="1889.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.SaveGame</node>
+    <node x="829.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.NextPlayer</node>
+    <node x="603.0" y="299.0">com.elgassia.bridge.adapter.main.GameOverAdapter</node>
+    <node x="0.0" y="893.0">com.elgassia.bridge.utils.Colors</node>
+    <node x="526.0" y="372.0">com.elgassia.bridge.adapter.GameAdapter</node>
+    <node x="1043.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.lobby.StartGame</node>
+    <node x="312.0" y="523.0">com.elgassia.bridge.view.View</node>
+    <node x="0.0" y="450.0">com.elgassia.bridge.adapter.main.UserTeamAdapter</node>
+    <node x="100.5" y="221.0">com.elgassia.bridge.Model.Strategy</node>
+    <node x="185.0" y="523.0">com.elgassia.bridge.bot.Bot</node>
+    <node x="190.0" y="372.0">com.elgassia.bridge.adapter.BiddingAdapter</node>
+    <node x="627.0" y="523.0">com.elgassia.bridge.Model.UserGameOverModel</node>
+    <node x="417.0" y="523.0">com.elgassia.bridge.exception.BridgeLogicException</node>
+    <node x="318.0" y="747.0">com.elgassia.bridge.Model.DeckBuilder</node>
+    <node x="572.0" y="820.0">com.elgassia.bridge.utils.Streams</node>
+    <node x="0.0" y="820.0">com.elgassia.bridge.Model.TeamModel</node>
+    <node x="156.0" y="601.0">com.elgassia.bridge.bot.crazy_monkey.CrazyMonkey</node>
+    <node x="148.0" y="820.0">com.elgassia.bridge.view.tui.Commands</node>
+    <node x="458.0" y="299.0">com.elgassia.bridge.view.tui.scenes.MainScene</node>
+    <node x="437.0" y="820.0">com.elgassia.bridge.Launcher</node>
+    <node x="1771.0" y="148.0">com.elgassia.bridge.view.tui.commands.main.LoadGame</node>
+    <node x="725.0" y="674.0">com.elgassia.bridge.Model.UserTeamModel</node>
+    <node x="129.0" y="148.0">com.elgassia.bridge.view.tui.commands.Help</node>
+    <node x="0.0" y="299.0">com.elgassia.bridge.Model.ChooseStrategy</node>
+    <node x="938.0" y="0.0">com.elgassia.bridge.view.tui.Command</node>
+    <node x="368.0" y="674.0">com.elgassia.bridge.Model.UserGameModel</node>
+    <node x="0.0" y="747.0">com.elgassia.bridge.Model.BiddingModel</node>
+    <node x="2007.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.lobby.SetDeck</node>
+    <node x="1162.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.game.PlayCard</node>
+    <node x="603.0" y="221.0">com.elgassia.bridge.adapter.GameOverAdapter</node>
+    <node x="312.0" y="601.0">com.elgassia.bridge.view.tui.View</node>
+    <node x="318.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.bidding.Bid</node>
+    <node x="229.0" y="893.0">com.elgassia.bridge.Model.Color</node>
+    <node x="701.0" y="820.0">com.elgassia.bridge.Model.BidType</node>
+    <node x="294.0" y="820.0">com.elgassia.bridge.Model.MainModel</node>
+    <node x="338.0" y="893.0">com.elgassia.bridge.Model.Card</node>
+    <node x="14.5" y="523.0">com.elgassia.bridge.adapter.Adapter</node>
+    <node x="689.0" y="372.0">com.elgassia.bridge.adapter.TeamAdapter</node>
+    <node x="619.0" y="747.0">com.elgassia.bridge.Model.GameModel</node>
+    <node x="947.0" y="148.0">com.elgassia.bridge.view.tui.commands.main.Credits</node>
+    <node x="496.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.lobby.SetBot</node>
+    <node x="333.0" y="299.0">com.elgassia.bridge.view.tui.scenes.TeamScene</node>
+    <node x="1407.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.lobby.LobbyStatus</node>
+    <node x="209.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.lobby.SetName</node>
+    <node x="1268.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.bidding.BiddingStatus</node>
+    <node x="755.0" y="148.0">com.elgassia.bridge.view.tui.commands.Exit</node>
+    <node x="0.0" y="148.0">com.elgassia.bridge.view.tui.commands.team.game.GameStatus</node>
+    <node x="116.0" y="893.0">com.elgassia.bridge.utils.Cards</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.elgassia.bridge.view.tui.scenes.MainScene" target="com.elgassia.bridge.view.tui.Scene">
-      <point x="0.0" y="-14.0" />
-      <point x="383.0" y="264.0" />
-      <point x="426.5" y="264.0" />
-      <point x="-17.75" y="14.0" />
-    </edge>
-    <edge source="com.elgassia.bridge.view.tui.scenes.TeamScene" target="com.elgassia.bridge.view.tui.Scene">
-      <point x="0.0" y="-14.0" />
-      <point x="505.5" y="264.0" />
-      <point x="462.0" y="264.0" />
-      <point x="17.75" y="14.0" />
-    </edge>
     <edge source="com.elgassia.bridge.adapter.main.BiddingAdapter" target="com.elgassia.bridge.adapter.BiddingAdapter">
       <point x="0.0" y="-14.0" />
       <point x="0.0" y="14.0" />
     </edge>
-    <edge source="com.elgassia.bridge.view.tui.commands.team.bidding.BiddingStatus" target="com.elgassia.bridge.view.tui.Command">
-      <point x="-5.6843418860808015E-14" y="-14.0" />
-      <point x="494.5" y="88.0" />
-      <point x="869.9375" y="88.0" />
-      <point x="-20.5625" y="14.0" />
-    </edge>
-    <edge source="com.elgassia.bridge.view.tui.commands.team.bidding.Bid" target="com.elgassia.bridge.view.tui.Command">
+    <edge source="com.elgassia.bridge.view.tui.commands.team.lobby.SetDeck" target="com.elgassia.bridge.view.tui.Command">
       <point x="0.0" y="-14.0" />
-      <point x="25.5" y="48.0" />
-      <point x="846.4375" y="48.0" />
-      <point x="-44.0625" y="14.0" />
+      <point x="2049.0" y="48.0" />
+      <point x="1029.5263157894738" y="48.0" />
+      <point x="44.526315789473756" y="14.0" />
     </edge>
-    <edge source="com.elgassia.bridge.view.tui.commands.team.lobby.SetBot" target="com.elgassia.bridge.view.tui.Command">
+    <edge source="com.elgassia.bridge.view.tui.commands.main.LoadGame" target="com.elgassia.bridge.view.tui.Command">
       <point x="0.0" y="-14.0" />
-      <point x="1418.0" y="78.0" />
-      <point x="916.9375" y="78.0" />
-      <point x="26.4375" y="14.0" />
+      <point x="1820.0" y="68.0" />
+      <point x="1019.6315789473684" y="68.0" />
+      <point x="34.63157894736844" y="14.0" />
     </edge>
     <edge source="com.elgassia.bridge.Model.ChooseStrategy" target="com.elgassia.bridge.Model.Strategy">
       <point x="0.0" y="-14.0" />
-      <point x="66.0" y="264.0" />
-      <point x="121.75" y="264.0" />
+      <point x="66.0" y="274.0" />
+      <point x="121.75" y="274.0" />
       <point x="-21.25" y="14.0" />
     </edge>
     <edge source="com.elgassia.bridge.view.tui.commands.Help" target="com.elgassia.bridge.view.tui.Command">
       <point x="0.0" y="-14.0" />
-      <point x="1721.0" y="48.0" />
-      <point x="934.5625" y="48.0" />
-      <point x="44.0625" y="14.0" />
-    </edge>
-    <edge source="com.elgassia.bridge.adapter.main.UserTeamAdapter" target="com.elgassia.bridge.adapter.UserTeamAdapter">
-      <point x="0.0" y="-14.0" />
-      <point x="0.0" y="14.0" />
-    </edge>
-    <edge source="com.elgassia.bridge.view.tui.commands.team.over.OverStatus" target="com.elgassia.bridge.view.tui.Command">
-      <point x="0.0" y="-14.0" />
-      <point x="235.5" y="68.0" />
-      <point x="858.1875" y="68.0" />
-      <point x="-32.3125" y="14.0" />
-    </edge>
-    <edge source="com.elgassia.bridge.view.tui.commands.team.game.GameStatus" target="com.elgassia.bridge.view.tui.Command">
-      <point x="0.0" y="-14.0" />
-      <point x="1141.5" y="98.0" />
-      <point x="905.1875" y="98.0" />
-      <point x="14.6875" y="14.0" />
+      <point x="159.0" y="58.0" />
+      <point x="945.421052631579" y="58.0" />
+      <point x="-39.57894736842104" y="14.0" />
     </edge>
     <edge source="com.elgassia.bridge.view.tui.commands.main.NewGame" target="com.elgassia.bridge.view.tui.Command">
       <point x="0.0" y="-14.0" />
-      <point x="118.0" y="58.0" />
-      <point x="852.3125" y="58.0" />
-      <point x="-38.1875" y="14.0" />
-    </edge>
-    <edge source="com.elgassia.bridge.view.tui.commands.main.Credits" target="com.elgassia.bridge.view.tui.Command">
-      <point x="0.0" y="-14.0" />
-      <point x="837.0" y="118.0" />
-      <point x="887.5625" y="118.0" />
-      <point x="-2.9375" y="14.0" />
+      <point x="1704.0" y="78.0" />
+      <point x="1014.6842105263158" y="78.0" />
+      <point x="29.684210526315837" y="14.0" />
     </edge>
     <edge source="com.elgassia.bridge.adapter.main.MainAdapter" target="com.elgassia.bridge.adapter.Adapter">
       <point x="0.0" y="-14.0" />
       <point x="0.0" y="14.0" />
     </edge>
-    <edge source="com.elgassia.bridge.view.tui.commands.team.game.PlayCard" target="com.elgassia.bridge.view.tui.Command">
+    <edge source="com.elgassia.bridge.adapter.main.GameOverAdapter" target="com.elgassia.bridge.adapter.GameOverAdapter">
       <point x="0.0" y="-14.0" />
-      <point x="617.0" y="98.0" />
-      <point x="875.8125" y="98.0" />
-      <point x="-14.6875" y="14.0" />
+      <point x="0.0" y="14.0" />
     </edge>
-    <edge source="com.elgassia.bridge.view.tui.View" target="com.elgassia.bridge.view.View">
+    <edge source="com.elgassia.bridge.view.tui.commands.team.lobby.SetName" target="com.elgassia.bridge.view.tui.Command">
+      <point x="0.0" y="-14.0" />
+      <point x="253.5" y="68.0" />
+      <point x="950.3684210526316" y="68.0" />
+      <point x="-34.63157894736844" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.commands.Exit" target="com.elgassia.bridge.view.tui.Command">
+      <point x="0.0" y="-14.0" />
+      <point x="782.0" y="118.0" />
+      <point x="975.1052631578947" y="118.0" />
+      <point x="-9.894736842105317" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.commands.team.bidding.Bid" target="com.elgassia.bridge.view.tui.Command">
+      <point x="0.0" y="-14.0" />
+      <point x="343.5" y="78.0" />
+      <point x="955.3157894736842" y="78.0" />
+      <point x="-29.684210526315837" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.commands.team.game.GameStatus" target="com.elgassia.bridge.view.tui.Command">
+      <point x="0.0" y="-14.0" />
+      <point x="54.5" y="48.0" />
+      <point x="940.4736842105264" y="48.0" />
+      <point x="-44.52631578947364" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.commands.main.Credits" target="com.elgassia.bridge.view.tui.Command">
       <point x="0.0" y="-14.0" />
       <point x="0.0" y="14.0" />
     </edge>
@@ -161,61 +147,95 @@
       <point x="0.0" y="-14.0" />
       <point x="0.0" y="14.0" />
     </edge>
-    <edge source="com.elgassia.bridge.Model.RandomStrategy" target="com.elgassia.bridge.Model.Strategy">
-      <point x="0.0" y="-14.0" />
-      <point x="220.0" y="264.0" />
-      <point x="164.25" y="264.0" />
-      <point x="21.25" y="14.0" />
-    </edge>
-    <edge source="com.elgassia.bridge.view.tui.commands.team.lobby.SetTeam" target="com.elgassia.bridge.view.tui.Command">
-      <point x="0.0" y="-14.0" />
-      <point x="1518.5" y="68.0" />
-      <point x="922.8125" y="68.0" />
-      <point x="32.3125" y="14.0" />
-    </edge>
-    <edge source="com.elgassia.bridge.view.tui.commands.team.NextPlayer" target="com.elgassia.bridge.view.tui.Command">
-      <point x="0.0" y="-14.0" />
-      <point x="944.0" y="118.0" />
-      <point x="893.4375" y="118.0" />
-      <point x="2.9375" y="14.0" />
-    </edge>
-    <edge source="com.elgassia.bridge.adapter.main.GameOverAdapter" target="com.elgassia.bridge.adapter.GameOverAdapter">
-      <point x="0.0" y="-14.0" />
-      <point x="0.0" y="14.0" />
-    </edge>
     <edge source="com.elgassia.bridge.view.tui.commands.team.lobby.SetRandomTeams" target="com.elgassia.bridge.view.tui.Command">
       <point x="0.0" y="-14.0" />
-      <point x="1288.5" y="88.0" />
-      <point x="911.0625" y="88.0" />
-      <point x="20.5625" y="14.0" />
+      <point x="662.5" y="108.0" />
+      <point x="970.1578947368421" y="108.0" />
+      <point x="-14.842105263157919" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.commands.team.SaveGame" target="com.elgassia.bridge.view.tui.Command">
+      <point x="0.0" y="-14.0" />
+      <point x="1938.0" y="58.0" />
+      <point x="1024.578947368421" y="58.0" />
+      <point x="39.57894736842104" y="14.0" />
     </edge>
     <edge source="com.elgassia.bridge.view.tui.commands.team.lobby.LobbyStatus" target="com.elgassia.bridge.view.tui.Command">
       <point x="0.0" y="-14.0" />
-      <point x="360.5" y="78.0" />
-      <point x="864.0625" y="78.0" />
-      <point x="-26.4375" y="14.0" />
-    </edge>
-    <edge source="com.elgassia.bridge.view.tui.commands.team.lobby.SetName" target="com.elgassia.bridge.view.tui.Command">
-      <point x="0.0" y="-14.0" />
-      <point x="1626.5" y="58.0" />
-      <point x="928.6875" y="58.0" />
-      <point x="38.1875" y="14.0" />
-    </edge>
-    <edge source="com.elgassia.bridge.view.tui.commands.Exit" target="com.elgassia.bridge.view.tui.Command">
-      <point x="0.0" y="-14.0" />
-      <point x="1040.0" y="108.0" />
-      <point x="899.3125" y="108.0" />
-      <point x="8.8125" y="14.0" />
+      <point x="1461.5" y="98.0" />
+      <point x="1004.7894736842105" y="98.0" />
+      <point x="19.78947368421052" y="14.0" />
     </edge>
     <edge source="com.elgassia.bridge.adapter.main.TeamAdapter" target="com.elgassia.bridge.adapter.TeamAdapter">
       <point x="0.0" y="-14.0" />
       <point x="0.0" y="14.0" />
     </edge>
+    <edge source="com.elgassia.bridge.view.tui.commands.team.bidding.BiddingStatus" target="com.elgassia.bridge.view.tui.Command">
+      <point x="0.0" y="-14.0" />
+      <point x="1327.5" y="108.0" />
+      <point x="999.8421052631579" y="108.0" />
+      <point x="14.842105263157919" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.commands.team.lobby.SetBot" target="com.elgassia.bridge.view.tui.Command">
+      <point x="0.0" y="-14.0" />
+      <point x="533.0" y="98.0" />
+      <point x="965.2105263157895" y="98.0" />
+      <point x="-19.78947368421052" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.Model.RandomStrategy" target="com.elgassia.bridge.Model.Strategy">
+      <point x="0.0" y="-14.0" />
+      <point x="220.0" y="274.0" />
+      <point x="164.25" y="274.0" />
+      <point x="21.25" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.scenes.MainScene" target="com.elgassia.bridge.view.tui.Scene">
+      <point x="0.0" y="-14.0" />
+      <point x="508.0" y="274.0" />
+      <point x="464.5" y="274.0" />
+      <point x="17.75" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.scenes.TeamScene" target="com.elgassia.bridge.view.tui.Scene">
+      <point x="0.0" y="-14.0" />
+      <point x="385.5" y="274.0" />
+      <point x="429.0" y="274.0" />
+      <point x="-17.75" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.adapter.main.UserTeamAdapter" target="com.elgassia.bridge.adapter.UserTeamAdapter">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.commands.team.over.OverStatus" target="com.elgassia.bridge.view.tui.Command">
+      <point x="0.0" y="-14.0" />
+      <point x="1586.5" y="88.0" />
+      <point x="1009.7368421052631" y="88.0" />
+      <point x="24.736842105263122" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.View" target="com.elgassia.bridge.view.View">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.commands.team.game.PlayCard" target="com.elgassia.bridge.view.tui.Command">
+      <point x="0.0" y="-14.0" />
+      <point x="1205.0" y="118.0" />
+      <point x="994.8947368421052" y="118.0" />
+      <point x="9.894736842105203" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.commands.team.lobby.SetTeam" target="com.elgassia.bridge.view.tui.Command">
+      <point x="0.0" y="-14.0" />
+      <point x="432.5" y="88.0" />
+      <point x="960.2631578947369" y="88.0" />
+      <point x="-24.736842105263122" y="14.0" />
+    </edge>
+    <edge source="com.elgassia.bridge.view.tui.commands.team.NextPlayer" target="com.elgassia.bridge.view.tui.Command">
+      <point x="0.0" y="-14.0" />
+      <point x="878.0" y="128.0" />
+      <point x="980.0526315789474" y="128.0" />
+      <point x="-4.947368421052602" y="14.0" />
+    </edge>
     <edge source="com.elgassia.bridge.view.tui.commands.team.lobby.StartGame" target="com.elgassia.bridge.view.tui.Command">
       <point x="0.0" y="-14.0" />
-      <point x="729.5" y="108.0" />
-      <point x="881.6875" y="108.0" />
-      <point x="-8.8125" y="14.0" />
+      <point x="1092.5" y="128.0" />
+      <point x="989.9473684210526" y="128.0" />
+      <point x="4.947368421052602" y="14.0" />
     </edge>
     <edge source="com.elgassia.bridge.adapter.main.GameAdapter" target="com.elgassia.bridge.adapter.GameAdapter">
       <point x="0.0" y="-14.0" />
@@ -226,7 +246,7 @@
       <point x="0.0" y="14.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.43286788399570353" x="875.5" y="455.5" />
+  <settings layout="Hierarchic Group" zoom="0.42826780021253985" x="1045.5" y="460.5" />
   <SelectedNodes />
   <Categories />
   <SCOPE>All</SCOPE>
